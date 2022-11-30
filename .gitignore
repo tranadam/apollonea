@@ -1,4 +1,5 @@
-css/
 .vscode/
 !**/.gitkeep
-todo.txt
+TODO.txt
+node_modules/
+dist/
