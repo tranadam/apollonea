@@ -2,7 +2,19 @@
 module.exports = {
   content: ["./src/**/*.jinja2"],
   theme: {
-    extend: {},
+    fontFamily: {
+      playfair: ["Playfair Display", "serif"],
+      poppins: ["Poppins", "sans-serif"],
+    },
+    extend: {
+      colors: {
+        primary: "#cc0000",
+        secondary: "#fed7d7",
+      },
+      gridTemplateColumns: {
+        categories: "repeat(auto-fit, minmax(350px, 1fr))",
+      },
+    },
   },
-  plugins: [],
+  plugins: [require("tailwindcss-scoped-groups")],
 };
