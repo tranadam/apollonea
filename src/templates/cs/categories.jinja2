@@ -2,18 +2,20 @@
 
 {% block relative_imports %}
 
-<link rel="stylesheet" href="css/output.css">
-<link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-<script src="js/main.js" defer></script>
+<link rel="stylesheet" href="../css/output.css">
+<link rel="stylesheet" href="../css/extra.css">
+<link rel="shortcut icon" href="../assets/favicon.ico" type="image/x-icon">
+<script src="../js/main.js" defer></script>
 
 {% endblock %}
 
 
 {% block main %}
 <section>
-    <div class="container">
-        <div class="tasks-grid">
-            <div class="task-card">
+    <div class="max-w-screen-xl px-12 py-8 mx-auto">
+        <div class="grid grid-cols-categories gap-6">
+            <div
+                class="group p-8 rounded-xl flex flex-col justify-end items-center gap-6 transition-colors duration-200 cursor-pointer ease-in hover:bg-white hover:shadow-lg">
                 <div class="task-card__illustation">
                     <svg width="187" height="129" viewBox="0 0 187 129" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="33.5" cy="70.5" r="3.5" fill="black" />
@@ -26,9 +28,10 @@
 
 
                 </div>
-                <div class="task-card__info">
-                    <p class="task-card__name">BOD 🞄 BOD 🞄 PŘÍMKA</p>
-                    <a href="" class="btn">
+                <div class="flex flex-col justify-center items-center gap-3">
+                    <p class="font-playfair font-medium text-lg">BOD 🞄 BOD 🞄 PŘÍMKA</p>
+                    <a href=""
+                        class="btn relative px-8 py-3 bg-primary text-secondary font-medium text-base invisible opacity-0 rounded-md overflow-hidden duration-300 transition-opacity group-hover:visible group-hover:opacity-100 group-hover:active:opacity-80">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -36,7 +39,8 @@
                     </a>
                 </div>
             </div>
-            <div class="task-card">
+            <div
+                class="group p-8 rounded-xl flex flex-col justify-end items-center gap-6 transition-colors duration-200 cursor-pointer ease-in hover:bg-white hover:shadow-lg">
                 <div class="task-card__illustation">
                     <svg width="196" height="120" viewBox="0 0 196 120" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 118L195.5 72.5" stroke="black" stroke-width="3" />
@@ -48,9 +52,10 @@
                     </svg>
 
                 </div>
-                <div class="task-card__info">
-                    <p class="task-card__name">BOD 🞄 PŘÍMKA 🞄 PŘÍMKA</p>
-                    <a href="" class="btn">
+                <div class="flex flex-col justify-center items-center gap-3">
+                    <p class="font-playfair font-medium text-lg">BOD 🞄 PŘÍMKA 🞄 PŘÍMKA</p>
+                    <a href=""
+                        class="btn relative px-8 py-3 bg-primary text-secondary font-medium text-base invisible opacity-0 rounded-md overflow-hidden duration-300 transition-opacity group-hover:visible group-hover:opacity-100 group-hover:active:opacity-80">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -58,7 +63,8 @@
                     </a>
                 </div>
             </div>
-            <div class="task-card">
+            <div
+                class="group p-8 rounded-xl flex flex-col justify-end items-center gap-6 transition-colors duration-200 cursor-pointer ease-in hover:bg-white hover:shadow-lg">
                 <div class="task-card__illustation">
                     <svg width="233" height="126" viewBox="0 0 233 126" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M3 4L117.5 124.5" stroke="black" stroke-width="3" />
@@ -70,9 +76,10 @@
                     </svg>
 
                 </div>
-                <div class="task-card__info">
-                    <p class="task-card__name">PŘÍMKA 🞄 PŘÍMKA 🞄 PŘÍMKA</p>
-                    <a href="" class="btn">
+                <div class="flex flex-col justify-center items-center gap-3">
+                    <p class="font-playfair font-medium text-lg">PŘÍMKA 🞄 PŘÍMKA 🞄 PŘÍMKA</p>
+                    <a href=""
+                        class="btn relative px-8 py-3 bg-primary text-secondary font-medium text-base invisible opacity-0 rounded-md overflow-hidden duration-300 transition-opacity group-hover:visible group-hover:opacity-100 group-hover:active:opacity-80">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -80,7 +87,8 @@
                     </a>
                 </div>
             </div>
-            <div class="task-card">
+            <div
+                class="group p-8 rounded-xl flex flex-col justify-end items-center gap-6 transition-colors duration-200 cursor-pointer ease-in hover:bg-white hover:shadow-lg">
                 <div class="task-card__illustation">
                     <svg width="84" height="85" viewBox="0 0 84 85" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="22.5" cy="6.5" r="3.5" fill="black" />
@@ -93,9 +101,10 @@
 
 
                 </div>
-                <div class="task-card__info">
-                    <p class="task-card__name">BOD 🞄 BOD 🞄 BOD</p>
-                    <a href="" class="btn">
+                <div class="flex flex-col justify-center items-center gap-3">
+                    <p class="font-playfair font-medium text-lg">BOD 🞄 BOD 🞄 BOD</p>
+                    <a href=""
+                        class="btn relative px-8 py-3 bg-primary text-secondary font-medium text-base invisible opacity-0 rounded-md overflow-hidden duration-300 transition-opacity group-hover:visible group-hover:opacity-100 group-hover:active:opacity-80">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -103,7 +112,8 @@
                     </a>
                 </div>
             </div>
-            <div class="task-card">
+            <div
+                class="group p-8 rounded-xl flex flex-col justify-end items-center gap-6 transition-colors duration-200 cursor-pointer ease-in hover:bg-white hover:shadow-lg">
                 <div class="task-card__illustation">
                     <svg width="234" height="132" viewBox="0 0 234 132" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0.5 82.5L151.5 125.5" stroke="black" stroke-width="3" />
@@ -116,9 +126,10 @@
 
 
                 </div>
-                <div class="task-card__info">
-                    <p class="task-card__name">KRUŽNICE 🞄 PŘÍMKA 🞄 PŘÍMKA</p>
-                    <a href="" class="btn">
+                <div class="flex flex-col justify-center items-center gap-3">
+                    <p class="font-playfair font-medium text-lg">KRUŽNICE 🞄 PŘÍMKA 🞄 PŘÍMKA</p>
+                    <a href=""
+                        class="btn relative px-8 py-3 bg-primary text-secondary font-medium text-base invisible opacity-0 rounded-md overflow-hidden duration-300 transition-opacity group-hover:visible group-hover:opacity-100 group-hover:active:opacity-80">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -126,7 +137,8 @@
                     </a>
                 </div>
             </div>
-            <div class="task-card">
+            <div
+                class="group p-8 rounded-xl flex flex-col justify-end items-center gap-6 transition-colors duration-200 cursor-pointer ease-in hover:bg-white hover:shadow-lg">
                 <div class="task-card__illustation">
                     <svg width="218" height="117" viewBox="0 0 218 117" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0.5 2L217 63" stroke="black" stroke-width="3" />
@@ -137,9 +149,10 @@
                             stroke="#cc0000" stroke-width="3" />
                     </svg>
                 </div>
-                <div class="task-card__info">
-                    <p class="task-card__name">BOD 🞄 KRUŽNICE 🞄 PŘÍMKA</p>
-                    <a href="" class="btn">
+                <div class="flex flex-col justify-center items-center gap-3">
+                    <p class="font-playfair font-medium text-lg">BOD 🞄 KRUŽNICE 🞄 PŘÍMKA</p>
+                    <a href=""
+                        class="btn relative px-8 py-3 bg-primary text-secondary font-medium text-base invisible opacity-0 rounded-md overflow-hidden duration-300 transition-opacity group-hover:visible group-hover:opacity-100 group-hover:active:opacity-80">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -147,7 +160,8 @@
                     </a>
                 </div>
             </div>
-            <div class="task-card">
+            <div
+                class="group p-8 rounded-xl flex flex-col justify-end items-center gap-6 transition-colors duration-200 cursor-pointer ease-in hover:bg-white hover:shadow-lg">
                 <div class="task-card__illustation">
                     <svg width="254" height="135" viewBox="0 0 254 135" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="186.5" cy="67.5" r="66" stroke="black" stroke-width="3" />
@@ -158,9 +172,10 @@
                             stroke="#cc0000" stroke-width="3" />
                     </svg>
                 </div>
-                <div class="task-card__info">
-                    <p class="task-card__name">BOD 🞄 KRUŽNICE 🞄 KRUŽNICE</p>
-                    <a href="" class="btn">
+                <div class="flex flex-col justify-center items-center gap-3">
+                    <p class="font-playfair font-medium text-lg">BOD 🞄 KRUŽNICE 🞄 KRUŽNICE</p>
+                    <a href=""
+                        class="btn relative px-8 py-3 bg-primary text-secondary font-medium text-base invisible opacity-0 rounded-md overflow-hidden duration-300 transition-opacity group-hover:visible group-hover:opacity-100 group-hover:active:opacity-80">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -168,7 +183,8 @@
                     </a>
                 </div>
             </div>
-            <div class="task-card">
+            <div
+                class="group p-8 rounded-xl flex flex-col justify-end items-center gap-6 transition-colors duration-200 cursor-pointer ease-in hover:bg-white hover:shadow-lg">
                 <div class="task-card__illustation">
                     <svg width="261" height="134" viewBox="0 0 261 134" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="38.5" cy="46.5" r="37" stroke="black" stroke-width="3" />
@@ -181,9 +197,10 @@
                             stroke="#cc0000" stroke-width="3" />
                     </svg>
                 </div>
-                <div class="task-card__info">
-                    <p class="task-card__name">KRUŽNICE 🞄 KRUŽNICE 🞄 KRUŽNICE</p>
-                    <a href="" class="btn">
+                <div class="flex flex-col justify-center items-center gap-3">
+                    <p class="font-playfair font-medium text-lg">KRUŽNICE 🞄 KRUŽNICE 🞄 KRUŽNICE</p>
+                    <a href=""
+                        class="btn relative px-8 py-3 bg-primary text-secondary font-medium text-base invisible opacity-0 rounded-md overflow-hidden duration-300 transition-opacity group-hover:visible group-hover:opacity-100 group-hover:active:opacity-80">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -191,7 +208,8 @@
                     </a>
                 </div>
             </div>
-            <div class="task-card">
+            <div
+                class="group p-8 rounded-xl flex flex-col justify-end items-center gap-6 transition-colors duration-200 cursor-pointer ease-in hover:bg-white hover:shadow-lg">
                 <div class="task-card__illustation">
                     <svg width="260" height="135" viewBox="0 0 260 135" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0.5 133.5L259.5 101.5" stroke="black" stroke-width="3" />
@@ -203,9 +221,10 @@
                     </svg>
 
                 </div>
-                <div class="task-card__info">
-                    <p class="task-card__name">KRUŽNICE 🞄 KRUŽNICE 🞄 PŘÍMKA</p>
-                    <a href="" class="btn">
+                <div class="flex flex-col justify-center items-center gap-3">
+                    <p class="font-playfair font-medium text-lg">KRUŽNICE 🞄 KRUŽNICE 🞄 PŘÍMKA</p>
+                    <a href=""
+                        class="btn relative px-8 py-3 bg-primary text-secondary font-medium text-base invisible opacity-0 rounded-md overflow-hidden duration-300 transition-opacity group-hover:visible group-hover:opacity-100 group-hover:active:opacity-80">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -214,7 +233,8 @@
                 </div>
             </div>
 
-            <div class="task-card">
+            <div
+                class="group p-8 rounded-xl flex flex-col justify-end items-center gap-6 transition-colors duration-200 cursor-pointer ease-in hover:bg-white hover:shadow-lg">
                 <div class="task-card__illustation">
                     <svg width="158" height="105" viewBox="0 0 158 105" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="36.5" cy="3.5" r="3.5" fill="black" />
@@ -226,9 +246,10 @@
                     </svg>
 
                 </div>
-                <div class="task-card__info">
-                    <p class="task-card__name">BOD 🞄 BOD 🞄 KRUŽNICE</p>
-                    <a href="" class="btn">
+                <div class="flex flex-col justify-center items-center gap-3">
+                    <p class="font-playfair font-medium text-lg">BOD 🞄 BOD 🞄 KRUŽNICE</p>
+                    <a href=""
+                        class="btn relative px-8 py-3 bg-primary text-secondary font-medium text-base invisible opacity-0 rounded-md overflow-hidden duration-300 transition-opacity group-hover:visible group-hover:opacity-100 group-hover:active:opacity-80">
                         <span></span>
                         <span></span>
                         <span></span>

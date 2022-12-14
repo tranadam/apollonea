@@ -1,0 +1,90 @@
+$font-heading: "Playfair Display", serif;
+$font-text: "Poppins", sans-serif;
+$primary-clr: #cc0000;
+$secondary-clr: #fed7d7;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: $font-text;
+  background-color: #f5f5f5;
+}
+
+// no existing tailwind classes
+.answer-circle {
+  stroke-dasharray: 255;
+  stroke-dashoffset: 255;
+  transition: 1000ms ease-out;
+}
+.group:hover {
+  .answer-circle {
+    stroke-dashoffset: 0;
+  }
+}
+
+// would need nested groups to work
+.btn {
+  span {
+    background-color: $secondary-clr;
+    position: absolute;
+    transition: 200ms;
+  }
+  span:nth-child(1) {
+    width: 0.2em;
+    height: 50%;
+    left: 0;
+    top: 50%;
+    transform-origin: top;
+  }
+  span:nth-child(2) {
+    width: 0.2em;
+    height: 50%;
+    left: 0;
+    top: 50%;
+    transform: translateY(-100%);
+    transform-origin: bottom;
+  }
+  span:nth-child(3) {
+    width: 0;
+    height: 0.1em;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &:hover,
+  &:focus {
+    span:nth-child(1) {
+      transform: translateX(2.5em) rotate(45deg);
+      border-radius: 50em;
+      height: 25%;
+      width: 0.1em;
+    }
+    span:nth-child(2) {
+      transform: translateX(2.5em) translateY(-100%) rotate(-45deg);
+      height: 25%;
+      border-radius: 50em;
+      width: 0.1em;
+    }
+    span:nth-child(3) {
+      width: 1.4em;
+      border-radius: 50em;
+      transform: translate(1.2em, -50%);
+    }
+    .btn__text {
+      padding-left: 1.4em;
+      transition: padding 200ms;
+    }
+  }
+}
