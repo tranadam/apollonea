@@ -7,7 +7,7 @@ def makeEnv():
     env = Environment(loader=file_loader)
     return env
 
-def render_categories(save_path):
+def render_categories_cs(save_path):
     env = makeEnv()
     categories_template = env.get_template("cs/categories.jinja2")
 
@@ -16,7 +16,7 @@ def render_categories(save_path):
         file_output.write(output)
 
 
-render_categories("dist/index.html")
+render_categories_cs("dist/cs/index.html")
 
 shutil.rmtree("dist/js")
 shutil.copytree("src/js", "dist/js")
