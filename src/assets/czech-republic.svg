@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="144.51241mm"
+   height="93.994637mm"
+   viewBox="0 0 144.51241 93.994637"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="czech-republic.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.3750491"
+     inkscape:cx="-27.996334"
+     inkscape:cy="-239.96858"
+     inkscape:window-width="1920"
+     inkscape:window-height="1046"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-76.589211,-112.49079)">
+    <g
+       id="g3717">
+      <path
+         style="fill:#fd4a54;stroke-width:0.282222"
+         d="m 78.406713,206.21868 c -0.327811,-0.13245 -0.867561,-0.58603 -1.199445,-1.00795 l -0.143558,-0.87625 -0.459866,-45.2278 c -0.412865,-40.60527 8.105863,-34.87159 0.925038,-45.28173 -0.371936,-0.5392 -0.197213,-0.42594 0.330824,-0.1453 0.340066,0.18074 16.62697,9.82094 35.896724,22.44658 l 35.03593,22.95572 h 36.15463 36.15462 v 22.5594 c 0,14.26031 -0.10316,22.83074 -0.28042,23.29698 -0.63066,1.65875 4.05826,1.55856 -72.02995,1.53906 -38.38368,-0.01 -70.056716,-0.12626 -70.384527,-0.25871 z"
+         id="path3721"
+         sodipodi:nodetypes="sscsssscccsscs" />
+      <path
+         style="fill:#40469a;stroke-width:0.282222"
+         d="m 77.04318,205.02137 c -0.393208,-0.56138 -0.439336,-5.38812 -0.439336,-45.97095 0,-42.76474 0.02809,-45.3783 0.493889,-45.95167 l 0.493889,-0.60796 2.986281,1.91725 c 1.642454,1.05448 17.611191,11.50373 35.486077,23.22054 30.6677,20.10237 32.72838,21.45337 32.72838,21.45337 0,0 -70.965397,46.56666 -71.195405,46.56666 -0.06294,0 -0.31214,-0.28226 -0.553775,-0.62724 z"
+         id="path3719"
+         sodipodi:nodetypes="ssscsscss" />
+    </g>
+  </g>
+</svg>
