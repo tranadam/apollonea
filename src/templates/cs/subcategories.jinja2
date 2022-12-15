@@ -1,0 +1,31 @@
+{%extends "cs/base.jinja2" %}
+{% block relative_imports %}
+
+<link rel="stylesheet" href="../../css/output.css">
+<link rel="stylesheet" href="../../css/extra.css">
+<link rel="shortcut icon" href="../../assets/favicon.ico" type="image/x-icon">
+<script src="../../js/main.js" defer></script>
+
+{% endblock %}
+
+
+{% block main %}
+
+<main>
+    <div class="max-w-screen-xl px-12 py-8 mx-auto">
+        <h1 class="text-3xl font-playfair text-center font-bold mb-12">{{type_tasks[0].full_type}}</h1>
+        <div class="grid grid-cols-subcategories gap-6">
+            {% for task in type_tasks %}
+            <a href=""
+                class="group relative flex justify-center py-8 px-12 rounded-xl transition-colors duration-200 cursor-pointer ease-in hover:bg-white hover:shadow-lg">
+                <div class="transition-opacity duration-100 group-hover:opacity-0">{{task.svg}}</div>
+                <p
+                    class="absolute left-6 bottom-2 opacity-0 transition-all duration-300 ease-out group-hover:opacity-100 group-hover:bottom-8">
+                    {{task.variant}}</p>
+            </a>
+            {%endfor%}
+        </div>
+    </div>
+</main>
+
+{% endblock %}

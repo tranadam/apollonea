@@ -13,6 +13,7 @@ module.exports = {
       },
       gridTemplateColumns: {
         categories: "repeat(auto-fit, minmax(350px, 1fr))",
+        subcategories: "repeat(auto-fit, minmax(250px, 1fr))",
       },
     },
   },
