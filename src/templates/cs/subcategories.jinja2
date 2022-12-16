@@ -13,10 +13,12 @@
 
 <main>
     <div class="max-w-screen-xl px-12 py-8 mx-auto">
-        <h1 class="text-3xl font-playfair text-center font-bold mb-12">{{type_tasks[0].full_type}}</h1>
+        <h1
+            class="relative w-max mx-auto text-3xl font-playfair text-center font-bold mb-12 z-10 before:absolute before:w-full before:bg-primary before:h-1 before:rounded-full before:bottom-10 before:-z-10">
+            {{type_tasks[0].get_full_type_cs()}}</h1>
         <div class="grid grid-cols-subcategories gap-6">
             {% for task in type_tasks %}
-            <a href=""
+            <a href="{{task.get_path_name_cs()}}"
                 class="group relative flex justify-center py-8 px-12 rounded-xl transition-colors duration-200 cursor-pointer ease-in hover:bg-white hover:shadow-lg">
                 <div class="transition-opacity duration-100 group-hover:opacity-0">{{task.svg}}</div>
                 <p
