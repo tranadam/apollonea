@@ -1,0 +1,4 @@
+1. Narýsujeme kolmici p procházející bodem A, která je kolmá na zadané přímky.
+2. Průsečík kolmice p a druhé zadané přímky pojemnujeme P.
+3. Dále nalezneme střed úsečky AP, S.
+4. Nakonec narýsujeme kružnici k se středem S a poloměrem |SA|.
