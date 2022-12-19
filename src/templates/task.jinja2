@@ -4,7 +4,7 @@
 
 <link rel="stylesheet" href="../../../css/output.css">
 <link rel="stylesheet" href="../../../css/extra.css">
-<link rel="shortcut icon" href="../../../assets/favicon.ico" type="image/x-icon">
+<link rel="icon" href="../../../assets/favicon.svg">
 <script src="../../../js/main.js" defer></script>
 
 {% endblock %}
@@ -14,10 +14,10 @@
     <div class="flex justify-between max-w-screen-xl px-12 py-8 mx-auto">
         <div class="w-2/3">
             <a href="../"
-                class="flow-root mt-4 mb-0.5 bg-secondary text-sm w-max rounded-md px-2 py-1 active:opacity-80">{{task.get_full_type_cs()}}</a>
+                class="flow-root mt-4 mb-0.5 bg-secondary text-sm w-max rounded-md px-2 py-1 active:opacity-80">{{task.get_full_type(lang)}}</a>
             <h1 class="relative mb-2 font-playfair text-3xl font-bold">
-                {{task.variant}}</h1>
-            <p class="mb-6">Počet řešení: {{task.num_of_solutions}}</p>
+                {{task.get_variant(lang)}}</h1>
+            <p class="mb-6">{{solution_number}} {{task.num_of_solutions}}</p>
             <div class="mb-6" x-data="{isOpen: false}">
                 <button x-on:click="isOpen = !isOpen"
                     class="flex w-full bg-white shadow-md rounded-xl py-5 px-6 mb-4 gap-x-3 items-center transition-all duration-200 hover:gap-x-4 active:opacity-80">
@@ -27,17 +27,17 @@
                             stroke-linejoin="round" />
                     </svg>
                     <div>
-                        <p class="uppercase text-left tracking-wide text-xs ">ZPŮSOB ŘEŠENÍ</p>
-                        <h2 class="text-2xl font-medium">{{task.solution_method}}</h2>
+                        <p class="uppercase text-left tracking-wide text-xs ">{{solution_technique}}</p>
+                        <h2 class="text-2xl font-medium">{{task.get_solution_method(lang)}}</h2>
                     </div>
                 </button>
                 <div x-show="isOpen" x-transition>
-                    <h3 class="font-playfair text-2xl font-semibold mb-2">Konstrukce v GeoGebře</h3>
+                    <h3 class="font-playfair text-2xl font-semibold mb-2">{{geogebra_construction}}</h3>
                     <iframe class="rounded-lg border border-black w-full mb-4" height="500px"
                         src="https://www.geogebra.org/calculator/kjn4huxb?embed" allowfullscreen
                         frameborder="0"></iframe>
 
-                    <h3 class="font-playfair text-2xl font-semibold mb-2">Postup</h3>
+                    <h3 class="font-playfair text-2xl font-semibold mb-2">{{postup}}</h3>
                     <ol class="list-decimal ml-5 flex flex-col gap-y-1">
                         {% for step in steps %}
                         <li>{{step}}</li>
@@ -48,7 +48,7 @@
         </div>
         <aside class="relative w-1/4 mt-6">
             <div class="sticky top-20">
-                <p class="text-base font-semibold mb-4">Další varianty úloh - {{task.type}}</p>
+                <p class="text-base font-semibold mb-4">{{other_tasks}} - {{task.get_type(lang)}}</p>
                 <div class="flex flex-col gap-y-2">
                     <a href="" class="underline underline-offset-4 hover:no-underline active:opacity-80">Úloha typu
                         1</a>

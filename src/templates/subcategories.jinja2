@@ -3,7 +3,7 @@
 
 <link rel="stylesheet" href="../../css/output.css">
 <link rel="stylesheet" href="../../css/extra.css">
-<link rel="shortcut icon" href="../../assets/favicon.ico" type="image/x-icon">
+<link rel="icon" href="../../assets/favicon.svg">
 <script src="../../js/main.js" defer></script>
 
 {% endblock %}
@@ -15,15 +15,15 @@
     <div class="max-w-screen-xl px-12 py-8 mx-auto">
         <h1
             class="relative w-max mx-auto text-3xl font-playfair text-center font-bold mb-12 z-10 before:absolute before:w-full before:bg-primary before:h-1 before:rounded-full before:bottom-10 before:-z-10">
-            {{type_tasks[0].get_full_type_cs()}}</h1>
+            {{type_tasks[0].get_full_type(lang)}}</h1>
         <div class="grid grid-cols-subcategories gap-6">
             {% for task in type_tasks %}
-            <a href="{{task.get_path_name_cs()}}"
+            <a href="{{task.get_path_name(lang)}}"
                 class="group relative flex justify-center py-8 px-12 rounded-xl transition-colors duration-200 cursor-pointer ease-in hover:bg-white hover:shadow-lg">
                 <div class="transition-opacity duration-100 group-hover:opacity-0">{{task.svg}}</div>
                 <p
                     class="absolute left-6 bottom-2 opacity-0 transition-all duration-300 ease-out group-hover:opacity-100 group-hover:bottom-8">
-                    {{task.variant}}</p>
+                    {{task.get_variant(lang)}}</p>
             </a>
             {%endfor%}
         </div>
