@@ -10,60 +10,69 @@ def makeEnv():
     env = Environment(loader=file_loader)
     return env
 
+def get_translation(sections, lang):
+    language = {}
+    for section in sections:
+        translation_path = glob.glob(f"src/translations/{section}_{lang}.json")[0]
+        with open(translation_path, mode="r", encoding="utf-8") as file:
+            language.update(json.load(file))
+    return language
+
 def render_categories():
     env = makeEnv()
     categories_template = env.get_template("categories.jinja2")
 
-    languages = {}
+    langs = {"cs": "dist/cs", "en":"dist/en"}
 
-    translation_paths = glob.glob("src/translations/categories*.json")
-
-    for translation_path in translation_paths:
-        filename = os.path.basename(translation_path)
-        lang_code = filename.split(".")[0].split("_")[1]
-
-        with open(f"src/translations/{filename}", mode="r", encoding="utf-8") as translation_file:
-            languages[lang_code] = json.load(translation_file)
-
-    output_cs = categories_template.render(**languages["cs"])
-    with open("dist/cs/index.html", mode="w", encoding="utf-8") as file_output:
-        file_output.write(output_cs)
-    output_en = categories_template.render(**languages["en"])
-    with open("dist/en/index.html", mode="w", encoding="utf-8") as file_output:
-        file_output.write(output_en)
+    for lang, lang_path in langs.items():
+        translation = get_translation(["main", "categories"], lang)
+        translation.update(langs)
+        output = categories_template.render(**translation)
+        with open(f"{lang_path}/index.html", mode="w", encoding="utf-8") as file_output:
+            file_output.write(output)
 
 def render_subcategories():
     env = makeEnv()
-    # czech template
-    subcategories_template_cs = env.get_template("subcategories.jinja2")
+    subcategories_template = env.get_template("subcategories.jinja2")
 
-    for type, type_tasks in tasks.items():
-        output_cs = subcategories_template_cs.render(type_tasks=type_tasks)
-        if not os.path.exists(f"dist/cs/{type}"):
-            os.makedirs(f"dist/cs/{type}")
-        with open(f"dist/cs/{type}/index.html", mode="w", encoding="utf-8") as file_output:
-            file_output.write(output_cs)
+    langs = {"cs": "dist/cs", "en":"dist/en"}
+
+    for lang, lang_path in langs.items():
+        translation = get_translation(["main"], lang)
+        translation.update(langs)
+        for type, type_tasks in tasks.items():
+            output = subcategories_template.render(type_tasks=type_tasks, **translation)
+            if not os.path.exists(f"{lang_path}/{type_tasks[0].get_type(lang)}"):
+                os.makedirs(f"{lang_path}/{type_tasks[0].get_type(lang)}")
+            with open(f"{lang_path}/{type_tasks[0].get_type(lang)}/index.html", mode="w", encoding="utf-8") as file_output:
+                file_output.write(output)
 
 def render_tasks():
     env = makeEnv()
-    tasks_template_cs = env.get_template("task.jinja2")
+    tasks_template = env.get_template("task.jinja2")
 
-    for type, type_tasks in tasks.items():
-        for task in type_tasks:
-            with open("src/bbp_rovnobezky_bod_na_primce.txt", mode="r", encoding="utf-8") as file_steps:
-                pre_steps = file_steps.read()
-                pre_steps = pre_steps.split("\n")
-                steps = []
-                for step in pre_steps:
-                    if len(step) == 0:
-                        continue
-                    steps.append(step[step.index(".")+1:].strip())
+    langs = {"cs": "dist/cs", "en":"dist/en"}
 
-            output_cs = tasks_template_cs.render(task=task, steps=steps)
-            if not os.path.exists(f"dist/cs/{type}/{task.get_path_name_cs()}"):
-                os.makedirs(f"dist/cs/{type}/{task.get_path_name_cs()}")
-            with open(f"dist/cs/{type}/{task.get_path_name_cs()}/index.html", mode="w", encoding="utf-8") as file_output:
-                file_output.write(output_cs)
+    for lang, lang_path in langs.items():
+        translation = get_translation(["main", "task"], lang)
+        translation.update(langs)
+
+        for type, type_tasks in tasks.items():
+            for task in type_tasks:
+                with open("src/bbp_rovnobezky_bod_na_primce.txt", mode="r", encoding="utf-8") as file_steps:
+                    pre_steps = file_steps.read()
+                    pre_steps = pre_steps.split("\n")
+                    steps = []
+                    for step in pre_steps:
+                        if len(step) == 0:
+                            continue
+                        steps.append(step[step.index(".")+1:].strip())
+
+                output = tasks_template.render(type_tasks=type_tasks, task=task, steps=steps, **translation)
+                if not os.path.exists(f"{lang_path}/{task.get_type(lang)}/{task.get_path_name(lang)}"):
+                    os.makedirs(f"{lang_path}/{task.get_type(lang)}/{task.get_path_name(lang)}")
+                with open(f"{lang_path}/{task.get_type(lang)}/{task.get_path_name(lang)}/index.html", mode="w", encoding="utf-8") as file_output:
+                    file_output.write(output)
 
 
 render_categories()
