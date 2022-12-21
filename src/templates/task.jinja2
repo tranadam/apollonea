@@ -31,7 +31,11 @@
                     </div>
                 </button>
                 <div x-show="isOpen" x-transition>
-                    <h3 class="font-playfair text-2xl font-semibold mb-2">{{geogebra_construction}}</h3>
+                    <div class="flex gap-x-1 items-center mb-2">
+                        <h3 class="font-playfair text-2xl font-semibold">{{geogebra_construction}}</h3>
+                        <img src="/dist/assets/info.svg" alt="info" class="p-1 mt-1"
+                            data-tippy-content="{{construction_info}}">
+                    </div>
                     <iframe class="rounded-lg border border-black w-full mb-4" height="500px"
                         src="https://www.geogebra.org/calculator/kjn4huxb?embed" allowfullscreen
                         frameborder="0"></iframe>
@@ -47,25 +51,32 @@
         </div>
         <aside class="relative w-1/4 mt-6">
             <div class="sticky top-20">
-                <p class="text-base font-semibold mb-4">{{other_tasks}} - {{task.get_type(lang)}}</p>
-                <div class="flex flex-col gap-y-2">
-                    <a href="" class="underline underline-offset-4 hover:no-underline active:opacity-80">Úloha typu
-                        1</a>
-                    <a href="" class="underline underline-offset-4 hover:no-underline active:opacity-80">Úloha typu
-                        2</a>
-                    <a href="" class="underline underline-offset-4 hover:no-underline active:opacity-80">Úloha typu
-                        3</a>
-                    <a href="" class="underline underline-offset-4 hover:no-underline active:opacity-80">Úloha typu
-                        4</a>
-                    <a href="" class="underline underline-offset-4 hover:no-underline active:opacity-80">Úloha typu
-                        5</a>
-                    <a href="" class="underline underline-offset-4 hover:no-underline active:opacity-80">Úloha typu
-                        6</a>
-                </div>
+                <p class="text-lg font-semibold mb-4">{{other_tasks}} - {{task.get_type(lang)|upper}}</p>
+                <ul class="flex flex-col gap-y-3">
+                    {% for same_task in tasks.get_same_type_tasks(task, lang)%}
+                    <li>
+                        <a href="../{{same_task['task_path']}}" class="group inline-block active:opacity-80"><span
+                                class="underline underline-offset-4 group-hover:no-underline">
+                                {{same_task["task_name"]}}</a>
+                        </span>
+                    </li>
+                    {%endfor%}
+                </ul>
             </div>
         </aside>
     </div>
 </main>
 
+
+{%endblock%}
+{% block tippy_script %}
+
+<script>
+    tippy("[data-tippy-content]", {
+        interactive: true,
+        delay: [0, 50],
+        animation: "scale-subtle",
+    });
+</script>
 
 {%endblock%}

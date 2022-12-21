@@ -2,6 +2,7 @@
   "solution_number": "Number of solutions:",
   "solution_technique": "SOLUTION METHOD",
   "geogebra_construction": "GeoGebra construction",
+  "construction_info": "You can inspect each step using the slider in the construction. Each step is explained below.",
   "postup": "Steps",
   "other_tasks": "Other tasks"
 }

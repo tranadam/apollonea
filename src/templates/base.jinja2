@@ -9,12 +9,14 @@
     <meta name="keywords" content="{{meta_keywords}}">
     <meta name="theme-color" content="#cc0000">
     <title>{{page_title}}</title>
+
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
+
     <!-- FAVICONS -->
     <link rel="apple-touch-icon" sizes="180x180" href="/dist/assets/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/dist/assets/favicons/favicon-32x32.png">
@@ -24,8 +26,14 @@
     <link rel="shortcut icon" href="/dist/assets/favicons/favicon.ico">
     <meta name="msapplication-TileColor" content="#2d89ef">
     <meta name="msapplication-config" content="/dist/assets/favicons/browserconfig.xml">
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script> {% block relative_imports %} {%
-    endblock %}
+
+    <!-- IMPORT ALPINE.JS -->
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <!-- extra tippy tooltip for animations -->
+    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale-subtle.css" />
+
+    {% block relative_imports %} {% endblock %}
 
 </head>
 
@@ -36,6 +44,14 @@
 
     {% include "footer.jinja2" %}
 
+    <!-- IMPORT TIPPY -->
+    <!-- Development -->
+    <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+    <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+    <!-- Production -->
+    <!-- <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script> -->
+    {% block tippy_script %} {%endblock%}
 </body>
 
 </html>

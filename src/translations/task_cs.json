@@ -2,6 +2,7 @@
   "solution_number": "Počet řešení:",
   "solution_technique": "ZPŮSOB ŘEŠENÍ",
   "geogebra_construction": "Konstrukce v GeoGebře",
+  "construction_info": "Pomocí posuvníku v konstrukci si můžete prohlédnout všechny kroky k řešení. Pod konstrukcí jsou všechny kroky okomentovány.",
   "postup": "Postup",
   "other_tasks": "Další varianty úloh"
 }
