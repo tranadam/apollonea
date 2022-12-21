@@ -52,9 +52,27 @@ class Task():
         elif lang =="en":
             return self.type.replace("b", "POINT ").replace("k", "CIRCLE ").replace("p", "LINE ").rstrip().replace(" ", " 🞄 ")
 
+    def get_text_file_name(self, lang):
+        if lang == "cs":
+            return self.file_name + ".txt"
+        elif lang == "en":
+            return self.file_name + "_en.txt"
 
 
-tasks = {}
+class Tasks():
+    def __init__(self, tasks_dictionary):
+        self.tasks = tasks_dictionary
+
+    def get_same_type_tasks(self, compared_task, lang):
+        same_type_tasks = self.tasks[compared_task.type.lower()]
+        result_data = []
+        for task in same_type_tasks:
+            if task == compared_task:
+                continue
+            result_data.append({"task_name": task.get_variant(lang), "task_path": task.get_path_name(lang)})
+        return result_data
+
+tasks_dict = {}
 with open("src/tasks_data.csv", mode="r", encoding="utf-8") as data_file:
     csv_reader = csv.reader(data_file, delimiter=";")
     linecount = 0
@@ -77,4 +95,6 @@ with open("src/tasks_data.csv", mode="r", encoding="utf-8") as data_file:
         file_name = row[8]
         svg = row[9]
         new_task = Task(type, subtype_cs, subtype_en, variant_cs, variant_en, solution_method_cs, solution_method_en, num_of_solutions, file_name, svg)
-        tasks[type] = tasks.get(type, []) + [new_task]
+        tasks_dict[type] = tasks_dict.get(type, []) + [new_task]
+
+tasks = Tasks(tasks_dict)
