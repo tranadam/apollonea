@@ -1,17 +1,15 @@
 {% extends "base.jinja2" %}
 
 {% block relative_imports %}
-
 <link rel="stylesheet" href="../../../css/output.css">
 <link rel="stylesheet" href="../../../css/extra.css">
-<script src="../../../js/main.js" defer></script>
-
 {% endblock %}
+
 {% block main %}
 
 <main class="min-h-screen">
-    <div class="flex justify-between max-w-screen-xl px-12 py-8 mx-auto">
-        <div class="w-2/3">
+    <div class="flex justify-between max-w-screen-xl px-4 py-4 mx-auto md:py-8 md:px-12">
+        <div class="md:w-2/3">
             <a href="../"
                 class="flow-root mt-4 mb-0.5 bg-secondary text-sm w-max rounded-md px-2 py-1 active:opacity-80">{{task.get_full_type(lang)}}</a>
             <h1 class="relative mb-2 font-playfair text-3xl font-bold">
@@ -27,13 +25,13 @@
                     </svg>
                     <div>
                         <p class="uppercase text-left tracking-wide text-xs ">{{solution_technique}}</p>
-                        <h2 class="text-2xl font-medium">{{task.get_solution_method(lang)}}</h2>
+                        <h2 class="text-2xl text-left font-medium">{{task.get_solution_method(lang)}}</h2>
                     </div>
                 </button>
                 <div x-show="isOpen" x-transition>
                     <div class="flex gap-x-1 items-center mb-2">
                         <h3 class="font-playfair text-2xl font-semibold">{{geogebra_construction}}</h3>
-                        <img src="/dist/assets/info.svg" alt="info" class="p-1 mt-1"
+                        <img src="/dist/assets/info.svg" tabindex="0" alt="info" class="p-1 mt-1"
                             data-tippy-content="{{construction_info}}">
                     </div>
                     <iframe class="rounded-lg border border-black w-full mb-4" height="500px"
@@ -49,7 +47,7 @@
                 </div>
             </div>
         </div>
-        <aside class="relative w-1/4 mt-6">
+        <aside class="hidden relative w-1/4 mt-6 md:block">
             <div class="sticky top-20">
                 <p class="text-lg font-semibold mb-4">{{other_tasks}} - {{task.get_type(lang)|upper}}</p>
                 <ul class="flex flex-col gap-y-3">
