@@ -1,11 +1,8 @@
 {% extends "base.jinja2" %}
 
 {% block relative_imports %}
-
 <link rel="stylesheet" href="../css/output.css">
 <link rel="stylesheet" href="../css/extra.css">
-<script src="../js/main.js" defer></script>
-
 {% endblock %}
 
 
@@ -24,10 +21,13 @@
                     <p class="font-playfair font-medium text-lg">{{task.heading}}</p>
                     <button
                         class="btn relative px-8 py-3 bg-primary text-secondary font-medium text-base invisible opacity-0 rounded-md overflow-hidden duration-300 transition-opacity group-hover:visible group-hover:opacity-100 group-hover:active:opacity-80">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <p class="btn__text">{{cta}}</p>
+                        <span
+                            class="bg-secondary absolute transition-all duration-200 w-1 h-1/2 left-0 top-1/2 origin-top"></span>
+                        <span
+                            class="bg-secondary absolute transition-all duration-200 w-1 h-1/2 left-0 top-1/2 origin-bottom -translate-y-full"></span>
+                        <span
+                            class="bg-secondary absolute transition-all duration-200 w-0 h-[0.1em] left-0 top-1/2 -translate-y-1/2 rounded-full"></span>
+                        <p class="btn__text transition-all duration-200">{{cta}}</p>
                     </button>
                 </div>
             </a>
