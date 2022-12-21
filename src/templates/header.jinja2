@@ -3,20 +3,20 @@
     <div class="flex justify-between items-center gap-x-4">
         {% if lang == "cs" %}
         <a
-            href="/{{cs}}/{{type_tasks[0].get_type('cs') if type_tasks is not undefined}}{{'/' + task.get_path_name('cs') if task is not undefined}}">
+            href="/{{cs}}{{'/' + type_tasks[0].get_type('cs') if type_tasks is not undefined}}{{'/' + task.get_type('cs') + '/' + task.get_path_name('cs') if task is not undefined}}">
             <img class="w-10 grayscale active:opacity-80" src="/dist/assets/czech-republic.svg" alt="CS">
         </a>
         <a
-            href="/{{en}}/{{type_tasks[0].get_type('en') if type_tasks is not undefined}}{{'/' + task.get_path_name('en') if task is not undefined}}">
+            href="/{{en}}{{'/' + type_tasks[0].get_type('en') if type_tasks is not undefined}}{{'/' + task.get_type('en') + '/' + task.get_path_name('en') if task is not undefined}}">
             <img class="w-10 active:opacity-80" src="/dist/assets/united-states.svg" alt="EN">
         </a>
         {% elif lang == "en" %}
         <a
-            href="/{{cs}}/{{type_tasks[0].get_type('cs') if type_tasks is not undefined}}{{'/' + task.get_path_name('cs') if task is not undefined}}">
+            href="/{{cs}}{{'/' + type_tasks[0].get_type('cs') if type_tasks is not undefined}}{{'/' + task.get_type('cs') + '/' + task.get_path_name('cs') if task is not undefined}}">
             <img class="w-10 active:opacity-80" src="/dist/assets/czech-republic.svg" alt="CS">
         </a>
         <a
-            href="/{{en}}/{{type_tasks[0].get_type('en') if type_tasks is not undefined}}{{'/' + task.get_path_name('en') if task is not undefined}}">
+            href="/{{en}}{{'/' + type_tasks[0].get_type('en') if type_tasks is not undefined}}{{'/' + task.get_type('en') + '/' + task.get_path_name('en') if task is not undefined}}">
             <img class="w-10 grayscale active:opacity-80" src="/dist/assets/united-states.svg" alt="EN">
         </a>
         {% endif %}
