@@ -15,7 +15,7 @@
         <div class="grid grid-cols-subcategories gap-6">
             {% for task in type_tasks %}
             <a href="{{task.get_path_name(lang)}}"
-                class="group relative flex justify-center py-8 px-12 rounded-xl transition-colors duration-200 cursor-pointer ease-in hover:bg-white hover:shadow-lg">
+                class="group relative flex justify-center py-8 px-12 rounded-xl transition-all duration-200 ease-in ring-inset ring-gray-400/20 hover:ring-1 hover:bg-white/40 hover:shadow-[inset_0_2px_10px_rgba(0,0,0,0.05)]">
                 <div class="transition-opacity duration-100 group-hover:opacity-0">{{task.svg}}</div>
                 <p
                     class="absolute left-6 bottom-2 opacity-0 transition-all duration-300 ease-out group-hover:opacity-100 group-hover:bottom-8">
