@@ -40,7 +40,7 @@ def render_subcategories():
     for lang, lang_path in langs.items():
         translation = get_translation(["main"], lang)
         translation.update(langs)
-        for type, type_tasks in tasks.tasks.items():
+        for type, type_tasks in tasks.items():
             output = subcategories_template.render(type_tasks=type_tasks, **translation)
             if not os.path.exists(f"{lang_path}/{type_tasks[0].get_type(lang)}"):
                 os.makedirs(f"{lang_path}/{type_tasks[0].get_type(lang)}")
@@ -57,25 +57,13 @@ def render_tasks():
         translation = get_translation(["main", "task"], lang)
         translation.update(langs)
 
-        for type, type_tasks in tasks.tasks.items():
+        for type, type_tasks in tasks.items():
             for task in type_tasks:
-                # text_file_path = f"src/task_data/{type.upper()}/{task.get_text_file_name(lang)}"
-                text_file_path = "src/task_data\BPP/bpp_ruznobezky_bod_mimo_primky.txt" # correctly formated file as a plcaeholder
-                with open(text_file_path, mode="r", encoding="utf-8") as file_steps:
-                    pre_steps = file_steps.read()
-                    pre_steps = pre_steps.split("\n")
-                    steps = []
-                    for step in pre_steps:
-                        if len(step) == 0:
-                            continue
-                        steps.append(step[step.index(".")+1:].strip())
-
-                output = tasks_template.render(tasks=tasks, task=task, steps=steps, **translation)
+                output = tasks_template.render(tasks=tasks, task=task, **translation)
                 if not os.path.exists(f"{lang_path}/{task.get_type(lang)}/{task.get_path_name(lang)}"):
                     os.makedirs(f"{lang_path}/{task.get_type(lang)}/{task.get_path_name(lang)}")
                 with open(f"{lang_path}/{task.get_type(lang)}/{task.get_path_name(lang)}/index.html", mode="w", encoding="utf-8") as file_output:
                     file_output.write(output)
-
 
 render_categories()
 render_subcategories()
