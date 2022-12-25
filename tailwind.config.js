@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.jinja2", "./src/**/*.json"],
+  content: ["./src/**/*.{jinja2, json}"],
   theme: {
     fontFamily: {
       playfair: ["Playfair Display", "serif"],
@@ -17,4 +17,5 @@ module.exports = {
       },
     },
   },
+  plugins: ["prettier-plugin-tailwindcss", "prettier-plugin-jinja-template"],
 };

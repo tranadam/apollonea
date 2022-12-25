@@ -1,33 +1,65 @@
-<nav class="flex mx-auto max-w-screen-xl items-center justify-between gap-x-4 px-4 py-4 md:px-12">
-    <a href="{{homepage_path}}"><img src="{{logo_path}}" class="h-10" alt="{{page_title}}"></a>
-    <div class="flex justify-between items-center gap-x-4">
-        {% if lang == "cs" %}
-        <a
-            href="/{{cs}}{{'/' + type_tasks[0].get_type('cs') if type_tasks is not undefined}}{{'/' + task.get_type('cs') + '/' + task.get_path_name('cs') if task is not undefined}}">
-            <img class="w-10 grayscale active:opacity-80" src="/dist/assets/czech-republic.svg" alt="CS">
-        </a>
-        <a
-            href="/{{en}}{{'/' + type_tasks[0].get_type('en') if type_tasks is not undefined}}{{'/' + task.get_type('en') + '/' + task.get_path_name('en') if task is not undefined}}">
-            <img class="w-10 active:opacity-80" src="/dist/assets/united-states.svg" alt="EN">
-        </a>
-        {% elif lang == "en" %}
-        <a
-            href="/{{cs}}{{'/' + type_tasks[0].get_type('cs') if type_tasks is not undefined}}{{'/' + task.get_type('cs') + '/' + task.get_path_name('cs') if task is not undefined}}">
-            <img class="w-10 active:opacity-80" src="/dist/assets/czech-republic.svg" alt="CS">
-        </a>
-        <a
-            href="/{{en}}{{'/' + type_tasks[0].get_type('en') if type_tasks is not undefined}}{{'/' + task.get_type('en') + '/' + task.get_path_name('en') if task is not undefined}}">
-            <img class="w-10 grayscale active:opacity-80" src="/dist/assets/united-states.svg" alt="EN">
-        </a>
-        {% endif %}
-    </div>
+<nav
+  class="mx-auto flex max-w-screen-xl items-center justify-between gap-x-4 px-4 py-4 md:px-12"
+>
+  <a href="{{ homepage_path }}"
+    ><img src="{{ logo_path }}" class="h-10" alt="{{ page_title }}"
+  /></a>
+  <div class="flex items-center justify-between gap-x-4">
+    {% if lang == "cs" %}
+      <a
+        href="/{{ cs }}{{ '/' + type_tasks[0].get_type('cs') if type_tasks is not undefined }}{{ '/' + task.get_type('cs') + '/' + task.get_path_name('cs') if task is not undefined }}"
+      >
+        <img
+          class="w-10 grayscale active:opacity-80"
+          src="/dist/assets/czech-republic.svg"
+          alt="CS"
+        />
+      </a>
+      <a
+        href="/{{ en }}{{ '/' + type_tasks[0].get_type('en') if type_tasks is not undefined }}{{ '/' + task.get_type('en') + '/' + task.get_path_name('en') if task is not undefined }}"
+      >
+        <img
+          class="w-10 active:opacity-80"
+          src="/dist/assets/united-states.svg"
+          alt="EN"
+        />
+      </a>
+    {% elif lang == "en" %}
+      <a
+        href="/{{ cs }}{{ '/' + type_tasks[0].get_type('cs') if type_tasks is not undefined }}{{ '/' + task.get_type('cs') + '/' + task.get_path_name('cs') if task is not undefined }}"
+      >
+        <img
+          class="w-10 active:opacity-80"
+          src="/dist/assets/czech-republic.svg"
+          alt="CS"
+        />
+      </a>
+      <a
+        href="/{{ en }}{{ '/' + type_tasks[0].get_type('en') if type_tasks is not undefined }}{{ '/' + task.get_type('en') + '/' + task.get_path_name('en') if task is not undefined }}"
+      >
+        <img
+          class="w-10 grayscale active:opacity-80"
+          src="/dist/assets/united-states.svg"
+          alt="EN"
+        />
+      </a>
+    {% endif %}
+  </div>
 </nav>
-<svg class="absolute inset-0 w-full h-32 -z-10 [mask-image:linear-gradient(to_top,transparent,#F5F5F5)]">
-    <defs>
-        <pattern id="rect_pattern" width="32" height="32" patternUnits="userSpaceOnUse" x="50%"
-            patternTransform="translate(16 16)">
-            <path d="M0 32V.5H32" fill="none" stroke="#aaaaaa"></path>
-        </pattern>
-    </defs>
-    <rect width="100%" height="100%" fill="url(#rect_pattern)"></rect>
+<svg
+  class="absolute inset-0 -z-10 h-32 w-full [mask-image:linear-gradient(to_top,transparent,#F5F5F5)]"
+>
+  <defs>
+    <pattern
+      id="rect_pattern"
+      width="32"
+      height="32"
+      patternUnits="userSpaceOnUse"
+      x="50%"
+      patternTransform="translate(16 16)"
+    >
+      <path d="M0 32V.5H32" fill="none" stroke="#aaaaaa"></path>
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#rect_pattern)"></rect>
 </svg>

@@ -1,56 +1,82 @@
 <!DOCTYPE html>
-<html lang="{{lang}}" class="scroll-smooth">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="{{meta_description}}">
-    <meta name="keywords" content="{{meta_keywords}}">
-    <meta name="theme-color" content="#cc0000">
-    <title>{{page_title}}</title>
+<html lang="{{ lang }}" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="{{ meta_description }}" />
+    <meta name="keywords" content="{{ meta_keywords }}" />
+    <meta name="theme-color" content="#cc0000" />
+    <title>{{ page_title }}</title>
 
     <!-- FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- FAVICONS -->
-    <link rel="apple-touch-icon" sizes="180x180" href="/dist/assets/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/dist/assets/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/dist/assets/favicons/favicon-16x16.png">
-    <link rel="manifest" href="/dist/assets/favicons/site.webmanifest">
-    <link rel="mask-icon" href="/dist/assets/favicons/safari-pinned-tab.svg" color="#cc0000">
-    <link rel="shortcut icon" href="/dist/assets/favicons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#2d89ef">
-    <meta name="msapplication-config" content="/dist/assets/favicons/browserconfig.xml">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/dist/assets/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/dist/assets/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/dist/assets/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/dist/assets/favicons/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="/dist/assets/favicons/safari-pinned-tab.svg"
+      color="#cc0000"
+    />
+    <link rel="shortcut icon" href="/dist/assets/favicons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#2d89ef" />
+    <meta
+      name="msapplication-config"
+      content="/dist/assets/favicons/browserconfig.xml"
+    />
 
     <!-- IMPORT ALPINE.JS -->
-    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script
+      defer
+      src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
 
     <!-- extra tippy tooltip for animations -->
-    <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale-subtle.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tippy.js@6/animations/scale-subtle.css"
+    />
 
-    {% block relative_imports %} {% endblock %}
+    {% block relative_imports %}{% endblock %}
+  </head>
 
-</head>
-
-<body class="relative bg-[#f5f5f5] font-poppins">
-    <img src="/dist/assets/bg_glass_custom.png" alt=""
-        class="fixed w-screen h-screen inset-0 opacity-60 -z-10 pointer-events-none">
+  <body class="relative bg-[#f5f5f5] font-poppins">
+    <img
+      src="/dist/assets/bg_glass_custom.png"
+      alt=""
+      class="pointer-events-none fixed inset-0 -z-10 h-screen w-screen opacity-40"
+    />
 
     {% include "header.jinja2" %}
-
-    {% block main %} {% endblock %}
-
+    {% block main %}{% endblock %}
     {% include "footer.jinja2" %}
 
     <!-- IMPORT TIPPY // production-->
     <script src="https://unpkg.com/@popperjs/core@2"></script>
     <script src="https://unpkg.com/tippy.js@6"></script>
-    {% block tippy_script %} {%endblock%}
-</body>
-
+    {% block tippy_script %}{% endblock %}
+  </body>
 </html>
