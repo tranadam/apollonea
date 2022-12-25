@@ -62,6 +62,18 @@ class Task():
             for step in pre_steps:
                 if len(step) == 0:
                     continue
+
+                # Set italic parts
+                open_tag = True
+                while True:
+                    if "*" not in step:
+                        break
+                    if open_tag:
+                        step = step.replace("*", "<i>", 1)
+                    elif not open_tag:
+                        step = step.replace("*", "</i>", 1)
+                    open_tag = not open_tag
+
                 steps.append(step[step.index(".")+1:].strip())
         return steps
 
