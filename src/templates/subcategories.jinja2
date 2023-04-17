@@ -1,8 +1,4 @@
 {% extends "base.jinja2" %}
-{% block relative_imports %}
-  <link rel="stylesheet" href="../../css/output.css" />
-  <link rel="stylesheet" href="../../css/extra.css" />
-{% endblock %}
 {% block main %}
   <main class="min-h-screen">
     <div class="mx-auto max-w-screen-xl px-4 py-8 md:px-12">
@@ -18,7 +14,7 @@
             class="group relative flex justify-center rounded-xl py-8 px-12 ring-inset ring-gray-400/30 transition-all duration-200 ease-in hover:bg-white/40 hover:shadow-[inset_0_2px_10px_rgba(0,0,0,0.05)] hover:ring-1"
           >
             <div class="transition-opacity duration-100 group-hover:opacity-0">
-              {{ task.svg }}
+              {{ task.get_svg() }}
             </div>
             <p
               class="absolute left-6 bottom-2 opacity-0 transition-all duration-300 ease-out group-hover:bottom-8 group-hover:opacity-100"

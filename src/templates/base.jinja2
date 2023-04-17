@@ -47,20 +47,18 @@
       name="msapplication-config"
       content="/dist/assets/favicons/browserconfig.xml"
     />
-
     <!-- IMPORT ALPINE.JS -->
     <script
       defer
       src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"
     ></script>
-
-    <!-- extra tippy tooltip for animations -->
+    <!-- Extra tippy tooltip for animations -->
     <link
       rel="stylesheet"
       href="https://unpkg.com/tippy.js@6/animations/scale-subtle.css"
     />
-
-    {% block relative_imports %}{% endblock %}
+    <link rel="stylesheet" href="/dist/css/output.css" />
+    <link rel="stylesheet" href="/dist/css/extra.css" />
   </head>
 
   <body class="relative bg-[#f5f5f5] font-poppins">
