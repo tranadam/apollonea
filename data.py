@@ -1,22 +1,61 @@
 import csv
 import unicodedata
+import re
 
+# Create a hyperlink to another task from variant name
+# @param variant - (string) name of the task
+# @param tasks - (dictionary) with all tasks
+# @param lang - language we want it in
+def get_path_from_variant(variant, tasks, lang):
+    for task_type, type_tasks in tasks.items():
+        for task in type_tasks:
+            if task.get_variant(lang) == variant:
+                return task.get_type(lang) + "/"+ task.get_path_name(lang)
+
+# Gather all information about each individual task
 class Task():
-    def __init__(self, type, subtype_cs, subtype_en, variant_cs, variant_en, solution_methods_cs, solution_methods_en, num_of_solutions, svg):
-        self.type = type
-        self.subtype_cs = subtype_cs
-        self.subtype_en = subtype_en
-        self.variant_cs = variant_cs
-        self.variant_en = variant_en
-        self.solution_methods_cs = solution_methods_cs
-        self.solution_methods_en = solution_methods_en
-        self.num_of_solutions = num_of_solutions
-        self.svg = svg
+    def __init__(self, type, variant_cs, variant_en, solution_methods_cs, solution_methods_en, num_of_solutions, svg, linecount):
+        self.correct_data = True
+        # Task type doesn't match the correct form
+        if not re.match(r"[bkp][bkp][bkp]", type):
+            print(f"Incorrect type: {type}. On line {linecount} in CSV file")
+            self.correct_data = False
+        else: self.type = type
+        # Czech variant is unset
+        if len(variant_cs) == 0:
+            print(f"Incorrect variant_cs: {variant_cs}. On line {linecount} in CSV file")
+            self.correct_data = False
+        else: self.variant_cs = variant_cs
+        # English variant es unset
+        if len(variant_en) == 0:
+            print(f"Incorrect variant_en: {variant_en}. On line {linecount} in CSV file")
+            self.correct_data = False
+        else: self.variant_en = variant_en
+        # Czech solution method is unset
+        if len(solution_methods_cs) == 0:
+            print(f"Incorrect solution_method_cs: {solution_methods_cs}. On line {linecount} in CSV file")
+            self.correct_data = False
+        else: self.solution_methods_cs = solution_methods_cs
+        # English solution method is unset
+        if len(solution_methods_en) == 0:
+            print(f"Incorrect solution_method_en: {solution_methods_en}. On line {linecount} in CSV file")
+            self.correct_data = False
+        else: self.solution_methods_en = solution_methods_en
+        # Number of solution is not an integer
+        if not num_of_solutions.isdigit():
+            print(f"Incorrect num_of_solutions: {num_of_solutions}. On line {linecount} in CSV file")
+            self.correct_data = False
+        else: self.num_of_solutions = num_of_solutions
+        if len(svg) == 0:
+            print(f"Incorrect svg: {svg}. On line {linecount} in CSV file")
+            self.correct_data = False
+        else: self.svg = svg
 
     def get_type(self, lang):
         if lang == "cs":
             return self.type
         elif lang == "en":
+            # Translate czech letters to english (Přímka -> Line)
             return self.type.replace("p", "l").replace("k", "c").replace("b", "p")
 
     def get_variant(self, lang):
@@ -34,13 +73,13 @@ class Task():
     def get_path_name(self, lang):
         variant = self.get_variant(lang)
 
-        # replace accent characters
+        # Replace accent characters
         path = unicodedata.normalize('NFD', variant).encode('ascii', 'ignore').decode("utf-8")
-        # replace unwanted characters
+        # Replace unwanted characters
         chars_to_remove = [",", ".", ";", "-", "_", "/", "\\"]
         for char in chars_to_remove:
             path = path.replace(char, "")
-        # replace spaces
+        # Replace spaces
         path = path.replace(" ", "-")
         path = path.lower()
         return path
@@ -51,10 +90,10 @@ class Task():
         elif lang =="en":
             return self.type.replace("b", "POINT ").replace("k", "CIRCLE ").replace("p", "LINE ").rstrip().replace(" ", " 🞄 ")
 
-    def get_construction_steps(self,file_name):
+    def get_construction_steps(self, file_name, tasks, lang):
         path_base = "src/task_data/"
         # text_file_path = path_base + self.type.upper() + "/" + file_name
-        text_file_path = "src/task_data/BPP/bpp_ruznobezky_bod_mimo_primky.txt" # correctly formated file as a placeholder
+        text_file_path = "src/task_data/BPP/bpp_ruznobezky_bod_mimo_primky.txt" # Correctly formated file as a placeholder
         with open(text_file_path, mode="r", encoding="utf-8") as file_steps:
             pre_steps = file_steps.read()
             pre_steps = pre_steps.split("\n")
@@ -65,28 +104,46 @@ class Task():
 
                 # Set italic parts
                 open_tag = True
-                while True:
-                    if "*" not in step:
-                        break
+                while "*" in step:
                     if open_tag:
                         step = step.replace("*", "<i>", 1)
                     elif not open_tag:
                         step = step.replace("*", "</i>", 1)
                     open_tag = not open_tag
 
-                steps.append(step[step.index(".")+1:].strip())
+                # Set lower indices
+                step = re.sub(r"(.+)_(.+)", r"\1<sub>\2</sub>", step)
+
+                # Set hyperlinks to other tasks
+                for hyper_variant in re.findall(r"\[(.+)\]", step):
+                    hyper_path = get_path_from_variant(hyper_variant, tasks, lang)
+                    step = re.sub(r"\[(.+\])", rf"<a href=../../{hyper_path} class='underline'>\1", step, 1)
+                step = step.replace("]", "</a>")
+
+                # Delete numbered lists
+                if step[0].isdigit():
+                    # Step starts with number, take string from first space
+                    step = step[step.index(" "):]
+
+                steps.append(step.strip())
         return steps
 
     def get_same_type_tasks(self, tasks, lang):
         same_type_tasks = tasks[self.type.lower()]
         result_data = []
         for task in same_type_tasks:
-            if task == self:
-                continue
-            result_data.append(task)
+            if task != self:
+                result_data.append(task)
         return result_data
 
+    def get_svg(self):
+        if len(self.svg) > 0:
+            return self.svg
+        # Set placeholder question mark
+        else:
+            return '<svg width=\"15\" height=\"23\" viewBox=\"0 0 15 23\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M9.24316 15.2471H5.03906C5.03906 14.3877 5.09766 13.6309 5.21484 12.9766C5.3418 12.3125 5.55664 11.7168 5.85938 11.1895C6.16211 10.6621 6.57227 10.1738 7.08984 9.72461C7.54883 9.34375 7.94434 8.97754 8.27637 8.62598C8.6084 8.27441 8.8623 7.91797 9.03809 7.55664C9.21387 7.19531 9.30176 6.80957 9.30176 6.39941C9.30176 5.8916 9.22852 5.47656 9.08203 5.1543C8.94531 4.83203 8.73535 4.59277 8.45215 4.43652C8.17871 4.27051 7.83203 4.1875 7.41211 4.1875C7.07031 4.1875 6.74805 4.27051 6.44531 4.43652C6.15234 4.60254 5.91309 4.86133 5.72754 5.21289C5.54199 5.55469 5.43945 6.00879 5.41992 6.5752H0.454102C0.483398 5.12012 0.805664 3.93848 1.4209 3.03027C2.0459 2.1123 2.87598 1.44336 3.91113 1.02344C4.95605 0.59375 6.12305 0.378906 7.41211 0.378906C8.83789 0.378906 10.0635 0.598633 11.0889 1.03809C12.1143 1.47754 12.9004 2.13184 13.4473 3.00098C13.9941 3.86035 14.2676 4.91992 14.2676 6.17969C14.2676 7.01953 14.1064 7.75195 13.7842 8.37695C13.4717 8.99219 13.0469 9.56836 12.5098 10.1055C11.9824 10.6328 11.3916 11.1992 10.7373 11.8047C10.1709 12.3027 9.78516 12.8105 9.58008 13.3281C9.375 13.8359 9.2627 14.4756 9.24316 15.2471ZM4.43848 19.7002C4.43848 18.9971 4.69238 18.4111 5.2002 17.9424C5.70801 17.4639 6.36719 17.2246 7.17773 17.2246C7.98828 17.2246 8.64746 17.4639 9.15527 17.9424C9.66309 18.4111 9.91699 18.9971 9.91699 19.7002C9.91699 20.4033 9.66309 20.9941 9.15527 21.4727C8.64746 21.9414 7.98828 22.1758 7.17773 22.1758C6.36719 22.1758 5.70801 21.9414 5.2002 21.4727C4.69238 20.9941 4.43848 20.4033 4.43848 19.7002Z\" fill=\"black\"/></svg>'
 
+# Merge multiple solution methods into one task
 def merge_tasks(task1, task2):
     task1.solution_methods_cs.extend(task2.solution_methods_cs)
     task1.solution_methods_en.extend(task2.solution_methods_en)
@@ -105,22 +162,23 @@ with open("src/tasks_data.csv", mode="r", encoding="utf-8") as data_file:
             continue
         elif linecount == 2:
             continue
-        type = "".join(sorted(row[0].lower()))
-        subtype_cs = row[1]
-        subtype_en = row[2]
-        variant_cs = row[3][0].upper() + row[3][1:].lower()
-        variant_en = row[4][0].upper() + row[4][1:].lower()
-        solution_methods_cs = [{"solution_name": row[5], "file_name": row[8] + ".txt"}]
-        solution_methods_en = [{"solution_name": row[6], "file_name": row[8] + "_en.txt"}]
-        num_of_solutions = row[7]
-        svg = row[9]
-        new_task = Task(type, subtype_cs, subtype_en, variant_cs, variant_en, solution_methods_cs, solution_methods_en, num_of_solutions, svg)
+        type = "".join(sorted(row[0].lower())) # Sort letters alphabetically to unify it
+        variant_cs = row[1][0].upper() + row[1][1:].lower() # Capital first letter
+        variant_en = row[2][0].upper() + row[2][1:].lower() # Capital first letter
+        solution_methods_cs = [{"solution_name": row[3], "file_name": row[6] + ".txt"}] # List in case there is mre methods
+        solution_methods_en = [{"solution_name": row[4], "file_name": row[6] + "_en.txt"}] # List in case there is mre methods
+        num_of_solutions = row[5]
+        svg = row[10]
+        new_task = Task(type, variant_cs, variant_en, solution_methods_cs, solution_methods_en, num_of_solutions, svg, linecount)
+        if new_task.correct_data == False: continue
         for i_task in tasks.get(type, []):
+            # If task with same name already exists, merge them (different solution method)
             if i_task.variant_cs == new_task.variant_cs:
                 merged_task = merge_tasks(i_task, new_task)
                 tasks[type].remove(i_task)
                 tasks[type] = tasks.get(type, []) + [merged_task]
                 break
+        # Execute if loop didn't encounter break statement
         else:
             tasks[type] = tasks.get(type, []) + [new_task]
 

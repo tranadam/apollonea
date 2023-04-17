@@ -5,19 +5,25 @@ import os
 import glob
 import json
 
+
+# Create enviroment for Jinja template rendering
 def makeEnv():
     file_loader = FileSystemLoader('src/templates')
     env = Environment(loader=file_loader)
     return env
 
-def get_translation(sections, lang):
+# Retrieve texts for a page in given language
+# @param pages - (array) names of pages
+# @param lang - (string) chosen language (cs/en)
+def get_translation(pages, lang):
     language = {}
-    for section in sections:
+    for section in pages:
         translation_path = glob.glob(f"src/translations/{section}_{lang}.json")[0]
         with open(translation_path, mode="r", encoding="utf-8") as file:
             language.update(json.load(file))
     return language
 
+# Generate HTML files for Categories/Landing page in all languages
 def render_categories():
     env = makeEnv()
     categories_template = env.get_template("categories.jinja2")
@@ -31,6 +37,7 @@ def render_categories():
         with open(f"{lang_path}/index.html", mode="w", encoding="utf-8") as file_output:
             file_output.write(output)
 
+# Generate HTML files for all subcategories in all languages
 def render_subcategories():
     env = makeEnv()
     subcategories_template = env.get_template("subcategories.jinja2")
@@ -40,6 +47,7 @@ def render_subcategories():
     for lang, lang_path in langs.items():
         translation = get_translation(["main"], lang)
         translation.update(langs)
+
         for type, type_tasks in tasks.items():
             output = subcategories_template.render(type_tasks=type_tasks, **translation)
             if not os.path.exists(f"{lang_path}/{type_tasks[0].get_type(lang)}"):
@@ -47,6 +55,7 @@ def render_subcategories():
             with open(f"{lang_path}/{type_tasks[0].get_type(lang)}/index.html", mode="w", encoding="utf-8") as file_output:
                 file_output.write(output)
 
+# Render HTML files for each individual task in all languages
 def render_tasks():
     env = makeEnv()
     tasks_template = env.get_template("task.jinja2")
@@ -68,9 +77,6 @@ def render_tasks():
 render_categories()
 render_subcategories()
 render_tasks()
-
-shutil.rmtree("dist/js")
-shutil.copytree("src/js", "dist/js")
 
 shutil.rmtree("dist/assets")
 shutil.copytree("src/assets", "dist/assets")
