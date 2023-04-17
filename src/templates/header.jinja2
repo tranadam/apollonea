@@ -16,20 +16,22 @@
         />
       </a>
       <a
+        class="group"
         href="/{{ en }}{{ '/' + type_tasks[0].get_type('en') if type_tasks is not undefined }}{{ '/' + task.get_type('en') + '/' + task.get_path_name('en') if task is not undefined }}"
       >
         <img
-          class="w-10 active:opacity-80"
+          class="w-10 transition-transform active:opacity-80 group-focus-within:scale-105 group-hover:scale-105"
           src="/dist/assets/united-states.svg"
           alt="EN"
         />
       </a>
     {% elif lang == "en" %}
       <a
+        class="group"
         href="/{{ cs }}{{ '/' + type_tasks[0].get_type('cs') if type_tasks is not undefined }}{{ '/' + task.get_type('cs') + '/' + task.get_path_name('cs') if task is not undefined }}"
       >
         <img
-          class="w-10 active:opacity-80"
+          class="w-10 transition-transform active:opacity-80 group-focus-within:scale-105 group-hover:scale-105"
           src="/dist/assets/czech-republic.svg"
           alt="CS"
         />
