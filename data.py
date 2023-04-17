@@ -48,7 +48,8 @@ class Task():
         else: self.num_of_solutions = num_of_solutions
         if len(svg) == 0:
             print(f"Incorrect svg: {svg}. On line {linecount} in CSV file")
-            self.correct_data = False
+            self.svg = ""
+            # self.correct_data = False
         else: self.svg = svg
 
     def get_type(self, lang):
@@ -92,40 +93,46 @@ class Task():
 
     def get_construction_steps(self, file_name, tasks, lang):
         path_base = "src/task_data/"
-        # text_file_path = path_base + self.type.upper() + "/" + file_name
-        text_file_path = "src/task_data/BPP/bpp_ruznobezky_bod_mimo_primky.txt" # Correctly formated file as a placeholder
-        with open(text_file_path, mode="r", encoding="utf-8") as file_steps:
-            pre_steps = file_steps.read()
-            pre_steps = pre_steps.split("\n")
-            steps = []
-            for step in pre_steps:
-                if len(step) == 0:
-                    continue
+        text_file_path = path_base + self.type.upper() + "/" + file_name
+        # text_file_path = "src/task_data/BPP/bpp_ruznobezky_bod_mimo_primky.txt" # Correctly formated file as a placeholder
+        try:
+            with open(text_file_path, mode="r", encoding="utf-8") as file_steps:
+                pre_steps = file_steps.read()
+                pre_steps = pre_steps.split("\n")
+                steps = []
+                for step in pre_steps:
+                    if len(step) == 0:
+                        continue
 
-                # Set italic parts
-                open_tag = True
-                while "*" in step:
-                    if open_tag:
-                        step = step.replace("*", "<i>", 1)
-                    elif not open_tag:
-                        step = step.replace("*", "</i>", 1)
-                    open_tag = not open_tag
+                    # Set lower indices
+                    # Doesn't start with a whitespace char or asterisk, then underscore, then until whitespace or asterisk
+                    # k_1 / B_a / C_123
+                    indices_regex = re.compile(r" ([^\*\s]+)_([^\*\s]+) ", re.VERBOSE)
+                    step = re.sub(indices_regex, r"\1<sub>\2</sub>", step)
+                    # Set italic parts
+                    open_tag = True
+                    while "*" in step:
+                        if open_tag:
+                            step = step.replace("*", "<i>", 1)
+                        elif not open_tag:
+                            step = step.replace("*", "</i>", 1)
+                        open_tag = not open_tag
 
-                # Set lower indices
-                step = re.sub(r"(.+)_(.+)", r"\1<sub>\2</sub>", step)
+                    # Set hyperlinks to other tasks
+                    for hyper_variant in re.findall(r"\[(.+)\]", step):
+                        hyper_path = get_path_from_variant(hyper_variant, tasks, lang)
+                        step = re.sub(r"\[(.+\])", rf"<a href=../../{hyper_path} class='underline'>\1", step, 1)
+                    step = step.replace("]", "</a>")
 
-                # Set hyperlinks to other tasks
-                for hyper_variant in re.findall(r"\[(.+)\]", step):
-                    hyper_path = get_path_from_variant(hyper_variant, tasks, lang)
-                    step = re.sub(r"\[(.+\])", rf"<a href=../../{hyper_path} class='underline'>\1", step, 1)
-                step = step.replace("]", "</a>")
+                    # Delete numbered lists
+                    if step[0].isdigit():
+                        # Step starts with number, take string from first space
+                        step = step[step.index(" "):]
 
-                # Delete numbered lists
-                if step[0].isdigit():
-                    # Step starts with number, take string from first space
-                    step = step[step.index(" "):]
-
-                steps.append(step.strip())
+                    steps.append(step.strip())
+        except:
+            print(f"Missing file with steps - {self.get_variant('cs')}")
+            steps = ["Chybí postup"]
         return steps
 
     def get_same_type_tasks(self, tasks, lang):
@@ -164,8 +171,11 @@ with open("src/tasks_data.csv", mode="r", encoding="utf-8") as data_file:
             continue
         type = "".join(sorted(row[0].lower())) # Sort letters alphabetically to unify it
         variant_cs = row[1][0].upper() + row[1][1:].lower() # Capital first letter
-        variant_en = row[2][0].upper() + row[2][1:].lower() # Capital first letter
+        if len(row[2]) != 0:
+            variant_en = row[2][0].upper() + row[2][1:].lower() # Capital first letter
+        else: variant_en = "Chybí anglický název - " + variant_cs
         solution_methods_cs = [{"solution_name": row[3], "file_name": row[6] + ".txt"}] # List in case there is mre methods
+        if row[4] == "": row[4] = "Chybí anglická metoda"
         solution_methods_en = [{"solution_name": row[4], "file_name": row[6] + "_en.txt"}] # List in case there is mre methods
         num_of_solutions = row[5]
         svg = row[10]
