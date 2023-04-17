@@ -23,6 +23,15 @@ def get_translation(pages, lang):
             language.update(json.load(file))
     return language
 
+# Generate redirect page
+def render_redirect():
+    env = makeEnv()
+    redirect_template = env.get_template("redirect.jinja2")
+    translation = get_translation(["main"], "en")
+    output = redirect_template.render(**translation)
+    with open("dist/index.html", mode="w", encoding="utf-8") as file_output:
+        file_output.write(output)
+
 # Generate HTML files for Categories/Landing page in all languages
 def render_categories():
     env = makeEnv()
@@ -31,6 +40,8 @@ def render_categories():
     langs = {"cs": "dist/cs", "en":"dist/en"}
 
     for lang, lang_path in langs.items():
+        if not os.path.exists(lang_path):
+            os.makedirs(lang_path)
         translation = get_translation(["main", "categories"], lang)
         translation.update(langs)
         output = categories_template.render(**translation)
@@ -74,6 +85,7 @@ def render_tasks():
                 with open(f"{lang_path}/{task.get_type(lang)}/{task.get_path_name(lang)}/index.html", mode="w", encoding="utf-8") as file_output:
                     file_output.write(output)
 
+render_redirect()
 render_categories()
 render_subcategories()
 render_tasks()

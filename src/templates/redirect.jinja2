@@ -1,0 +1,17 @@
+{% extends "base.jinja2" %}
+{% block head %}
+  <script>
+    let preferredLang = navigator.language || navigator.userLanguage;
+    if (preferredLang === "cs") {
+      location.href = "/cs";
+    } else {
+      location.href = "/en";
+    }
+  </script>
+{% endblock %}
+{% block main %}
+  <div class="my-28 flex flex-col gap-y-2 text-center">
+    <a class="underline" href="/cs">Česká verze</a>
+    <a class="underline" href="/en">English version</a>
+  </div>
+{% endblock %}
