@@ -87,9 +87,9 @@ class Task():
 
     def get_full_type(self, lang):
         if lang == "cs":
-            return self.type.replace("b", "BOD ").replace("k", "KRUŽNICE ").replace("p", "PŘÍMKA ").rstrip().replace(" ", " 🞄 ")
+            return self.type.replace("b", "BOD ").replace("k", "KRUŽNICE ").replace("p", "PŘÍMKA ").rstrip().replace(" ", " • ")
         elif lang =="en":
-            return self.type.replace("b", "POINT ").replace("k", "CIRCLE ").replace("p", "LINE ").rstrip().replace(" ", " 🞄 ")
+            return self.type.replace("b", "POINT ").replace("k", "CIRCLE ").replace("p", "LINE ").rstrip().replace(" ", " • ")
 
     def get_construction_steps(self, file_name, tasks, lang):
         path_base = "src/task_data/"
