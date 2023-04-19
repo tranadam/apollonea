@@ -1,0 +1,40 @@
+JMÉNO SOUBORŮ
+bez diakritiky, mezer a speciálních znaků
+místo mezer podtržítka (_)
+anglické soubory se jmenují stejně, akorát je na konci "_en.txt"
+správně -> bbp_body_na_stejne_polorovine.txt
+špatně -> Apolloniovy úlohy BBB.txt
+
+OBSAH SOBOURU S POSTUPEM
+je bez gramatických chyb a překlepů, dvojtých mezer atd.
+v souboru není NIC, kromě samotného postupu - informace o úloze se píšou pouze do sdíleného excel souboru
+na každý řádek je jeden krok
+žádné prázdné řádky
+řádek začíná buď číslováním 1) / 2) / 3) nebo 1. / 2. / 3. a poté velkým písmenem nebo hned bez bodů začátkem věty a velkým písmenem
+každý bod končí tečkou
+to, co je napsané mezi *hvězdičkami* se přemění v kurzívu
+kurzívou se píšou jména bodů/přímek/kružnic...
+to, co je napsané mezi za podtržítkem se promění ve spodní index - například p_1
+
+
+SPRÁVNĚ ->
+
+1. Narýsujeme osu úhlu *i* svíraného přímkami ze zadání. Na této přímce musí ležet středy kružnic řešení.
+2. Narýsujeme kružnici *c* jejíž tečny jsou přímky ze zadání se středem na ose *i*. Tuto kružnici použijeme jako vzor pro stejnolehlost.
+3. Narýsujeme přímku k procházející průsečíkem přímek ze zadání a bodem *A*. Toto nám dá vzory tečných bodů do stejnolehlosti.
+4. Narýsujeme dvě přímky procházející středem kružnice *c* a průsečíky kružnice *c* s přímkou *k*.
+5. Nyní narýsujeme rovnoběžky k oběma přímkám z předchozího kroku které prochází bodem *A*. Tímto jsme zobrazili tyto přímky za pomocí stejnolehlosti a můžeme tak najít středy kružnic řešení.
+6. Průsečíky osy úhlu *i* a zobrazených přímek z minulého kroku jsou středy hledaných kružnic.
+7. Narýsujeme kružnice s nalezenými středy procházející bodem *A*.
+
+
+ŠPATNĚ MNOHO VĚCÍ ->
+
+PPP - přímka, přímka, přímka
+
+1 Webegin by constructing angle bisectors enclosed by the lines mentioned in the assignment
+
+2 Then we draw straight lines perpendicular to the assigned lines. The perpendiculars must meet with the intersections of the angle bisectors
+
+3 Afterwards, we construct circles with centres lying in the intersections of the angles’ segment bisectors. The point, where they touch the assigned
+line, should be the intersection of the assigned line and the perpendicular  to the said line
