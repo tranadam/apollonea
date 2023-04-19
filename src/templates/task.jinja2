@@ -52,7 +52,7 @@
               </button>
               <div x-show="isOpen" x-transition>
                 <div class="mb-2 flex items-center gap-x-1">
-                  <h3 class="font-playfair text-2xl font-semibold">
+                  <h3 class="font-playfair text-2xl font-medium">
                     {{ geogebra_construction }}
                   </h3>
                   <img
@@ -71,7 +71,7 @@
                   frameborder="0"
                 ></iframe>
 
-                <h3 class="mb-2 font-playfair text-2xl font-semibold">
+                <h3 class="mb-2 font-playfair text-2xl font-medium">
                   {{ postup }}
                 </h3>
                 <ol class="ml-5 flex list-decimal flex-col gap-y-2">
@@ -86,7 +86,7 @@
       </div>
       <aside class="relative mt-6 hidden w-1/4 md:block">
         <div class="sticky top-20">
-          <p class="mb-4 text-lg font-semibold">
+          <p class="mb-4 text-lg font-medium">
             {{ other_tasks }}
             - {{ task.get_type(lang)|upper }}
           </p>
