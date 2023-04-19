@@ -121,7 +121,7 @@ class Task():
                     # Set hyperlinks to other tasks
                     for hyper_variant in re.findall(r"\[(.+)\]", step):
                         hyper_path = get_path_from_variant(hyper_variant, tasks, lang)
-                        step = re.sub(r"\[(.+\])", rf"<a href=../../{hyper_path} class='underline'>\1", step, 1)
+                        step = re.sub(r"\[(.+\])", rf"<a href=../../{hyper_path} class='underline text-primary'>\1", step, 1)
                     step = step.replace("]", "</a>")
 
                     # Delete numbered lists

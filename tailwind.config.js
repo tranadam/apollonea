@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{jinja2,json}"],
+  content: ["./src/**/*.{jinja2,json}", "data.py"],
   theme: {
     fontFamily: {
       playfair: ["Playfair Display", "serif"],
