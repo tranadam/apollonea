@@ -2,12 +2,12 @@
 {% block main %}
   <main class="min-h-screen">
     <div
-      class="mx-auto flex max-w-screen-xl justify-between px-4 py-4 md:py-8 md:px-12"
+      class="mx-auto flex max-w-screen-2xl justify-between px-4 py-4 md:py-8 md:px-12"
     >
       <div class="w-full md:w-2/3">
         <a
           href="../"
-          class="mt-4 mb-0.5 flow-root w-max rounded-md bg-secondary px-2 py-1 text-sm active:opacity-80"
+          class="mt-4 mb-0.5 flow-root w-max rounded-sm bg-secondary px-2 py-1 text-sm active:opacity-80"
           >{{ task.get_full_type(lang) }}</a
         >
         <h1 class="relative mb-2 font-playfair text-3xl font-bold">
@@ -17,70 +17,72 @@
           {{ solution_number }}
           {{ task.num_of_solutions }}
         </p>
-        {% for alt_solution in task.get_solution_methods(lang) %}
-          <div class="mb-6" x-data="{isOpen: false}">
-            <button
-              x-on:click="isOpen = !isOpen"
-              class="mb-4 flex w-full items-center gap-x-3 rounded-xl bg-white/60 py-5 px-6 shadow-[inset_0_2px_10px_rgba(0,0,0,0.05)] ring-1 ring-inset ring-gray-400/30 transition-all duration-200 hover:gap-x-4 active:opacity-80"
-            >
-              <svg
-                class="transition duration-150"
-                x-bind:class="isOpen ? 'rotate-90' : 'rotate-0'"
-                width="19"
-                height="19"
-                viewBox="0 0 11 19"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
+        <div class="flex flex-col gap-y-4">
+          {% for alt_solution in task.get_solution_methods(lang) %}
+            <div class="flex flex-col gap-y-3" x-data="{isOpen: false}">
+              <button
+                x-on:click="isOpen = !isOpen"
+                class="flex w-full items-center gap-x-3 rounded-xl bg-white/60 py-5 px-6 shadow-[inset_0_2px_10px_rgba(0,0,0,0.05)] ring-1 ring-inset ring-gray-400/30 transition-all duration-200 hover:gap-x-4 active:opacity-80"
               >
-                <path
-                  d="M1 1L9.5 9.5L1 18"
-                  stroke="black"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-              <div>
-                <p class="text-left text-xs uppercase tracking-wide ">
-                  {{ solution_technique }}
-                </p>
-                <h2 class="text-left text-2xl font-medium">
-                  {{ alt_solution["solution_name"] }}
-                </h2>
-              </div>
-            </button>
-            <div x-show="isOpen" x-transition>
-              <div class="mb-2 flex items-center gap-x-1">
-                <h3 class="font-playfair text-2xl font-semibold">
-                  {{ geogebra_construction }}
-                </h3>
-                <img
-                  src="/assets/info.svg"
-                  tabindex="0"
-                  alt="info"
-                  class="mt-1 p-1"
-                  data-tippy-content="{{ construction_info }}"
-                />
-              </div>
-              <iframe
-                class="mb-4 w-full rounded-lg border border-black"
-                height="500px"
-                src="https://www.geogebra.org/calculator/kjn4huxb?embed"
-                allowfullscreen
-                frameborder="0"
-              ></iframe>
+                <svg
+                  class="transition duration-150"
+                  x-bind:class="isOpen ? 'rotate-90' : 'rotate-0'"
+                  width="19"
+                  height="19"
+                  viewBox="0 0 11 19"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M1 1L9.5 9.5L1 18"
+                    stroke="black"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <div>
+                  <p class="text-left text-xs uppercase tracking-wide ">
+                    {{ solution_technique }}
+                  </p>
+                  <h2 class="text-left text-2xl font-medium">
+                    {{ alt_solution["solution_name"] }}
+                  </h2>
+                </div>
+              </button>
+              <div x-show="isOpen" x-transition>
+                <div class="mb-2 flex items-center gap-x-1">
+                  <h3 class="font-playfair text-2xl font-semibold">
+                    {{ geogebra_construction }}
+                  </h3>
+                  <img
+                    src="/assets/info.svg"
+                    tabindex="0"
+                    alt="info"
+                    class="mt-1 p-1"
+                    data-tippy-content="{{ construction_info }}"
+                  />
+                </div>
+                <iframe
+                  class="mb-4 w-full rounded-lg border border-black"
+                  height="500px"
+                  src="https://www.geogebra.org/calculator/kjn4huxb?embed"
+                  allowfullscreen
+                  frameborder="0"
+                ></iframe>
 
-              <h3 class="mb-2 font-playfair text-2xl font-semibold">
-                {{ postup }}
-              </h3>
-              <ol class="ml-5 flex list-decimal flex-col gap-y-2">
-                {% for step in task.get_construction_steps(alt_solution["file_name"], tasks, lang) %}
-                  <li>{{ step }}</li>
-                {% endfor %}
-              </ol>
+                <h3 class="mb-2 font-playfair text-2xl font-semibold">
+                  {{ postup }}
+                </h3>
+                <ol class="ml-5 flex list-decimal flex-col gap-y-2">
+                  {% for step in task.get_construction_steps(alt_solution["file_name"], tasks, lang) %}
+                    <li>{{ step }}</li>
+                  {% endfor %}
+                </ol>
+              </div>
             </div>
-          </div>
-        {% endfor %}
+          {% endfor %}
+        </div>
       </div>
       <aside class="relative mt-6 hidden w-1/4 md:block">
         <div class="sticky top-20">

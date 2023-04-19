@@ -15,7 +15,7 @@ module.exports = {
         secondary: "#fed7d7",
       },
       gridTemplateColumns: {
-        categories: "repeat(auto-fit, minmax(320px, 1fr))",
+        categories: "repeat(auto-fit, minmax(270px, 1fr))",
         subcategories: "repeat(auto-fit, minmax(250px, 1fr))",
       },
     },
