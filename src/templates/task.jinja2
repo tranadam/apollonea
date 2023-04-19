@@ -73,7 +73,7 @@
               <h3 class="mb-2 font-playfair text-2xl font-semibold">
                 {{ postup }}
               </h3>
-              <ol class="ml-5 flex list-decimal flex-col gap-y-1">
+              <ol class="ml-5 flex list-decimal flex-col gap-y-2">
                 {% for step in task.get_construction_steps(alt_solution["file_name"], tasks, lang) %}
                   <li>{{ step }}</li>
                 {% endfor %}
