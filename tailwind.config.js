@@ -7,6 +7,9 @@ module.exports = {
       poppins: ["Poppins", "sans-serif"],
     },
     extend: {
+      screens: {
+        "hover-none": { raw: "(hover: none)" },
+      },
       colors: {
         primary: "#cc0000",
         secondary: "#fed7d7",
