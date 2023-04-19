@@ -5,5 +5,9 @@
   "page_title": "Apolloniovy úlohy",
   "logo_path": "/assets/logo_cs.svg",
   "homepage_path": "/cs/",
-  "footer": "web nadesignoval a vytvořil"
+  "footer": {
+    "contact": "Najdete-li chybu, kontaktujte nás na mailu",
+    "origin": "Projekt zpracovali žáci gymnázia PORG pod vedením Mgr. Tomáše Fabiána",
+    "created": "Web nadesignoval a vytvořil"
+  }
 }

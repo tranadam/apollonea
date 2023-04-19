@@ -5,5 +5,9 @@
   "page_title": "Problem of Apollonius",
   "logo_path": "/assets/logo_en.svg",
   "homepage_path": "/en/",
-  "footer": "website designed and created by"
+  "footer": {
+    "contact": "In case you find any mistake, contact us at",
+    "origin": "This project was created by the students of PORG under the guidance of Mgr. Tomáš Fabián",
+    "created": "Web designed and developed by"
+  }
 }
