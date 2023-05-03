@@ -92,3 +92,6 @@ render_tasks()
 
 shutil.rmtree("dist/assets")
 shutil.copytree("src/assets", "dist/assets")
+
+shutil.rmtree("dist/task_data")
+shutil.copytree("src/task_data", "dist/task_data")
