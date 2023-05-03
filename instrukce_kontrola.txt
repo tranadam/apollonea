@@ -1,0 +1,58 @@
+momentální verze: apollonea.com
+-> viz jak se to formátuje a kde se co zobrazuje
+
+APOLLONIOVY ÚLOHY EXCEL
+1. uloha
+    * Tři písmena (b/p/k)
+    * Pro orientaci lepší capslockem a abecedně (BKP)
+2. varianta/varianta_en - zobrazuje se na webu jako název
+    * Srozumitelná, čtivá, lze se v tom orientovat
+    * Je-li více řešení k jedné úloze, musí být u všech doslovně stejná varianta
+    * Velké písmeno na začátku, bez tečky
+    * Jednoté formátování/stylizace? u všech variant - lze domluvit jaké
+3. metoda_reseni/metoda_reseni_en
+    * Velké písmeno na začátku, bez tečky
+    * Skrz web by měly být jednotné metody (nemělo by se stát, že bude "Dilatace" a někde "Metoda dilatace")
+4. pocet_reseni
+    * U každé úlohy je napsáno číslem počet řešení
+5. nazev_souboru
+    * Do písmene přesný název souboru bez koncovky (žádné .ggb/.txt)
+    * Více u PRÁCE SE SOUBORY
+6. zapsal česky/anglicky na webu
+    * Prostor pro sledování toho zda a kdo zkontroloval
+7. svg_ilustrace
+    * Pár lidí by mělo být vybráno pro to, aby vytvořili primitivní ilustrace ka každé variantě úlohy
+    * Dal bych další instrukce
+
+PRÁCE SE SOUBORY
+1. Pojmenovávání
+    -> bbp_body_na_stejne_polorovine.txt
+    * Bez diakritiky, mezer, speciálních znaků
+    * Místo mezer podtržítka
+    * Anglické se JMENUJÍ STEJNĚ, akorát mají na konci ještě "_en"
+    * Do Excelu psát pouze část bez _en a koncovky
+2. Obsah souboru
+    * V souboru není NIC, kromě samotného postupu - informace o úloze patří do Excelu
+    * Každý od-entrovaný řádek se bere jako jeden krok
+    * Řádek začíná buď číslováním 1) 2) 3) nebo 1. 2. 3. a poté velkým písmenem nebo hned bez bodů začátkem věty a velkým písmenem
+    * Bez gramatických chyb a přelepů, dvojitých mezer atd.
+    * Žádné prázdné řádky
+    * Každý bod končí tečkou
+    KURZÍVA -> *tohle se přemení v kurzívu*
+            -> měly by se tak psát všechny jména bodů/přímek/kružnic
+    SPODNÍ INDEX -> k_1, S_A
+                 ->(z 1 a A bude spodní index/cokoliv za podtržítkem, dokud nebude mezera)
+    ODKAZ NA JINOU ÚLOHU -> [Přesný název varianty z Excelu]
+                         -> Do hranatých závorek (alt gr + F; alt gr + g) dáte PŘESNOU variantu, na kterou chcete odkázat
+                         -> Prostě zkopírujte z Excelu, až tam budou finální varianty. Ještě se budou měnit
+3. GeoGebra soubor
+    * Jmenuje se stejně jako TXT soubor a je uložený ve stejný složce
+    * Náležitosti na konstrukci jsou v Excelu někde
+
+________Další výzvy
+
+1. SVG ilustrace
+2. GeoGebra soubory nahrát do jednoho GeoGebra účtu (speciálně pro Apolloneu) a vyrobit/překopírovat odkazy na embed
+3. Zkontrolovat všechny Excel věci v Excelu
+4. Zkontrolovat na webu postupy a že se všechno správně spojilo
+5. Anglické verze mega chybí
