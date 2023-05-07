@@ -42,7 +42,7 @@ class Task():
             self.correct_data = False
         else: self.solution_methods_en = solution_methods_en
         # Number of solution is not an integer
-        if not num_of_solutions.isdigit():
+        if not (num_of_solutions.isdigit() or num_of_solutions == "Nekonečno"):
             print(f"Incorrect num_of_solutions: {num_of_solutions}. On line {linecount} in CSV file")
             self.correct_data = False
         else: self.num_of_solutions = num_of_solutions
@@ -174,9 +174,9 @@ with open("src/tasks_data.csv", mode="r", encoding="utf-8") as data_file:
         if len(row[2]) != 0:
             variant_en = row[2][0].upper() + row[2][1:].lower() # Capital first letter
         else: variant_en = "Chybí anglický název - " + variant_cs
-        solution_methods_cs = [{"solution_name": row[3], "file_name": row[6] + ".txt"}] # List in case there is mre methods
+        solution_methods_cs = [{"solution_name": row[3], "file_name": row[6] + ".txt"}] # List in case there are more methods
         if row[4] == "": row[4] = "Chybí anglická metoda"
-        solution_methods_en = [{"solution_name": row[4], "file_name": row[6] + "_en.txt"}] # List in case there is mre methods
+        solution_methods_en = [{"solution_name": row[4], "file_name": row[6] + "_en.txt"}] # List in case there are more methods
         num_of_solutions = row[5]
         svg = row[10]
         new_task = Task(type, variant_cs, variant_en, solution_methods_cs, solution_methods_en, num_of_solutions, svg, linecount)
