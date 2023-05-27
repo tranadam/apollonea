@@ -6,7 +6,7 @@
         {% for task in task_types %}
           <a
             href="{{ task.anchor_tag }}"
-            class="group flex flex-col items-center justify-end gap-6 rounded-xl bg-white/50 px-4 py-8 shadow-[inset_0_2px_10px_rgba(0,0,0,0.05)] ring-1 ring-inset ring-gray-400/30 transition-all duration-200 ease-in hover:shadow-transparent focus-visible:shadow-transparent active:bg-white/30"
+            class="group flex flex-col items-center justify-end gap-6 rounded-xl bg-white/50 px-4 py-8 shadow-[inset_0_2px_10px_rgba(0,0,0,0.05)] ring-1 ring-inset ring-gray-400/30 transition-all duration-200 ease-in hover:bg-white/90 hover:shadow-[inset_0_2px_10px_rgba(0,0,0,0.02)] focus-visible:bg-white/90 focus-visible:shadow-[inset_0_2px_10px_rgba(0,0,0,0.02)] active:bg-white/30 active:shadow-transparent"
           >
             <div class="svg-illu-wrapper">
               {{ task.task_svg }}

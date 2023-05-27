@@ -16,7 +16,7 @@
           class="relative z-0 mx-auto flex w-fit justify-center overflow-hidden rounded-md bg-white ring-1 ring-inset ring-gray-400/30 transition-all hover:ring-gray-400/80"
         >
           <span
-            class="absolute top-1/2 z-10 h-full w-10 -translate-y-1/2 bg-primary transition-all"
+            class="absolute top-1/2 z-10 h-full w-10 -translate-y-1/2 bg-primary transition-all duration-200 ease-out"
             x-data="{illuWidth:$refs.illuBtn.clientWidth+'px', popisWidth:$refs.popisBtn.clientWidth+'px'}"
             x-init="$nextTick(()=>{
               illuWidth=$refs.illuBtn.clientWidth+'px';
@@ -46,7 +46,7 @@
         {% for task in type_tasks %}
           <a
             href="{{ task.get_path_name(lang) }}"
-            class="group relative flex min-h-[10em] justify-center rounded-xl bg-white/50 py-8 px-12 shadow-[inset_0_2px_10px_rgba(0,0,0,0.05)] ring-1 ring-inset ring-gray-400/30 transition-all duration-200 ease-in hover:bg-white/50 hover:shadow-[inset_0_2px_10px_rgba(0,0,0,0.05)] hover:shadow-transparent active:bg-white/30"
+            class="group relative flex min-h-[10em] justify-center rounded-xl bg-white/50 py-8 px-12 shadow-[inset_0_2px_10px_rgba(0,0,0,0.05)] ring-1 ring-inset ring-gray-400/30 transition-all duration-200 ease-in hover:bg-white/90 hover:shadow-[inset_0_2px_10px_rgba(0,0,0,0.02)] focus-visible:bg-white/90 focus-visible:shadow-[inset_0_2px_10px_rgba(0,0,0,0.02)] active:bg-white/30 active:shadow-transparent"
           >
             <div
               class="transition-opacity duration-100"
