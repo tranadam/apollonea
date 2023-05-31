@@ -17,6 +17,7 @@ kurzívou se píšou jména bodů/přímek/kružnic...
 to, co je napsané mezi za podtržítkem se promění ve spodní index - například p_1
 
 
+
 SPRÁVNĚ ->
 
 1. Narýsujeme osu úhlu *i* svíraného přímkami ze zadání. Na této přímce musí ležet středy kružnic řešení.
