@@ -30,7 +30,7 @@
             class="z-20 py-2 px-5 transition-all active:shadow-none"
             :class="mode === 'illu' ? 'text-white' : 'shadow-[inset_0_2px_10px_rgba(0,0,0,0.05)] hover:shadow-[inset_0_2px_10px_rgba(0,0,0,0.02)] focus-visible:shadow-[inset_0_2px_10px_rgba(0,0,0,0.02)]'"
           >
-            Ilustrace
+            {{ illustration }}
           </button>
           <button
             x-ref="popisBtn"
@@ -38,7 +38,7 @@
             class="z-20 py-2 px-5 transition-all active:shadow-none"
             :class="mode === 'popis' ? 'text-white' :'shadow-[inset_0_2px_10px_rgba(0,0,0,0.05)] hover:shadow-[inset_0_2px_10px_rgba(0,0,0,0.02)] focus-visible:shadow-[inset_0_2px_10px_rgba(0,0,0,0.02)]'"
           >
-            Popisek
+            {{ description }}
           </button>
         </div>
       </div>

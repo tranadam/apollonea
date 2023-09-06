@@ -56,7 +56,7 @@ def render_subcategories():
     langs = {"cs": "dist/cs", "en":"dist/en"}
 
     for lang, lang_path in langs.items():
-        translation = get_translation(["main"], lang)
+        translation = get_translation(["main","subcategories"], lang)
         translation.update(langs)
 
         for type, type_tasks in tasks.items():
