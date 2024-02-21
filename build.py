@@ -8,7 +8,7 @@ import json
 
 # Create enviroment for Jinja template rendering
 def makeEnv():
-    file_loader = FileSystemLoader('src/templates')
+    file_loader = FileSystemLoader('src/templates') # loading path for jinja files
     env = Environment(loader=file_loader)
     return env
 

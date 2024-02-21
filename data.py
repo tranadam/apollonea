@@ -14,19 +14,23 @@ def get_path_from_variant(variant, tasks, lang):
 
 # Gather all information about each individual task
 class Task():
-    def __init__(self, type, variant_cs, variant_en, solution_methods_cs, solution_methods_en, num_of_solutions, svg, linecount):
+
+    path_base = "src/task_data/"
+    path_folder = "/task_data/"
+
+    def __init__(self, task_type, variant_cs, variant_en, solution_methods_cs, solution_methods_en, num_of_solutions, svg, linecount):
         self.correct_data = True
-        # Task type doesn't match the correct form
-        if not re.match(r"[bkp][bkp][bkp]", type):
-            print(f"Incorrect type: {type}. On line {linecount} in CSV file")
+        # Task task_type doesn't match the correct form
+        if not re.match(r"[bkp][bkp][bkp]", task_type):
+            print(f"Incorrect task_type: {task_type}. On line {linecount} in CSV file")
             self.correct_data = False
-        else: self.type = type
+        else: self.task_type = task_type
         # Czech variant is unset
         if len(variant_cs) == 0:
             print(f"Incorrect variant_cs: {variant_cs}. On line {linecount} in CSV file")
             self.correct_data = False
         else: self.variant_cs = variant_cs
-        # English variant es unset
+        # English variant is unset
         if len(variant_en) == 0:
             print(f"Incorrect variant_en: {variant_en}. On line {linecount} in CSV file")
             self.correct_data = False
@@ -54,10 +58,10 @@ class Task():
 
     def get_type(self, lang):
         if lang == "cs":
-            return self.type
+            return self.task_type
         elif lang == "en":
             # Translate czech letters to english (Přímka -> Line)
-            return self.type.replace("p", "l").replace("k", "c").replace("b", "p")
+            return self.task_type.replace("p", "l").replace("k", "c").replace("b", "p")
 
     def get_variant(self, lang):
         if lang == "cs":
@@ -87,13 +91,19 @@ class Task():
 
     def get_full_type(self, lang):
         if lang == "cs":
-            return self.type.replace("b", "BOD ").replace("k", "KRUŽNICE ").replace("p", "PŘÍMKA ").rstrip().replace(" ", " • ")
+            return self.task_type.replace("b", "BOD ").replace("k", "KRUŽNICE ").replace("p", "PŘÍMKA ").rstrip().replace(" ", " • ")
         elif lang =="en":
-            return self.type.replace("b", "POINT ").replace("k", "CIRCLE ").replace("p", "LINE ").rstrip().replace(" ", " • ")
+            return self.task_type.replace("b", "POINT ").replace("k", "CIRCLE ").replace("p", "LINE ").rstrip().replace(" ", " • ")
+
+    def get_geogebra_file_path(self, file_name):
+        
+        ggb_file_name = file_name.replace(".txt",".ggb").replace("_en.ggb",".ggb")
+        return Task.path_folder + self.task_type.upper() + "/" + ggb_file_name
+
+
 
     def get_construction_steps(self, file_name, tasks, lang):
-        path_base = "src/task_data/"
-        text_file_path = path_base + self.type.upper() + "/" + file_name
+        text_file_path = Task.path_base + self.task_type.upper() + "/" + file_name
         # text_file_path = "src/task_data/BPP/bpp_ruznobezky_bod_mimo_primky.txt" # Correctly formated file as a placeholder
         try:
             with open(text_file_path, mode="r", encoding="utf-8") as file_steps:
@@ -136,7 +146,7 @@ class Task():
         return steps
 
     def get_same_type_tasks(self, tasks, lang):
-        same_type_tasks = tasks[self.type.lower()]
+        same_type_tasks = tasks[self.task_type.lower()]
         result_data = []
         for task in same_type_tasks:
             if task != self:
@@ -157,38 +167,50 @@ def merge_tasks(task1, task2):
     return task1
 
 
+
+# Opening tasks_data.csv file with task data - from the excel sheets
+
 tasks = {}
 with open("src/tasks_data.csv", mode="r", encoding="utf-8") as data_file:
     csv_reader = csv.reader(data_file, delimiter=";")
-    linecount = 0
 
+    header = csv_reader.next() # first row = header
+    csv_reader.next()          # second row = notes
+
+
+    linecount = 3      # starting row number (counting from 1)
     for row in csv_reader:
-        linecount += 1
-        if linecount == 1:
-            header = row
-            continue
-        elif linecount == 2:
-            continue
-        type = "".join(sorted(row[0].lower())) # Sort letters alphabetically to unify it
-        variant_cs = row[1][0].upper() + row[1][1:].lower() # Capital first letter
+        
+        task_type = "".join(sorted(row[0].lower())) # Sort letters alphabetically to unify it
+
+        variant_cs = row[1].capitalize() # Capital first letter
         if len(row[2]) != 0:
-            variant_en = row[2][0].upper() + row[2][1:].lower() # Capital first letter
-        else: variant_en = "Chybí anglický název - " + variant_cs
+            variant_en = row[2].title() # Capital first letter of each word (as in titles in English)
+        else: 
+            variant_en = "English Title Missing - " + variant_cs
+
         solution_methods_cs = [{"solution_name": row[3], "file_name": row[6] + ".txt"}] # List in case there are more methods
-        if row[4] == "": row[4] = "Chybí anglická metoda"
+        if row[4] == "": 
+            row[4] = "English method missing"
         solution_methods_en = [{"solution_name": row[4], "file_name": row[6] + "_en.txt"}] # List in case there are more methods
         num_of_solutions = row[5]
+
         svg = row[10]
-        new_task = Task(type, variant_cs, variant_en, solution_methods_cs, solution_methods_en, num_of_solutions, svg, linecount)
-        if new_task.correct_data == False: continue
-        for i_task in tasks.get(type, []):
-            # If task with same name already exists, merge them (different solution method)
-            if i_task.variant_cs == new_task.variant_cs:
-                merged_task = merge_tasks(i_task, new_task)
-                tasks[type].remove(i_task)
-                tasks[type] = tasks.get(type, []) + [merged_task]
-                break
-        # Execute if loop didn't encounter break statement
-        else:
-            tasks[type] = tasks.get(type, []) + [new_task]
+        new_task = Task(task_type, variant_cs, variant_en, solution_methods_cs, solution_methods_en, num_of_solutions, svg, linecount)
+
+        if new_task.correct_data: # if every piece of data is correct
+            merging = False
+            for i_task in tasks.get(task_type, []):
+                # If task with same name already exists, merge them (different solution method)
+                if i_task.variant_cs == new_task.variant_cs:
+                    merged_task = merge_tasks(i_task, new_task)
+                    tasks[task_type].remove(i_task)
+                    tasks[task_type] = tasks.get(task_type, []) + [merged_task]
+                    merging = True
+
+            # Execute if loop didn't encounter merging
+            if not merging:
+                tasks[task_type] = tasks.get(task_type, []) + [new_task]
+        
+        linecount += 1
 
