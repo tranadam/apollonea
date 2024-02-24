@@ -125,13 +125,15 @@
       </aside>
     </div>
   </main>
-  
+
+  <script src="https://www.geogebra.org/apps/deployggb.js"></script>
   <script>
     
     let elements = document.getElementsByClassName("ggb-element")
-    for (let i; i < elements.length; i++)
+    for (let i = 0; i < elements.length; i++)
     {
-      let params = 
+        console.log("looking through " + elements[i].id);
+        let params = 
         {
           "width": 800,
           "height": 600,
@@ -146,8 +148,11 @@
 
       window.addEventListener("load", function () {
         applet.inject(elements[i].id);
+        console.log("loading " + elements[i].id);
       });
+      
     }
+    console.log("finishing");
 
 
   </script>

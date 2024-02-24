@@ -46,6 +46,11 @@
       "heading": "KRUŽNICE • KRUŽNICE • PŘÍMKA"
     },
     {
+      "anchor_tag": "bbk",
+      "task_svg": "<svg width=\"158\" height=\"105\" viewBox=\"0 0 158 105\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"36.5\" cy=\"3.5\" r=\"3.5\" fill=\"black\" /><circle cx=\"119.5\" cy=\"66.5\" r=\"37\" stroke=\"black\" stroke-width=\"3\" /><circle cx=\"3.5\" cy=\"39.5\" r=\"3.5\" fill=\"black\" /><path class=\"[stroke-dasharray:255] [stroke-dashoffset:255] transition-all duration-1000 ease-out group-hover:[stroke-dashoffset:0] group-focus-visible:[stroke-dashoffset:0] hover-none:[stroke-dashoffset:0]\" d=\"M84.5 43C84.5 65.3675 66.3675 83.5 44 83.5C21.6325 83.5 3.5 65.3675 3.5 43C3.5 20.6325 21.6325 2.5 44 2.5C66.3675 2.5 84.5 20.6325 84.5 43Z\"stroke=\"#cc0000\" stroke-width=\"3\" /></svg>",
+      "heading": "BOD • BOD • KRUŽNICE"
+    },
+    {
       "anchor_tag": "bb",
       "task_svg": "<svg width=\"158\" height=\"105\" viewBox=\"0 0 158 105\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"36.5\" cy=\"3.5\" r=\"3.5\" fill=\"black\" /><circle cx=\"119.5\" cy=\"66.5\" r=\"37\" stroke=\"black\" stroke-width=\"3\" /><circle cx=\"3.5\" cy=\"39.5\" r=\"3.5\" fill=\"black\" /><path class=\"[stroke-dasharray:255] [stroke-dashoffset:255] transition-all duration-1000 ease-out group-hover:[stroke-dashoffset:0] group-focus-visible:[stroke-dashoffset:0] hover-none:[stroke-dashoffset:0]\" d=\"M84.5 43C84.5 65.3675 66.3675 83.5 44 83.5C21.6325 83.5 3.5 65.3675 3.5 43C3.5 20.6325 21.6325 2.5 44 2.5C66.3675 2.5 84.5 20.6325 84.5 43Z\"stroke=\"#cc0000\" stroke-width=\"3\" /></svg>",
       "heading": "BOD • BOD"
