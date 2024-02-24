@@ -85,13 +85,22 @@ def render_tasks():
                 with open(f"{lang_path}/{task.get_type(lang)}/{task.get_path_name(lang)}/index.html", mode="w", encoding="utf-8") as file_output:
                     file_output.write(output)
 
+if not (os.path.exists("dist")):
+    os.mkdir("dist")
+
 render_redirect()
 render_categories()
 render_subcategories()
 render_tasks()
 
-shutil.rmtree("dist/assets")
-shutil.copytree("src/assets", "dist/assets")
+assets_dist = "dist/assets"
+if os.path.exists(assets_dist) and os.path.isdir(assets_dist):
+    shutil.rmtree(assets_dist)
 
-shutil.rmtree("dist/task_data")
-shutil.copytree("src/task_data", "dist/task_data")
+shutil.copytree("src/assets", assets_dist)
+
+tasks_dist = "dist/task_data"
+if os.path.exists(tasks_dist) and os.path.isdir(tasks_dist):
+    shutil.rmtree(tasks_dist)
+
+shutil.copytree("src/task_data", tasks_dist)
