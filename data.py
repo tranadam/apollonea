@@ -174,13 +174,13 @@ tasks = {}
 with open("src/tasks_data.csv", mode="r", encoding="utf-8") as data_file:
     csv_reader = csv.reader(data_file, delimiter=";")
 
-    header = csv_reader.next() # first row = header
-    csv_reader.next()          # second row = notes
+    header = next(csv_reader) # first row = header
+    next(csv_reader)          # second row = notes
 
 
     linecount = 3      # starting row number (counting from 1)
     for row in csv_reader:
-        
+
         task_type = "".join(sorted(row[0].lower())) # Sort letters alphabetically to unify it
 
         variant_cs = row[1].capitalize() # Capital first letter
@@ -190,7 +190,7 @@ with open("src/tasks_data.csv", mode="r", encoding="utf-8") as data_file:
             variant_en = "English Title Missing - " + variant_cs
 
         solution_methods_cs = [{"solution_name": row[3], "file_name": row[6] + ".txt"}] # List in case there are more methods
-        if row[4] == "": 
+        if row[4] == "":
             row[4] = "English method missing"
         solution_methods_en = [{"solution_name": row[4], "file_name": row[6] + "_en.txt"}] # List in case there are more methods
         num_of_solutions = row[5]
@@ -211,6 +211,6 @@ with open("src/tasks_data.csv", mode="r", encoding="utf-8") as data_file:
             # Execute if loop didn't encounter merging
             if not merging:
                 tasks[task_type] = tasks.get(task_type, []) + [new_task]
-        
+
         linecount += 1
 
