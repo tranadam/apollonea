@@ -21,10 +21,11 @@ class Task():
     def __init__(self, task_type, variant_cs, variant_en, solution_methods_cs, solution_methods_en, num_of_solutions, svg, linecount):
         self.correct_data = True
         # Task task_type doesn't match the correct form
-        if not re.match(r"[bkp][bkp][bkp]", task_type):
-            print(f"Incorrect task_type: {task_type}. On line {linecount} in CSV file")
-            self.correct_data = False
-        else: self.task_type = task_type
+        #if not re.match(r"[bkp][bkp][bkp]", task_type):
+        #    print(f"Incorrect task_type: {task_type}. On line {linecount} in CSV file")
+        #    self.correct_data = False
+        #else:
+        self.task_type = task_type
         # Czech variant is unset
         if len(variant_cs) == 0:
             print(f"Incorrect variant_cs: {variant_cs}. On line {linecount} in CSV file")
@@ -182,7 +183,7 @@ with open("src/tasks_data.csv", mode="r", encoding="utf-8") as data_file:
     for row in csv_reader:
 
         task_type = "".join(sorted(row[0].lower())) # Sort letters alphabetically to unify it
-
+        print(task_type)
         variant_cs = row[1].capitalize() # Capital first letter
         if len(row[2]) != 0:
             variant_en = row[2].title() # Capital first letter of each word (as in titles in English)
