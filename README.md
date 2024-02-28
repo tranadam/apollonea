@@ -20,9 +20,17 @@ Next, build the Tailwind CSS with:
 npx tailwindcss -i src/scss/input.scss -o dist/css/output.css --watch
 ```
 
+`--watch` rebuilds the css as you change it during development.
+
 # Deployment
 
-Copy the `dist` folder to server:
+After building the website, copy the `dist` folder to server:
+
+```
+rsync -av --progress ./dist/ adam@178.18.251.189:/var/www/apollonea.com/www
+```
+
+or possibly with:
 
 ```
 scp -r ./dist adam@178.18.251.189:/var/www/apollonea.com/www
