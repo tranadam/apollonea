@@ -1,0 +1,2 @@
+1) Sestrojte osu úseèky AB a tuto pøímku pojmenujte S. Je to množina bodù všech øešení.
+2) Na pøímce S si urèete náhodný bod S_n a sestrojte kružnici k_n se støedem v bodì S_n a polomìrem S_nA.

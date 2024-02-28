@@ -1,0 +1,1 @@
+1. Narýsujeme kolmici na zadanou přímku, která prochází zadaným bodem. Na této kolmici budou ležet všechny body řešení kromě zadaného bodu A

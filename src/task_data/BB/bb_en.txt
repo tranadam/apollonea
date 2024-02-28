@@ -1,0 +1,2 @@
+1) Construct the axis of line AB and name this line S. It is the set of points of all solutions.
+2) Determine a random point S_n on the line S and construct a circle k_n centered at S_n and with radius S_nA.

@@ -1,0 +1,9 @@
+dvě různoběžné přímky a kružnice s jedním dotykem
+1. Mame zadané dvě přímky a kružnici
+1. Narýsujeme kolmice na zadané přímky procházející středem zadané kružnice a vyznačíme čtyři průsečíky.
+2. Narýsujeme čtyři přímky rovnoběžné na zadané přímky procházející průsečíky z minulého kroku. Vyznačíme si čtyři nové průsečíky těchto přímek.
+3. Narýsujeme osu úhlu mezi zadanými přímkami. Poté narýsujeme přímku procházející průsečíkem K a průsečíkem zadaných přímek. Vyznačíme si dva průsečíky této nové přímky se zadanou kružnicí. 
+4. Narýsujeme dvě přímky procházející průsečíky z minulého kroku. Vyznačíme si průsečíky (S1 a S2) těchto přímek s osou úhlu. 
+5. Narýsujeme dvě kružnice dané středem a bodem. Se středem v S1 a S2 a body O a N. Střed obou kružnic se nachází na stejné přímce z kroku 4.
+6. Narýsujeme si kolmici na osu úhlu zadaných přímek, která prochází průsečíkem zadaných přímek. Využijeme kolmici na zadanou přímku, která prochází středem zadané kružnice. Ta se protne s touto novou přímkou v bodeě S3. Narýsujeme kružnici se středem v S3 danou bodem B.
+7. Vyznačíme si průsečík kolmice na zadanou přímku, která prochází středem zadané kružnice, a osy úhlu zadaných přímek. Narýsujeme kružnici se středem v tomto bodě S4 a dabou bodem B. 

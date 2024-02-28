@@ -1,0 +1,6 @@
+1) choose point A as the center of a circular inversion, and choose the radius of the circle so that it passes through both given circles, then draw circle k
+2) display circles k_1 and k_2 in the circular inversion, circles k_1 and k_2 are created
+3) point C is the point of tangency of k_1' and k_2', construct line o from point C perpendicular to line k_2
+4) point F is the intersection of circle k_1 and the perpendicular line o
+5) construct line k_4' that is parallel to the line k_2 and passes through point F
+6) display line k_4' to its inverse image under the circular inversion with respect to circle k, that circle is the solution to the problem

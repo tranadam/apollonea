@@ -1,0 +1,4 @@
+1. Narýsujeme kružnici podle které budeme dělat kruhovou inverzi. Jako její střed zvolíme jeden z bodů ze zadání - *A* a jako poloměr zvolíme vzdálenost dvou zadaných bodů, tudíž úsečku *AB*.
+2. Zadanou kružnici zobrazíme pomocí kruhové inverze do nově narýsované kružnice. 
+3. Kruhovou inverzí získáme novou kružnici, ze které uděláme tečny, které procházejí bodem *B*.
+4. Uděláme kruhovou inverzi obou tečen v kružnici narýsované v prvním kroku. Dvě výsledné kružnice, *k1* a *k2* jsou i řešením problému.

@@ -1,0 +1,5 @@
+1) Narýsujeme přímku *k* spojující body *A* a *B* ze zadání. Průsečík přímky *k* a přímky *p* ze zadání označíme jako bod *D*.
+2) Narýsujeme osu úsečky *AB*, protože víme, že středy výsledných kružnic budou ležet ve stejné vzdálenosti od obou bodů, tedy na ose této úsečky. Průsečík přímky *k* a osy úsečky *AB* označíme jako bod *E*.
+3) Narýsujeme kružnici *c* se středem v bodě *A* (nebo *B*) s poloměrem o velikosti vzdálenosti bodů *E* a *D*. Průsečíky kružnice *c* a osy úsečky *AB* jsou středy výsledných kružnic, protože leží stejně daleko od obou bodů *A* a *B* a přímky *p*. 
+4) Narýsujeme středy výsledných kružnic *S_1* a *S_2* a samotné kružnice *k_1* a *k_2* o poloměru velikosti vzdálenosti bodů *E* a *D*.
+5) Zadání a řešení úlohy „Přímka a dva body, ležící na kolmici“. 

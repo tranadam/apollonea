@@ -1,0 +1,2 @@
+1) construct a line p that passes through the centres of both circles and through the point A, the tangent point of both circles is denoted by B
+2) find the centre S_3 of the line BA and from it draw a circle k_3 with radius S_3B

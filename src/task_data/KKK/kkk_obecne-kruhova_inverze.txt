@@ -1,0 +1,21 @@
+0) Máme tři různě velké kružnice *c*, *d* a *e*, které se navzájem neprotínají ani nedotýkají.
+*Dilatací si úlohu změníme na úlohu bod, kružnice, kružnice.* - Jak to udělat je popsáno v krocích 1 a 2.
+1) Narýsujeme si přímky procházející středy dvou větších kružnic. V místě průsečíku se zadanými přímkami se nachází střed kružnice o stejném poloměru jako je třetí nejmenší kružnice.
+2) Narýsujeme si kružnice se stejným středem jako mají kružnice zadané, jejich poloměr je ale menší o poloměr nejmenší kružnice.
+3) Narýsujeme si kružnici se středem v bodě vzniklém dilatací nejmenší kružnice s náhodným poloměrem.
+4) Do této kružnice si kruhovou inverzí zobrazíme dvě zmenšené kružnice.
+5) Najdeme tečny těchto dvou kružnic.
+6) Kruhovou inverzí přes tutéž kružnici uděláme z tečen kružnice, které se dotýkají zdilatovaných kružnic.
+7) Najdeme středy výsledných kružnic.
+8) Vyhodnotíme, které kružnice jsou doopravdovým řešením úlohy. Jejich středy jsou zbarveny červeně.
+9) Upravíme jejich poloměr pomocí dilatace tak, aby se dotýkaly původních zadaných přímek před jejich dilatací. Najdeme přímku procházející jejich středy a středem jedné ze zadaných kružnic. V místě průsečíku přímky a vybrané kružnice je střed kružnice o poloměru malé kružnice ze zadání.
+10) Výsledné kružnice *k_1* a *k_2*. Kružnice *k_1* má se všemi zadanými kružnicemi vnější dotyk, kružnice *k_2* má se všemi kružnicemi vnitřní dotyk.
+11-18) Opakujeme stejný postup jako v krocích 1-9. Kroky 7 a 8 jsou sjednoceny do kroku 17.
+19) Výsledné kružnice *k_3* a *k_4*. Kružnice *k_3* má s kružnicemi *c* a *e* vnitřní dotyk a s kružnicí *d* vnější dotyk, kružnice *k_4* má s kružnicemi *c* a *e* vnější dotyk a s kružnicí *d* vnitřní dotyk.
+20) Všechny prozatím nalezené výsledné kružnice: *k_1*, *k_2*, *k_3* a *k_4*.
+21-28) Opakujeme stejný postup jako v krocích 1-9. Kroky 7 a 8 jsou sjednoceny do kroku 27.
+29) Výsledné kružnice *k_5* a *k_6*. Kružnice *k_5* má s kružnicemi *d* a *e* vnější dotyk a s kružnicí *c* vnitřní dotyk, kružnice *k_6* má s kružnicemi *d* a *e* vnitřní dotyk a s kružnicí *c* vnější dotyk.
+30) Všechny prozatím nalezené výsledné kružnice: *k_1*, *k_2*, *k_3*, *k_4*, *k_5* a *k_6*.
+31-38) Opakujeme stejný postup jako v krocích 1-9. Kroky 7 a 8 jsou sjednoceny do kroku 37.
+39) Výsledné kružnice *k_7* a *k_8*. Kružnice *k_7* má s kružnicemi *c* a *d* vnitřní dotyk a s kružnicí *e* vnější dotyk, kružnice *k_8* má s kružnicemi *c* a *d* vnější dotyk a s kružnicí *e* vnitřní dotyk.
+40) Všechny výsledné kružnice: *k_1*, *k_2*, *k_3*, *k_4*, *k_5*, *k_6*, *k_7* a *k_8*.

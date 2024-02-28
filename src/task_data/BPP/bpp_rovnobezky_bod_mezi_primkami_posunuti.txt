@@ -1,0 +1,6 @@
+0. Řešíme pro 2 rovnoběžné přímky *p_1* a *p_2* a pro bod *A* mezi nimi
+1. Narýsujeme si přímku *s*, pro kterou platí |*s* *p_1*| = |*s* *p_2*|.
+2. Na přímce *s* narýsujeme bod *M* a sestrojíme kružnici *c* se středem v *M*, pro kterou jsou přímky *p_1* a *p_2* tečnami.
+3. Narýsujeme přímku *g*, která prochází bodem *A* a *g* || *p_1*.
+4. Průsečíky *A* a *g* pojmenujeme *Q_1* a *Q_2*.
+5. Narýsujeme kružnici *k_1*, která je posunutím kružnice *c* o vektor *Q_1 A*. Narýsujeme kružnici *k_2*, která je posunutím kružnice *c* o vektor *Q_2 A*. Tím jsme získali výsledné kružnice, jejichž středy jsou posunutím bodu *M* o dané vektory.

@@ -1,0 +1,5 @@
+1) Construct the segment bisector of the segment *CB*.
+2) Construct the segment bisector of the segment *AC*.
+3) Construct the segment bisector of the segment *AB*.
+4) Name the point of intersection of all three aforementioned bisectors *S*. This intersection is the center of the circle we are looking for.
+5) Construct a circle with the center *S* and the radius *SA*.

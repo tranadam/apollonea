@@ -1,0 +1,14 @@
+1) Draw a vertical *f* to the given line *p_2* so that it goes through the centre of the given circle (*E*). The points *G* and *J* are intersections of the vertical *f* and the given circle.
+2) Draw a vertical *g* to the given line *p_1* so that it goes through the centre of the given circle (*E*). The points *H* and *J* are intersections of the vertical *g* and the given circle.
+3) Draw 4 lines each of which goes through one of the intersections constructed in the previous steps. Each of these lines is vertical to the line *f* or the line *g* depending on to which one the intersection belongs.
+4) Name the intersections of the 4 lines *K*, *L*, *M* and *N*.
+5) Name the intersection of the given lines *O*.
+6) Draw a line *OL* and name it *l*.
+7) Name the intersections of the given circle and the line *l* *P* and *Q*.
+8) Draw the axes of the angles betwen the given lines.
+9) Draw a line *EP*. Name the intersection of the line *EP* and the axis of the angle *S_1*. *S_1* is the centre of one of the final circles.
+10) Draw a circle *k_1* the centre of which is the point *S_1* and which goes through the point *P*. *k_1* is one of the final circles.
+11) Draw a line *EQ*. Name the intersection of the line *EQ* and the axis of the angle *S_2*. *S_2* is the centre of the second final circle.
+12) Draw a circle *k_2* the centre of which is the point *S_2* and which goes through the point *Q*. *k_2* is the second final circle.
+
+Repeat the steps 6-12 with points the *M*, *N* and *K*. Each of these repetitions leads to two possible solutions.

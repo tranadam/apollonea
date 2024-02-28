@@ -1,0 +1,7 @@
+1) Draw the line *AB* and its axis, because the solution will lie at the same distance from both points. Where the axis intersects the line *p* from the problem, the centre of equilibrium will lie, call it *E*.
+2) Draw a circle *c* centered at any point on the axis of line *AB*, which is also tangent to line *p* from the problem. The tangent point on the line *p* lies on its perpendicular, which passes through the centre of the circle. This circle is a representation of the resulting circle in the equilateral plane.
+3) Draw the lines passing through the centre of the equidistance, i.e. the point *E*, and the points *A* and *B* from the problem. The intersections of these lines with the circle *c* are representations of points *A* and *B*. Let us call *F*, *G*, *H* and *I*.
+4) Draw lines through the center of the circle *c* and through the image of points *A* (that is, *F*, *G*) and *B* (*H* and *I*).
+5) From each of these lines, we draw a parallel line that passes through the corresponding point in the image, since we know that the identity preserves parallelism. The intersections of these parallel lines will be the centers of the resulting circles. 
+6) The intersections of these parallels are the centers of the two resultant circles.
+7) The resultant circles of the line, point, point problem solved using the equiangularity.

@@ -1,0 +1,6 @@
+
+1. We are given a point A inside the circle c.
+2. We draw a line f that passes through the center of the given circle c and point A.
+3. At the intersection of circle c and line f, we mark point D. Further, we mark point E at the midpoint of segment |AD|.
+4. We construct an ellipse e_1 with foccus at points A and the center of circle c, which also passes through point E.
+5. The result is a set of points that represent the centers of circles in the solution.

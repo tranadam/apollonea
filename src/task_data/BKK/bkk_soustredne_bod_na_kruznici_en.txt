@@ -1,0 +1,4 @@
+1. Construct a line intercepting points A and S
+2. Find its intersection with the circle, on which doesn´t lay the point A, and name them B and C
+3. Find the centers of the line segments AB and AC, those are the centres of the resulting circles and shall be named S1 and S2
+4. Construct the circle with its center in the point S1, which intercepts the point A and the circle with its center in the point S2, which also intercepts the point A. You should have two solutions.

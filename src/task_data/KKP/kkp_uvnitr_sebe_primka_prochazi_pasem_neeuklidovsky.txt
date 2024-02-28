@@ -1,0 +1,10 @@
+1 - 3) Protože můžeme na bod nahlížet jako na kružnici s nulovým poloměrem, musíme najít množinu bodů, které jsou stejně vzdálené od nějakého ohniska a nějaké řídící přímky.
+	Toto splňuje parabola. Protože ale máme kružnici a ne bod, musíme se zamyslet, co se stane.
+	kružnice se druhé kružnice a přímky může totiž dotýkat dvěma způsoby - jednou se kružnice dotýká zvenčí, podruhé zevnitř.
+	Toto nám vytváří dvě různé paraboly pro tyto dva případy.
+	Tyto paraboly mají řídící přímku posunutou buď k nebo od ohniska o poloměr kružnice podle toho, jestli chceme vnitřní nebo vnější dotyk.
+4) Protože máme dvě kružnice, zkostruujeme tedy čtyři rovnoběžky k zadané přímce f, dvě ve vzdálenosti poloměru kružnice d a každá z nich na druhou stranu od přímky f a dvě ve vzdálenosti poloměru kružnice c a každá z nich na druhou stranu od přímky f.
+5 - 6) Sestrojíme všechny čtyři paraboly. Dvě s ohniskem v bodě C, dvě s ohniskem v bodě A, přičemž každá z nich má jinou z rovnoběžek jako řídící přímku.
+7) Průsečíky parabol jsou námi hledané středy výsledných kružnic. Nazvěme je S1, S2, S3 a S4.
+8 - 9) Tečné body výsledných kružnic jsou průsečíky kružnice d a spojnice středů C a nalezených středů respektive. Nazvěme je T1, T2, T3 a T4.
+10) Sestrojíme výsledné kružnice k1, k2, k3 a k4 se středy v S1, S2, S3 a S4 a procházející body T1, T2, T3 a T4 respektive.

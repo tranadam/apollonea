@@ -1,0 +1,6 @@
+1) Vytvoříme osy úhlů. Na nich budou ležet středy výsledných kružnic.
+2) Vytvoříme tečny kružnice, které budou rovnoběžné s přímkami ze zadání. Jednu z tečen nepotřebujeme.
+3) Vytvoříme dvě přímky, které procházejí průnikem přímek ze zadání a průnikem tečen.
+4) V místech, kde tyto přímky protínají zadanou kružnici, se nacházejí středy stejnolehlosti.
+5) Vytvoříme přímky, které procházejí ze středu zadané kružnice do středů stejnolehlosti. Na průsečících těchto přímek s osami úhlů leží středy výsledných kružnic. Pozor, přímka sice protíná obě osy, nicméně středy kružnic jsou pouze směrem od středu k bodu stejnolehlosti.
+6) Narýsujeme kružnice ze středů nalezených v předchozím kroku, jejichž poloměr bude mít vzdálenost od středu kružnic do středů stejnolehlosti.

@@ -1,0 +1,9 @@
+1. Draw the axis of the parallel lines *i*
+2. Draw an auxiliary circle with the same distance as between the two parallels
+3. Draw a parallel *j* that intersects the centre of the given circle
+4. Take the circle from the second step into the compass and draw a circle *b* centered at point *A* while keeping the size of the previously sampled circle.
+5. Take the given circle a in the compass. Transfer it to the intersection of *B* and name the circle *c*. (Intersection of circle *b* and axis *j*)
+6. Draw a circle d of size *r* = |AC|. (*C* is the intersection of circle *c* with the axis *j*)
+7. The intersections of circle *d* and the axis of the parallel lines are the centers of two of the three resulting circles.
+8. Draw a perpendicular line *l* to the parallel lines that intersects the center of the given circle *a*.
+9. The intersection of the perpendicular *l* and the axis of the parallels is the center of the third resulting circle.

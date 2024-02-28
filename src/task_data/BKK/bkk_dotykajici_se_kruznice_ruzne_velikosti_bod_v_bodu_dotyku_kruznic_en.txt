@@ -1,0 +1,3 @@
+1) Draw a line p_1 that passes through the centers of the two circles and through point A, The line p_1 is the set of points that are the centers of the circles that are solutions to the problem, the problem has infinitely many solutions
+2) To illustrate, we will show the universal solution. We determine a random point S_1 that lies on the line p_1 and draw a circle k_1 with center at S_1 and radius S_1A.
+3) The solution is any circle k_1 whose point lies on the line p_1.

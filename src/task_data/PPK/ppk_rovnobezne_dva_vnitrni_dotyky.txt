@@ -1,0 +1,7 @@
+1. Zadáním jsou dvě rovnoběžné přímky a kružnice, která se obou přímek dotýká. 
+2. Narýsujeme osu *i* zadaných rovnoběžek.
+3. Narýsujeme kružnici *d* se středem v prvním průsečíku zadané kružnice s osou rovnoběžek *i*.
+4. Průsečík kružnice *d* a osy rovnoběžek *i* je středem první výsledné kružnice.
+5. Narýsujeme kružnici *k* se středem v druhém průsečíku zadané kružnice s osou rovnoběžek *i*.
+6. Průsečík kružnice *k* a osy rovnoběžek *i* je středem druhé výsledné kružnice.
+7. Máme 2 výsledné kružnice.

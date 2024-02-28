@@ -1,0 +1,5 @@
+1. Narýsujeme kružnici se středem v bodě *A* ze zadání dle které budeme dělat kruhovou inverzi.
+2. Všechny objekty v zadání invertujeme dle kružnice kruhové inverze z kroku 1. Bod *A* nám takto odchází do nekonečna.
+3. Narýsujeme společné tečny zobrazených kružnic. Bodem prochází v nekonečnu.
+4. Tečny z kroku 3 invertujeme dle kružnice kruhové inverze z kroku 1.
+5. Máme 4 řešení.

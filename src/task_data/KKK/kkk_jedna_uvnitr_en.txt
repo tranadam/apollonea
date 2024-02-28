@@ -1,0 +1,7 @@
+0) There are circles *c*, *d* and *e*, the circle *c* lies in the circle *d*.
+1) Draw hyperbolas *g* and *q*, the centres of the circles lie on them and the circles touch circles *c* and *e*.
+2) Draw ellipses *p* and *t*, the centres of the circles lie on them and the circles touch circles *c* a *d*.
+3) Find points of intersection of hyperbolas and ellipses.
+4) Draw lines which connect the points of intersection and the centres of the assigned circles.
+5) Draw the final circles with centres at the intersections of hyperbolas and ellipses, they touch the circles in their intersections with the connecting lines from step 4.
+	*the individual circles apply according to the mutual position of the circles*

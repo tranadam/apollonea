@@ -1,0 +1,3 @@
+1) draw a line between points A and C, name its intersection with the circle c as point D, and name the centre of the resulting line DC E
+3) draw a hyperbola with foccus at points A and C and passing through point E
+4) the centres of all the resulting circles lie on this hyperbola

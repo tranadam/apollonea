@@ -1,0 +1,5 @@
+1) Sestrojíme osu úsečky *CB*.
+2) Sestrojíme osu úsečky *AC*.
+3) Sestrojíme osu úsečky *AB*.
+4) V průsečíku os vytvoříme bod *S*. Tento bod je středem námi hledané kružnice.
+5) Sestrojíme kružnici se středem *S* a poloměrem *SA*.

@@ -1,0 +1,4 @@
+1) Choose the circle for a circular inversion: the center of this circle is one of the specified points from the assignment. The circle's radius is chosen in a way that another of the specified points lies on the circle and is therefore a fixed point. However, this is not strictly necessary.
+2) In a circular inversion, point *A* is displayed to infinity, point *B* is fixed, point *C* is displayed to *C'*.
+3) The projection of the solution in the circular inversion is the line *p* passing through the projection of all three points (the projection of the point *A* is at infinity).
+4) We project the line *p* in the circular inversion. Its image is the desired circle *k*.

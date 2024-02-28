@@ -1,0 +1,7 @@
+1. Narýsujeme kolmici na zadané přímky procházející středem zadané kružnice.
+2. Narýsujeme kolmici na přímku, kterou jsme narýsovali v předchozím kroku, uprostřed mezi rovnoběžkami ze zadání. Na této přímce musí ležet středy všech možných řešení.
+3. Narýsujeme kružinici se stejným středem jako zadání a s poloměrem menším o polovinu vzdálenosti mezi zadanými přímkami (*DG*) než kružnice v zadání. Pro toto můžeme využít kolmice z kroku 1.
+4. Narýsujeme průsečíky přímky z kroku 2 a kružnice z kroku 3. To jsou první dva středy řešení.
+5. Narýsujeme kružnici se stejným středem jako zadání a s poloměrem větším o polovinu vzdálenosti mezi zadanými přímkami (*DG*) než kružnice v zadání. Pro toto můžeme využít kolmice z kroku 1.
+6. Narýsujeme průsečíky přímky z kroku 2 a kružnice z kroku 5. To jsou druhé dva středy řešení.
+7. Z každého středu narýsujeme kružnici s poloměrem rovným polovině vzdálenosti mezi zadanými přímkami (*DG*). To jsou všechna řešení.

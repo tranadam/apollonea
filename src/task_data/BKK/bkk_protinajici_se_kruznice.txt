@@ -1,0 +1,6 @@
+0) Zadáním jsou kružnice *c* a *d*, které se navzájem protínají, a bod *A*.
+1) Narýsujeme kružnici *e* se středem v *A* tak, aby se uvnitř kružnice nacházely obě kružnice ze zadání a neměly s kružnicí *e* žádný průsečík.
+2) Zobrazíme kružnice *c* a *d* přes *e* pomocí kruhové inverze. Vzniknou kružnice *c'* a *d'*.
+3) Narýsujeme přímky *g* a *f*, které jsou tečnami kružnic *c'* a *d'*.
+4) Zobrazíme přímky *g* a *h* přes *e* pomocí kruhové inverze. Tím vzniknou kružnice *k_1* a *k_2*.
+5) Řešením jsou kružnice *k_1* a *k_2*.

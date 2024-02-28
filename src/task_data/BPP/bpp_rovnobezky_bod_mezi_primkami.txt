@@ -1,0 +1,4 @@
+1. Narýsujeme osu l rovnoběžnou s oběma přímkami, která bude od obou stejně vzdálená.
+2. Narýsujeme kružnici m se středem v bodě A a poloměrem o vzdálenosti mezi osou a jednou z přímek.
+3. Průsečíky kružnice m a osy l označíme S_1 a S_2.
+4. Nakonec se středy v průsečících narýsujeme kružnice k_1 a k_2 o poloměru |S_n A|.

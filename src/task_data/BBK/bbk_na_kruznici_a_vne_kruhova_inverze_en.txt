@@ -1,0 +1,4 @@
+1. Draw a circle centered at the outer point and passing through the second given point. We will make a circular inversion through it.
+2. Perform a circular inversion of the given circle. We don't need the given points, the one on the circle is self-interacting and the one at the center of the inverse circle is projected to infinity.
+3. Draw the tangent of the image of the given circle passing through the given point that lies on it. This line satisfies all the properties of the solution in the circular inverse. It is tangent to the circle, it passes through a point on it, and the third point is at infinity, where the line also intersects it.
+4. Perform the circular inversion of the resulting line. This is projected onto the circle, which is the solution.

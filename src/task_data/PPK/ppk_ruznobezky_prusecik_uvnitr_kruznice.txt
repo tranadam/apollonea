@@ -1,0 +1,14 @@
+1) Narýsujeme kolmici *f* na zadanou přímku *p_2* tak, aby procházela středem zadané kružnice (*E*). Body *G* a *J* jsou průsečíky kolmice *f* se zadanou kružnicí.
+2) Narýsujeme kolmici *g* na zadanou přímku *p_1* tak, aby procházela středem zadané kružnice (*E*). Body *H* a *I* jsou průsečíky kolmice *g* se zadanou kružnicí.
+3) Narýsujeme 4 přímky, kde každá z nich prochází jedním ze skonstruovaných průsečíků. Každá tato přímka je zároveň kolmá na přímku *f* nebo *g*, podle toho, na které z nich skonstruovaný průsečík leží.
+4) Průsečíky těchto 4 skonstruovaných přímek pojmenujeme *K*, *L*, *M* a *N*.
+5) Průsečík zadaných přímek pojmenujeme *O*.
+6) Sestrojíme přímku *OL* a pojmenujeme ji *l*.
+7) Průsečíky zadané kružnice a přímky *l* pojmenujeme *P* a *Q*.
+8) Sestrojíme osy úhlů mezi zadanými přímkami.
+9) Sestrojíme přímku *EP*. Průsečík přímky *EP* a osy úhlu pojmenujeme *S_1*. *S_1* je střed první kružnice řešení.
+10) Sestrojíme kružnici *k_1*, která má střed v bodě *S_1* a prochází bodem *P*. *k_1* je první kružnicí řešení.
+11) Sestrojíme přímku *EQ*. Průsečík přímky *EQ* a osy úhlu pojmenujeme *S_2*. *S_2* je střed druhé kružnice řešení.
+12) Sestrojíme kružnici *k_2*, která má střed v bodě *S_2* a prochází bodem *Q*. *k_2* je druhou kružnicí řešení.
+
+Kroky 6-12 opakujeme pro body *M*, *N* a *K*. Každé toto zopakování nám dá 2 kružnice řešení.

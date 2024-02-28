@@ -1,0 +1,4 @@
+1) We draw line g, perpendicular to line f passing through point A.
+2) We draw a line segment AB, at the center of which we draw point C.
+3) We also construct a perpendicular line to the line segment AB, passing through point C.
+4) At the intersection of lines i and g, point D, which is the center of circle k, is located. We draw circle k with the radius of DA.

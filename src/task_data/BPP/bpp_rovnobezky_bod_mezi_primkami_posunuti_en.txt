@@ -1,0 +1,6 @@
+0. We solve for 2 parallel lines *p_1* and *p_2* and for the point *A* between them
+1. Draw line s, for which |*s* *p_1*| = |*s* *p_2*|
+2. Draw point M on the line s and construct circle *c* at the point *M*, with *p_1*, and *p_2* as it's tangents.
+3. Construct line *g*, which intersects points *A* and *g* || *p_1*.
+4. Name the points of intersection *A* and *g* *Q_1* and *Q_2*.
+5. We draw the circle *k_1*, which is the displacement of the circle *c* by the vector *Q_1 A*. We draw a circle *k_2*, which is a displacement of the circle *c* by the vector *Q_2 A*. In this way, we have obtained the resulting circles, the centers of which are the displacement of the point *M* by the given vectors.

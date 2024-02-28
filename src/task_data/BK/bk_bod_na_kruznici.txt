@@ -1,0 +1,2 @@
+1) Sestrojíme přímku S, která prochází body A a B.
+2) Určíme si náhodný bod S_n, který leží na přímce S a sestrojíme kružnici k_n se středem v bodě S_n a poloměrem S_nA.

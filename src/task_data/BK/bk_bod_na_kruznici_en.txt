@@ -1,0 +1,2 @@
+1) Construct a line S that passes through points A and B.
+2) Determine a random point S_n that lies on the line S and construct a circle k_n centered at S_n with radius S_nA.

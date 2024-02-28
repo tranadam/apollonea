@@ -1,0 +1,8 @@
+
+1. Draw a line through the given point and through the centre of the given circle.
+2. Draw a random point on the line, a perpendicular to the given line passing through this point, and use it to draw a circle centered at a point tangent to the line.
+3. Draw the intersections of this circle with the line from step 1, and connect them with tangent points.
+4. Draw the parallel lines of these line segments passing through the given point.
+5. At the intersections of these parallels with the given line, draw perpendiculars to the given line. Label the intersections of these perpendiculars with the line from step 1. These are the centers of the solutions.
+6. Draw circles from these two points passing through the given point. These are the two solutions.
+

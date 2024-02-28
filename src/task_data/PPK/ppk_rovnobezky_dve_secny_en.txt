@@ -1,0 +1,7 @@
+1. Trace out a line perpendicular to the assigned line passing through the center of the assigned circle.
+2. Construct a line perpendicular to the line that we drew in the previous step, in the middle between the assigned parallel lines. The centers of all of the possible solutions must lie on this line.
+3. Draw a circle with the same center as the assignment and with a radius smaller by half the length of the distance in between the two assigned lines (*DG*). For this we can use the perpendicular from step 1.
+4. We can mark the intersections of the line from step 2 and the circle from step 3. These points are the first two centers of the solution.
+5. Draw a circle with the same center as in the assignment and with a radius equal to the assigned circle plus half the distance between the assigned lines (*DG*). For this we can use the perpendicular from step 1.
+6. Mark intersections from lines in step 2 and the cirle from step 5. These are 2 other centers of the solution.
+7. Construct a circle from each from each marked center of the solution, with a radius half the length of the distance between the assigned lines (*DG*). Those are all the solutions.

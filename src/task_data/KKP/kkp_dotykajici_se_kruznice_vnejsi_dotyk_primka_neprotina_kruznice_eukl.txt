@@ -1,0 +1,12 @@
+0) Zadáním jsou dvě kružnice se středy *C* a *E* s vnějším dotykem *D* a přímka, která nemá průsečík s těmito kružnicemi.
+1) Začneme kružnicí se středem v bodě *D* a libovolným poloměrem, např. |*DE*|. Ta poslouží jako osa kruhové inverze.
+2) Zobrazíme objekty ze zadání pomocí kruhové inverze přes kružnici z předchozího bodu. Zobrazené kružnice ze zadání budou rovnoběžné přímky *c'* a *e'* a přímka se zobrazí na kružnici *f'* se středem v bodě *S*.
+3) Narýsujeme tečny *m* a *l* kružnice *f'* rovnoběžné s přímkami *c'* a *e'*.
+4) Narýsujeme osu souměrnosti *n* rovnoběžných přímek *c'* a *e'* a průsečík *B* osy *n* a kolmice vedené z bodu *S* na přímku *c'*.
+5) Narýsujeme kružnici se středem v bodě *B* a poloměrem, který je součet poloměru kružnice *f'* a vzdálenosti |*Bc'*|.
+6) Průsečíky této kružnice s přímkou *n* jsou středy kružnic *o* a *p* s poloměrem jako |*Bc'*|.
+7) Narýsujeme kružnici se středem v bodě *B* a poloměrem, který je rozdíl poloměru kružnice *f'* a vzdálenosti |*Bc'*|.
+8) Průsečíky této kružnice s přímkou *n* jsou středy kružnic *q* a *r* s poloměrem jako |*Bc'*|.
+9) Následně zpátky zobrazíme pomocí kruhové inverze přes stejnou kružnici kružnice *o*, *p*, *q*,*r*. Tyto kružnice se dotýkají všech invertovaných objektů *c'*, *e'*, *f'*.
+10) Následně zpátky zobrazíme pomocí kruhové inverze přes stejnou kružnici přímky *m*, *l*. Tyto přímky se dotýkají všech invertovaných objektů *c'*, *e'*, *f'*.
+11) Máme všech 6 řešení úlohy.

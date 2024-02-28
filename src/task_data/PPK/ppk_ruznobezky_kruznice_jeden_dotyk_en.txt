@@ -1,0 +1,8 @@
+1. We have two divergent lines and a circle with one point of touch
+2. We draw perpendicular lines on a assigned straight line passing through the center of a assigned circle and mark four points of intersection.
+3. We draw four parallel lines to the assigned lines going through points of intersection from the previous step. We mark four new points of intersection of these lines.
+4. We draw an angle bisector between the assigned lines. Then we draw a line going through point of intersection K and point of intersection of the assigned lines. We mark two points of intersection for these new lines with the assigned circle.
+5. We draw two lines going through points of intersection from the previous step. We mark the points of intersection (S1 and S2) of these lines with the angle bisector.
+6. We draw two circles defined by a centre and a point. With the centre in points S1 and S2 and points in O and N. Centres of both circles are located on the same line as in step 4.
+7. We draw a perpendicular line on the angle bisector of the assigned lines which is passing through the point of intersection of the assigned lines. We use the perpendicular line to the assigned line that passes through the center of the assigned circle. It will intersect this new line at point S3. We draw a circle with centre S3 defined by point B.
+8. We draw the intersection of the perpendicular to the assigned line, which passes through the centre of the assigned circle, and the angle bisector of the assigned lines. We draw the circle centred at point S4 and defined by point B. 

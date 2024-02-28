@@ -1,0 +1,8 @@
+0) Three circles named *c*, *d* and *e* which are not touching nor intersecting.
+1) We construct the hyperbolas *k* and *p*, whose focuses are the centers of the circles *c* and *d*.
+2) We construct the hyperbolas *q* and *r*, whose focuses are the centers of the circles *c* and *e*.
+3) We construct the hyperbolas *s* and *t*, whose focuses are the centers of the circles *d* and *e*.
+4) We find the intersections of the hyperbolas. Those points will be the centers of the circles.
+5) We find the tangent points of the final circles with the circles *c*, *d* and *e*. We do it by finding the line which passes through the intersection of the hyperbolas and the center of one of the assigned circles.
+   In the intersection of this line and the assigned circles lies the tangent point of the final circle with the assigned line.
+6) Construct the circles *k_1* - *k_8*.

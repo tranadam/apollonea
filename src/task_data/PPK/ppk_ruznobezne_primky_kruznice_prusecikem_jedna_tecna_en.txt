@@ -1,0 +1,15 @@
+0. To construct the solution we will use the homogenous dilation, in which the solution is shown into the assigned circle. The points where the assigned circle and the circle from the solution meet are the center of the homogenous
+dilation. The assigned lines are the tangents of the circle from the solution, which is why they will be shown as the tangents in the homogenous dilation. The point of intersection of the lines will be shown into the point of
+intersection. The center of the homogenous dilation, which also is the tangent point of the circles has to be on the connecting line of these intersections. That way we can find the tangent point.
+1. At first we will display the assigned lines, which are displayed as the tangents of the assignedcircle. Homogenous dilation preserves the lines being parallel.
+2. At first we will display the assigned lines, which are displayed as the tangents of the assignedcircle. Homogenous dilation preserves the lines being parallel.
+3. The tangential point has to be on the connecting line of intersection of the assigned lines and its image.
+4. The tangential point is also the center of the homogenous dilation. It has to be on the same line as the center of the assigned circle and the center of the circle from the solution.
+5. The center fo the circle from the solution also has to be on the angle bisector of the assigned lines.
+6. We will repeat the entire previous process once more. One of the lines will be shown on the opposite side of the assigned circle.
+7. We will repeat the entire previous process once more. One of the lines will be shown on the opposite side of the assigned circle.
+8. The second tangent point is at the line of intersection of the lines and the intersection of their images.
+9. The tangent point is also the center of the homogenous dilation. It has to be on the same line as the center of the assigned circle and the center of the circle from the solution.
+10. The center of the circle from the solution also has to be on the angle bisector of the assigned lines.
+11. We have the centers of both of the circles from the solution. The radius of the circles is given by the distance to the tangent points.
+12. The exercise has two solutions.

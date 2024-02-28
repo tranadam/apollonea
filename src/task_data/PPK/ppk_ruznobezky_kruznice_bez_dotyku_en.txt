@@ -1,0 +1,9 @@
+two divergent lines and a cricle without contact
+
+1. We draw a perpendicular line to the assigned straight lines that are going through the assigned circles and we mark the four points of intersection.
+2. We draw four straight lines parallel to the assigned straight lines that are going through the points of intersection from the previous step.
+3. We mark the four new points of intersections of these straight lines and we draw the angle bisector of between the assigned straight lines.
+4. We draw two straight lines that are going through the point of intersection of the assigned straight lines and the points of intersection L and N. We mark the points of intersection of these new straight lines with the assigned circle.
+5. We draw straight lines taht are going through the centre of the assigned circle and one of these new points of intersection. We repeat this for each of the four points of intersection.
+6. We mark the points of intersection of these new straight lines with the angle bisector of the assigned straight lines.
+7. We draw a circle defined by a point and a centre. The centre is located in the points of intersections from the previous step. As a point serve the points of intersection on the circle from step 5. The point and centre of each of the four circles is located on the same straight line from step 6.

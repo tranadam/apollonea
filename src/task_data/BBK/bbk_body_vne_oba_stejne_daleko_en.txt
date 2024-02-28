@@ -1,0 +1,3 @@
+1) Draw segment bisector of the line AB. The centers of the resulting circles will lie on it. Mark the points of intersection of the bisector and the circle C, and D.
+2) Construct segment bisectors of the segments AC, and AD. The centers of the circles will lie in the intersections of these bisectors with the bisector of the segment AB.
+3) Draw circles with a radius from their center to point A.

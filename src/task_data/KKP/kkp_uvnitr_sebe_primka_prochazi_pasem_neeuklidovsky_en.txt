@@ -1,0 +1,11 @@
+1 - 3) Since we can view a point as a circle with radius zero, we must find a set of points that are equidistant from some focus and some control line.
+	- This is satisfied by a parabola. But since we have a circle and not a point, we have to think about what happens.
+	- In fact, a circle can touch another circle and a line in two ways - once on the outside, the second time on the inside.
+	- This gives us two different parabolas for these two cases.
+	- These parabolas have the control line shifted either towards or away from the focus by the radius of the circle, depending on whether we want an inside or outside touch.
+4) Since we have two circles, we therefore construct four parallels to the given line f, two at a distance of the radius of the circle d and each one on the other side of the line f, and two at a distance of the radius of the circle c and each one on the other side of the line f.
+5 - 6) Construct all four parabolas. Two with a focus at point C, two with a focus at point A, each with a different one of the parallel lines as the controlling line.
+7) The intersections of the parabolas are the centres of the resulting circles we are looking for. Let us call them S1, S2, S3 and S4.
+8 - 9) The tangent points of the resultant circles are the intersections of the circle d and the union of the centers of C and the found centers respectively. Let us call them T1, T2, T3 and T4.
+10) Construct the resultant circles k1, k2, k3 and k4 with centers at S1, S2, S3 and S4 and intersecting points T1, T2, T3 and T4 respectively.
+

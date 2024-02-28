@@ -1,0 +1,3 @@
+1. Narýsujeme si středy kružnic a jejich průsečíky.
+2. Narýsujeme elipsu s ohnisky ve středech kružnic, která prochází průsečíky kružnic.
+3. Narýsujeme hyperbolu s ohnisky ve středech kružnic, která prochází průsečíky kružnic.

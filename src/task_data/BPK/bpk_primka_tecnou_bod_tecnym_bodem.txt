@@ -1,0 +1,3 @@
+1. Narýsujeme si zadání
+2. Uděláme kolmici *g* na zadanou přímku *f* v bodě *A*
+3. Výsledná kružnice má střed na kolmici *g*

@@ -1,0 +1,3 @@
+0. Given are the circles *a* and *b* that are touching internally. The tangent point of the two is the given point *A*.
+1. Construct the line *p* that goes through *A* and centres of both *a* and *b*. All points on line *p* are possible centres of the solution.
+2. Choose any point on the line. Draw a circle that has this point as its center and passes through the point *A*. That is one of the infinitely many solutions.

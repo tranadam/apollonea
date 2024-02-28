@@ -1,0 +1,30 @@
+Two intersecting lines and circle without contact
+
+1. We draw the angle bisector of the assigned lines. We mark the center of the assigned circle in the axial symmmetry with the use of the angle bisector. We connect 
+both points with a line.
+2. We find the radius of the assigned circle and draw a circle with the same radius anywhere on one of the assigned lines.
+3. We draw two lines which are parallel with the assigned line and also are tangents of this new circle.
+4. We draw a circle defined by three points. The center of the assigned circle, the mirrored center of the assigned circle and an arbitrary point. We mark the point of 
+intersection of one of the two tangents from step 3 and the line from step 1 which passes through the center of the assigned circle.
+5. We draw two lines which pass through the point of intersection from the previous step and are tangents of the circle from the previous step. We mark the intersection 
+points of these lines with the cricle.
+6. We draw a circle defined by three points. One is the intersection point from step 4 and the two remaining are the intersections from the previous step.
+7. We draw a circle with the center in the intersection point from step 4 and defined by one of the interstection points from step 5. We mark two intersection points 
+of this cricle with the line from step 3.
+8. We draw a line perpendicular to the assigned line and which passes through one of the intersection points from the previous step. To continue, we repeat this process but 
+we use the second of the intersection points. We mark the intersection points of these lines with the assigned line and the angle bisector of the assigned lines.
+9. We draw two circles defined by a center and a point. Centers are the points of intersections on the angle bisector from step 8 and points are the points of intersections 
+on the assigned line from the previous step.
+
+
+10. Now we will focus on the second of the two tangents from step 3. The process is the same. We find a point of intersection of the tangent and the line which passes 
+through the center of the assigned circle and the mirrored center of the assigned circle.
+11. We draw two tangents on the circle from step 4 which pass through the point of intersection from the previous step. We mark the points of intersection of these lines with 
+the circle from step 4.
+12. We draw a circle defined by three points. Two of these points are the points of intersection from the previous step and the last point is the point of intersection from 
+step 10. Now we draw a circle with the center in the point of intersection from step 10 and defined by one of the points of intersection from step 11. We mark two points of
+intersection of this circle with the line from step 3.
+13. We draw a line perpendicular to the assigned line and which passes through one of the points of intersection from the previous step. We repeat thsi process but we use the
+second of these two intersection points. We mark the points of intersection of these lines with the assigned line and the angle bisector of the assigned lines.
+14. We draw two circles defined by a center and a point. The centers lie in the points of intersection on the angle bisector from the previous step and the points are the
+points of intersection on the assigned line from the previous step.

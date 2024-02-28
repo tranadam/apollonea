@@ -1,0 +1,19 @@
+1) Construct the axis of the angle that also passes through the center of the assigned circle *A*, and name it *j*.
+2) Find the intersection of the given circle and the angle axis *j* and name it *H*, then construct a perpendicular *l* to the angle bisector *j* passing through the point *H*.
+3) Trace out an angle bisector of the perpendicular *l* and one of the given lines.
+4) Name the intersection of this angle bisector and the angle bisector *j* *S_1*, this is the center of the first circle we are looking for.
+5) Construct a circle with center *S_1* and radius *HS_1*.
+
+6) Name the second intersection of the given circle and the angle bisector *j* *I* and construct the perpendicular *m* to the angle bisector *j* passing through the point *I*.
+7) Construct the angle bisector of the perpendicular *m* and one of the assigned lines.
+8) Name the intersection of this angle bisector and the angle bisector *j* *S_2*, this is the center of the second circle we are looking for.
+9) Construct a circle with center *S_2* and radius *IS_2*.
+
+10) Construct an angle bisector that is perpendicular to the angle bisector *j* and passes through the intersection of the assigned lines. Name it *k*.
+11) Construct a perpendicular to one of the assigned lines so that it passes through point *A* and name it *h*. Name the intersection of the perpendicular, the given line and the given circle *E*.
+12) Name the intersection of the bisector of angle *k* and the perpendicular *h* *S_3*, this is the center of the third circle we are looking for.
+13) Construct a circle with center *S_3* and radius *ES_3*.
+
+14) Construct a perpendicular to the second of the assigned lines so that it passes through point *A* and name it *i*. Name the intersection of the perpendicular, the assigned line and the assigned circle *D*.
+15) Name the intersection of the angle bisector *k* and the perpendicular *i* *S_4*, it is the centre of the last circle we are looking for.
+16) Construct a circle with center *S_4* and radius *DS_4*.

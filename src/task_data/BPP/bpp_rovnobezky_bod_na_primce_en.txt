@@ -1,0 +1,4 @@
+1. Draw a line p through point A, which is perpendicular to the given lines.
+2. Name the interception of the perpendicular line p and the other given line as P.
+3. Find the center of the line segment AP and name it S.
+4. Finally, draw a circle k with center S and radius |SA|.

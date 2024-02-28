@@ -1,0 +1,8 @@
+1) Dilatací si zmenšíme jednu kružnici na bod, druhou o poloměr menší kružnice a zadanou přímku posuneme o poloměr kružnice
+2) Z bodu C, který byl středem jedné ze zadaných kružnic narýsujeme kružnici p, která prochází kružnicí c. Přes tuto kružnici budeme zobrazovat v kruhové inverzi
+3) Přímku posunutou dilatací a kružnici dilatací zmenšenou si zobrazíme v kruhové inverzi
+4) Najdeme si společné tečny obou kružnic
+5) Tečny si před kruhovou inverzi zobrazíme na kružnice
+6) Najdeme si středy nově vzniklých kružnic, řešení s nimi budou soustředná
+7) Kružnice zvětšíme o poloměr menší zadané kružnice
+8) Vzniklé kružnice jsou řešením úlohy

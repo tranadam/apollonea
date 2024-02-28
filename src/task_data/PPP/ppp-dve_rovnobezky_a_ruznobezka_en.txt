@@ -1,0 +1,8 @@
+1) We find the center axis between the parallel lines. The centers of the circles from the solution have to lie on this line.
+2) We draw a line perpendicular to the two parallel lines from the assignment.
+3) We draw a circle that has its centre at the intersection of the perpendicular and the axis and the point of contact with the parallel lines from the assignment is at the intersection with the perpendicular line.
+4) We draw a line perpendicular to the intersecting line from the assignment.
+5) We draw a line parallel to the one from 4), which passes through the center of drawn circle.
+6) We draw lines that are parallel to the parallel lines from the assignment and also pass through the intersection of the circle and the line from 5).
+7) We draw lines perpendicular to the parallel line from the assignment that pass through the intersection of the parallel line from the problem and the lines from 6).
+8) We draw circles that are centred on the intersection of the axis from 1) and the lines from 7).

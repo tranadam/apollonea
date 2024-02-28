@@ -1,0 +1,7 @@
+1) Draw a point *B_1* where the circles touch eachother.
+2) Draw a line segment *AB_1*.
+3) Draw an axis of the line segment *AB_1*. The centre of the final circle belongs to this axis.
+4) Draw a line *h* going through the centres of the given circles - points *B* and *C*.
+5) The intersection point of the line segment *AB_1* and the line *h* is named *S_1* and it is the centre of the final circle.
+6) Draw the final circle the centre of which is the point *S_1* and which goes through the point *A*.
+7) The final circle of the task "point, circle, circle"

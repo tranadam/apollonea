@@ -1,0 +1,3 @@
+1) Narýsujeme si přímku p_1, která prochází středy obou kružnic a bodem A, Přímka p_1 je množina bodů, které jsou středy kružnic, které jsou řešením úlohy, úloha má nekonečně mnoho řešení
+2) Pro ilustraci si ukážeme univerzální řešení. Určíme si náhodný bod S_1, který leží na přímce p_1 a narýsujeme kružnici k_1 se středem v bodě S_1 a poloměrem S_1A.
+3) Řešením je každá kružnice k_1, jejíž bod leží na přímce p_1.

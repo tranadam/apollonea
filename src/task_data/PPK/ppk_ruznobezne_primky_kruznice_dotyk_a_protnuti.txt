@@ -1,0 +1,16 @@
+0. Ke konstrukci prvních dvou řešení použijeme množiny bodů daných vlastností.
+1. Středy hledaných kružnic musí ležet na osách úhlů zadaných přímek.
+2. Musí rovněž ležet na kolmici k jedné z přímek vedené z tečného bodu T. Kolmice prochází tečným bodem.
+3. Nalezneme dvě řešení, která se dotýkají jedné ze zadaných přímek a zadané kružnice ve společném tečném bodě.
+4. K nalezení dalších řešení využijeme stejnolehlost, ve které se se řešení zobrazuje do zadané kružnice. Středem stejnolehlosti jsou body dotyku zadané kružnice a kružnice řešení. Zadané přímky jsou tečny kružnice řešení, ve stejnolehlosti se proto zobrazí jako tečny. Průsečík přímek se zobrazí do průsečíku. Střed stejnolehlosti, tj. zároveň tečný bod kružnic, musí ležet na spojnici těchto průsečíků. Tím můžeme tečný bod nalézt.
+5. K nalezení dalších řešení využiji stejnolehlost, ve které se se řešení zobrazuje do zadané kružnice. Středem stejnolehlosti jsou body dotyku zadané kružnice a kružnice řešení. Zadané přímky jsou tečny kružnice řešení, ve stejnolehlosti se proto zobrazí jako tečny. Průsečík přímek se zobrazí do průsečíku. Střed stejnolehlosti, tj. zároveň tečný bod kružnic, musí ležet na spojnici těchto průsečíků. Tím můžeme tečný bod nalézt.
+6. Ve stejnolehlosti se zadané přímky zobrazují jako tečny zadané kružnice.  Tečné body jsou středy stejnolehlostí, musí proto ležet na spojnici průsečíku *P* a jeho obrazu.
+7. Střed zadané kružnice se ve stejnolehlosti zobrazuje do středů kružnic řešení. Vzor a obraz středu kružnice musí vždy ležet na jedné přímce s tečným bodem, který je středem stejnolehlosti.
+8. Středy kružnic řešení musí rovněž ležet na ose úhlu zadaných přímek.
+9. Nalezli jsme další dvě řešení úlohy.
+10. Pro nalezení zbývajících dvou řešení úlohy opět použijeme stejnolehlost. Jedna ze zadaných přímek se však tentokrát bude zobrazovat na opačnou stranu zadané kružnice.
+11. Tečné body, které jsou středy stejnolehlosti, leží na spojnici průsečíku přímek *P* a jeho obrazu.
+12. Protože jsou tečné body středy stejnolehlostí, musí střed zadané kružnice a kružnic řešení s nimi ležet na jedné přímce.
+13. Středy kružnic řešení musí rovněž ležet na ose úhlu zadaných přímek.
+14. Tím jsme nalezli zbývající dvě řešení úlohy. Poloměr kružnic je dán vzdáleností středů od tečných bodů.
+15. Úloha má šest řešení.

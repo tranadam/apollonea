@@ -1,0 +1,5 @@
+1. Draw a circle centered at point *A* and proceed with a circle inversion.
+2. Invert all objects in the problem through the circle inversion from step 1. This leaves point *A* at infinity.
+3. Draw the common tangents of the circles. They meet the point at infinity.
+4. We invert the tangents from step 3 through circle inversion from step 1.
+5. 4 solutions arise.

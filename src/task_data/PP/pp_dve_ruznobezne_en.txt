@@ -1,0 +1,4 @@
+1) Construct the axis of the angles of the segments p_1 and p_2 and call them S.
+2) Construct the perpendicular of f to any line p_1 or p_2(in the example p_1) and find the intersection of line f and the line to which line f is perpendicular (in the example p_1) and name it H.
+3) Find the intersection of the line f and the lines S and name them S_n1 and S_n2.
+4) Construct circles k_n1 and k_n2 with centers at S_n1 and S_n2 and radii S_n1H and S_n2H.

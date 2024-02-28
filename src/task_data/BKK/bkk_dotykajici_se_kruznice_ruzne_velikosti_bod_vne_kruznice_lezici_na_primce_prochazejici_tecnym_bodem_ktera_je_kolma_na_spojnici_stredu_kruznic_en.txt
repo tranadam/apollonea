@@ -1,0 +1,6 @@
+1) This task will be solved using a set of points which can be used to draw a hyperbola. Lets two draw lines through point *C* and the points *A* and *B* respectively. Name the intersections of these lines.
+2) Find the centerpoint between these intersections and the point *C*. These points are on the desired hyperbola.
+3) Using one center of a circle and the point *C* as focus points and a point from step two which lies on the hyperbola construct a hyperbola. Repeat this for all four of the points constructed in step two - four hyperbolas should be constructed.
+4) The intersections of these hyperbolas are the centers of the wanted circles. Call these points *S_1* and *S_2*.
+5) Draw the final circles with their center in points *S_1* and *S_2* respectively and passing through point *C*.
+6) Continue using the process of solving the circle, circle, point solutions.

@@ -1,0 +1,18 @@
+dvě různoběžné přímky a kružnice bez dotyku
+
+1. Narýsujeme si osu úhlu zadaných přímek. Zobrazíme si střed zadané kružnice v osové souměrnosti přes osu úhlu. Oba body propojíme přímkou. 
+2. Zjistíme poloměr zadané kružnice a narýsujeme kružnici se stejným poloměrem kdekoliv na jedné ze zadaných přímek. 
+3. Narýsujeme dvě přímky, které jsou rovnoběžné s touto zadanou přímkou z zároveň jsou tečnami této nové kružnice. 
+4. Narýsujeme kružnici danou třemi body. Středem zadané kružnice, zrcadleným středem zadané kružnice a libovolným třetím bodem. Vyznačíme si průsečík jedné z dvou tečen z kroku 3 a přímkou z kroku 1, která prochází středem zadané kružnice. 
+5. Narýsujeme dvě přímky, které vedou průsečíkem z minulého kroku a jsou tečnami kružnice z minulého kroku. Vyznačíme si průsečíky těchto přímek s kružnicí. 
+6. Narýsujeme kružnici danou třemi body. Jedním je průsečík z kroku 4 a dva zbylé jsou průsečíky z minulého kroku. 
+7. Poté narýsujeme kružnici se středem v průsečíku z kroku 4 a danou jedním z průsečíků z kroku 5. Vyznačíme si dva průsečíky této kružnice s přímkou z kroku 3.
+8. Narýsujeme přímku, která je kolmá na zadanou přímku a prochází jedním z průsečíků z minulého kroku. Poté zopakujeme tento postup, ale použijeme druhý z průsečíků. Vyznačíme si průsečíky těchto přímek se zadanou přímkou a osou úhlu zadaných přímek.
+9. Narýsujeme dvě kružnice dané středem a bodem. Středy jsou v těchto průsečících na ose úhlu z kroku 8 a body jsou průsečíky na zadané přímce z minulého kroku. 
+
+
+10. Nyní si budeme zabývat druhou z tečen z kroku 3. Postup je stejný. Najdeme si její průsečík s přímkou, která prochází středem zadané kružnice a zrcadleným středem zadané kružnice.
+11. Narýsujeme dvě tečny na kružnici z kroku 4, které procházejí průsečíkem z minulého kroku. Vyznačíme si průsečíky těchto přímek s kružnicí z kroku 4. 
+12. Narýsujeme kružnici danou třemi body. Dva z nich jsou průsečíky z minulého kroku a posledním je průsečík z kroku 10. Poté narýsujeme kružnici se středem v průsečíku z kroku 10 a danou jedním z průsečíků z kroku 11. Vyznačíme si dva průsečíky této kružnice s přímkou z kroku 3.
+13. Narýsujeme přímku, která je kolmá na zadanou přímku a prochází jedním z průsečíků z minulého kroku. Poté zopakujeme tento postup, ale použijeme druhý z průsečíků. Vyznačíme si průsečíky těchto přímek se zadanou přímkou a osou úhlu zadaných přímek.
+14. Narýsujeme dvě kružnice dané středem a bodem. Středy jsou v těchto průsečících na ose úhlu z minulého kroku a body jsou průsečíky na zadané přímce z minulého kroku. 

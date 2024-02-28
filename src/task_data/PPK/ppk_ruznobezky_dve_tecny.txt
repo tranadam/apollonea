@@ -1,0 +1,20 @@
+1) Sestrojíme osu úhlu, která zároveň prochází středem zadané kružnice *A*, a pojmenujeme ji *j*.
+2) Průsečík zadané kružnice a osy úhlu *j* si pojmenujeme *H* a sestrojíme kolmici *l* k ose úhlu *j* procházející bodem *H*.
+3) Sestrojíme osu úhlu kolmice *l* a jedné ze zadaných přímek.
+4) Průsečík této osy úhlu a osy úhlu *j* pojmenujeme *S_1*, je to střed první námi hledané kružnice.
+5) Sestrojíme kružnici se středem *S_1* a poloměrem *HS_1*.
+
+6) Druhý průsečík zadané kružnice a osy úhlu *j* si pojmenujeme *I* 
+7) Sestrojíme kolmici *m* k ose úhlu *j* procházející bodem *I*.
+8) Sestrojíme osu úhlu kolmice *m* a jedné ze zadaných přímek.
+9) Průsečík této osy úhlu a osy úhlu *j* pojmenujeme *S_2*, je to střed druhé námi hledané kružnice.
+10) Sestrojíme kružnici se středem *S_2* a poloměrem *IS_2*.
+
+11) Sestrojíme osu úhlu, která je kolmá na osu úhlu *j* a prochází průsečíkem zadaných přímek. Pojmenujeme ji *k*.
+12) Sestrojíme kolmici k jedné ze zadaných přímek tak, aby procházela bodem *A*, a pojmenujeme ji *h*. Průsečík kolmice, zadané přímky a zadané kružnice pojmenujeme *E*.
+13) Průsečík osy úhlu *k* a kolmice *h* pojmenujeme *S_3*, je to střed třetí námi hledané kružnice.
+14) Sestrojíme kružnici se středem *S_3* a poloměrem *ES_3*.
+
+15) Sestrojíme kolmici k druhé ze zadaných přímek tak, aby procházela bodem *A*, a pojmenujeme ji *i*. Průsečík kolmice, zadané přímky a zadané kružnice pojmenujeme *D*.
+16) Průsečík osy úhlu *k* a kolmice *i* pojmenujeme *S_4*, je to střed poslední námi hledané kružnice.
+17) Sestrojíme kružnici se středem *S_4* a poloměrem *DS_4*.

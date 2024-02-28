@@ -1,0 +1,6 @@
+1. We will trace out a line perpendicular to the parallel lines. This line is crossing through the center of the given circle (line *r*).
+2. We will trace out intersections of the perpendicular from the previous step (point *A* and point *B*) and an axis of the created line segment *AB*. Centers of all solutions must lie on it.
+3. We will trace out an intersection of the circle given with line *r* (point *C*) and an intersection of line *r* with the axis *AB* (point *D*). We will construct a circle with a center in point *C* and a radius equal to the distance of *AD*. We will trace out an intersection of this circle with line *r*, which does not lie in the given circle (point *E*).
+4. We will construct a circle with a center in point *S*, which crosses through point *E*. Centers of all solutions must lie on this circle. We will trace out intersections of this circle with the axis *AB*. These are the centers of the circles in the solution.
+5. We will construct lines perpendicular to the parallel lines. These lines are crossing through the points from the last step. We will trace out intersections of these lines with at least one of the parallel lines.
+6. We will construct circles with a centers in the points from step 4, passing through their respective points from step 5. Those are the two solutions.

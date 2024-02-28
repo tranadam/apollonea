@@ -1,0 +1,8 @@
+three intersecting circles
+
+1. Draw three intersecting circles.
+2. Construct three hyperbolas whose foccuses are at the centres of the circles and which pass through their intersection.
+3. Construct two ellipses whose foccuses are at the centers of the given circles and which pass through their intersection (can be done with any circle from the given set).
+4. Two intersections of three hyperbolas are two solutions, different intersections of hyperbolas and ellipses hide 6 more solutions.
+
+Translated with DeepL.com (free version)

@@ -1,0 +1,5 @@
+1. Vytvoříme kružnici se středem v bodě *A* o velikosti počáteční kružnice *c* podle které budeme dělat kruhovou inverzi.
+2. Kružnice *c* a *d* invertujeme pomocí kruhové inverze. Bod *A* je v nekonečnu.
+3. Vytvoříme tečny ke vzniklé kružnici *h*, které jsou rovnoběžně s přímkou *f*.
+4. Pomocí kruhové inverze invertujeme vzniklé tečny *i* a *j*.
+5. Máme řešení.

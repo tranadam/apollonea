@@ -1,0 +1,4 @@
+1) Zvolíme si řídící kružnici pro kruhovou inverzi. Středem kružnice je jeden ze zadaných bodů. Kružnice je zvolena tak, aby další ze zadaných bodů ležel na kružnici a byl tedy samodružný. To však není nutné.
+2) V kruhové inverzi se bod *A* zobrazuje do nekonečna, bod *B* je samodružný, bod *C* se zobrazuje do *C'*.
+3) Obrazem řešení v kruhové inverzi je přímka p procházející obrazy všech tří bodů (obraz bodu *A* je v nekonečnu).
+4) Zobrazíme přímku *p* v kruhové inverzi. Jejím obrazem je hledaná kružnice *k*.

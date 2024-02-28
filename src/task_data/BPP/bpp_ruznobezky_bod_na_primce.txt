@@ -1,0 +1,4 @@
+1. Narýsujeme přímku *h* kolmou k přímce *p_1* ze zadání procházející bodem *A*. Tím získáme středy kružnic, které procházejí bodem *A* a přímka *p_1* je jejich tečnou.
+2. Narýsujeme osy úhlu svíraného zadanými přímkami, což nám dá všechny středy kružnic, které mají přímky ze zadání jako tečny.
+3. Průsečíky osy úhlu a přímky *h* jsou středy kružnic řešení.
+4. Narýsujeme řešení.

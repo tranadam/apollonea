@@ -1,0 +1,8 @@
+
+1) We create the angle bisector. On them, the centres of the resulting circles lie.
+2) Create tangent circles that are parallel to the lines from the task. One of the tangents will not be needed.
+3) We create two lines that pass through the intersection of the lines from the task and the intersection of the tangents.
+4) At the points where these lines intersect the given circle, the centers of the homothety are located.
+5) Create the lines that pass from the center of the given circle to the centers of homothety. At the intersections of these lines with the angle bisectors lie the centers of the resulting circles. Note that although the line intersects both axes, the centers of the circles are only in the direction from the center to the point of homothety.
+6) Draw circles from the centers found in the previous step, whose radius will be the distance from the center of the circles to the centers of the homothetal points.
+

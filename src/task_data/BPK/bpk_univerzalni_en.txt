@@ -1,0 +1,5 @@
+1. Draw a circle for a circular inversion with a centre in point *A*.
+2. Invert line *f* and circle *k* according to the circle of the circular inversion. Point *A* will be displayed indefinitely.
+3. Find common tangents of displayed circles.
+4. Display the tangents from step 3 over the circle of the circular inversion.
+5. You have a solution!

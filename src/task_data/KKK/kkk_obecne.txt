@@ -1,0 +1,7 @@
+0) Máme tři kružnice *c*, *d* a *e*, které se vzájemně neprotínají ani nedotýkají.
+1) Narýsujeme hyperboly *k* a *p*, na kterých leží středy kružnic dotýkají kružnic *c* a *d*.
+2) Narýsujeme hyperboly *q* a *r*, na kterých leží středy kružnic dotýkají kružnic *c* a *e*.
+3) Narýsujeme hyperboly *s* a *t*, na kterých leží středy kružnic dotýkají kružnic *d* a *e*.
+4) Najdeme body na průsečících hyperbol. Na těchto bodech budou ležet středy kružnic.
+5) Najdeme body dotyku výsledných kružnic s kružnicemi *c*, *d* a *e*. To uděláme tak, že najdeme přmku, která prochází průsečíkem hyperbol a středem zadané kružnce. v průsečíku této přímky a zadaných kružnic leží bod dotyku kružnice se zadanou přímkou.
+6) Kružnice *k_1* až *k_8*.

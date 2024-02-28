@@ -1,0 +1,11 @@
+1. Narýsujeme přímku p1 procházející body A a S 
+2. Najdeme průsečík B této přímky a kružnice s větším poloměrem v bližší vzdálenosti k bodu A ze zadání 
+3. Najdeme průsečík C této přímky a kružnice s menším poloměrem blíže k bodu A 
+4. Najdeme průsečík D této přímky a kružnice s menším poloměrem ve vzdálenosti součtu poloměrů obou zadaných kružnic od bodu B
+5. Najdeme střed E úsečky BD a sestrojíme kružnici s poloměrem BE a středem v bodě A ze zadání 
+6. Sestrojíme kružnici se středem S, která prochází bodem E 
+7. Najdeme průsečíky S1 a S2 dvou nově sestrojených kružnic, toto budou středy dvou kružnic řešení 
+8. Najdeme střed F úsečky BC a sestrojíme kružnici, která jím prochází a má střed v bodě S 
+9. Sestrojíme kružnici s poloměrem BF a středem v bodě A ze zadání 
+10. Najdeme průsečíky S3 a S4 dvou nově sestrojených kružnic, toto budou středy dvou kružnic řešení 
+11. Sestrojíme kružnice se středy v bodech S1 a S2 s poloměrem S1A a kružnice se středy v bodech S3 a S4 s poloměrem S3A. Máme čtyři řešení. 

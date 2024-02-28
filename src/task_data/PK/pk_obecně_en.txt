@@ -1,0 +1,4 @@
+1) Through the centre of the circle k (point S), draw a perpendicular line f to the line p which intersects it at point C.
+2) Construct a circle c centred at C with the same radius as k.
+3) Construct parallel lines g and h to the line p, which pass through the points E and F, the intersections of f and c.
+4) Construct a hyperbola d with focus S and controlling line g and a hyperbola e with focus S and controlling line h. On these hyperbolas lie the centers of all circles tangent to k and p.

@@ -1,0 +1,4 @@
+1. Narýsujeme kolmici k přímce ze zadání a bodu *A*. Středy všech řešení musí ležet na této přímce.
+2. Bod *A* dilatujeme o poloměr zadané kružnice. Průsečíky s přímkou z kroku 1 označíme *A'* a *A''*. 
+3. Narýsujeme osu úsečky mezi boem *A'* a středem zadané kružnice a další osu úsečky mezi bodem *A''* a středem zadané kružnice. Střed řešení leží vždy na průsečíku jedné z těchto os a přímce z kroku 1.
+4. Narýsujeme řešení.

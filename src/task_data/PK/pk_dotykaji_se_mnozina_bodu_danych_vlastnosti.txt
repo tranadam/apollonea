@@ -1,0 +1,4 @@
+1) Narýsujeme přímku p_1 procházející body B a S_1, výsledná přímka h je jedním z řešení
+2) Sestrojíme si kružnici se středem v bodě B procházející bodem S_1
+3) Vzniklým bodem C, který je průsečíkem přímky h a kružnice e vedeme přímku rovnoběžnou s p_1 a pojmenujeme ji p_2
+4) Sestrojíme parabolu nad přímkou p_2 s ohniskem v bodě S_1

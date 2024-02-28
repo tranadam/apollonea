@@ -1,0 +1,15 @@
+0. To construct the first two solutions, use the sets of points of the given properties.
+1. The centers of the searched circles must lie on the axes of the angles of the given lines.
+2. They must also lie on the perpendicular to one of the lines on which the tangent point lies. The perpendicular line passes through the tangent point.
+3. You found two solutions that touch one of the given lines and the given circle at a common tangent point.
+4. To find other solutions, use homothety in which the solution maps to the specified circle. The centers of homothety are the points of contact between the specified circle and the solution circle. The given lines are tangents to the solution circle, so they appear as tangents in the homothety. The intersection of the lines is displayed in the intersection point. The centre of the homothety, i.e. also the tangent point of the circles, must lie on the line between these intersections. In this way find the point of tangency.
+5. In a homothety, the given lines appear as tangents to the given circle.  The tangent points are the centers of the homothety, so they must lie on the line of intersection of *P* and its image.
+6. The center of the specified circle is mapped in the homothety into the centers of the solution circles. The pattern and image of the center of the circle must always lie on the same line with the tangent point that is the center of the homothety.
+7. The centres of the solution circles must also lie on the axis of the angle of the given lines.
+8. You found two more solutions to the problem.
+9. To find the remaining two solutions to the problem, use the homothety again. This time, however, one of the specified lines will appear on the opposite side of the given circle.
+10. The tangent points, which are the centers of the homothety, lie on the line of intersection of the lines *P* and its image.
+11. Since the tangent points are centers of the homothety, the center of the given circle and the solution circles must lie on the same line with them.
+12. The centers of the solution circles must also lie on the angle axis of the specified lines.
+13. You found the remaining two solutions to the problem. The radius of the circles is given by the distance of the centers from the tangent points.
+14. The problem has six solutions.

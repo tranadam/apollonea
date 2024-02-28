@@ -1,0 +1,8 @@
+0) we have the line *p* and the points *A*, *B*
+(in brackets are names of the objects in the situation, that *B* is further away from the line *p* than *A*)
+1) draw the line *g* passing through the points *A* and *B*, name the intersection *gp* *E*, construct the perpendicular line *h* to the line *g* passing through the point *B* and the perpendicular line *i* to the line *g* passing through the point *A* and the line 
+2) on the midpoint between *A* and *E*, we place the point *F*, which is the centre of the circle *c* with radius the size of the line *AF*
+3) at the intersections of circles *c* (*f*) and *h* (*i*) are points *C* *D* (*J*)
+4) draw a circle *d* (*q*) centered at *E* with radius of line size *ED* (*EJ*)
+5) at the intersections of the line *p* and the circle *d* (*q*) there are points *G* (*K*) and *H* (*L*), which are tangent points to the resulting circles
+6) according to the three points we are able to draw the resulting circles *k11* given by the points *ABC* (*k21* given by the points *BAL*) a *k12* given by the points *ABG* (*k22* given by the points *BAK*)

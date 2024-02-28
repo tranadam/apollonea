@@ -1,0 +1,11 @@
+1. We draw line p1 that is going through points A and S
+2. We find the point of intersection B of this line and of the circle with a larger circumference that is closer to the point A that we were given
+3. We find the point of intersection C of this line and of the circle with a smaller circumference that is close to the point A that we were given
+4. We find the point of intersection D of this line and of the circle with a smaller circumference that is in the distance of the sum of both radiuses of the given circles from point B
+5. We find the centre E of the line segment BD and we construct a circle with the radius BE and the centre in point A that we were given
+6. We construct a circle with the center S, that goes through the point E
+7. We find the points of intersection S1 and S2 of the two newly constructed circles, those will be the centers of two circles in the solution
+8. We find the center F of the line segment BC and we construct a circle that goes through is and whose center is in the point S
+9. We construct a circle with the radius BF and with the given point A as the center
+10. We find the points of intersection S3 and S4 of the two newly constructed circles, those will be the centers of two circles in the solution
+11. We construct circles with centers in the points S1 and S2 with the radius S1A and circles with centers in the points S3 and s4 with the radius S3A. We have four solutions.

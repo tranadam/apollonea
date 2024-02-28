@@ -1,0 +1,6 @@
+1) Tuto úlohu budeme řešit pomocí množiny bodù daných vlastností, která pro dvojici bod a kružnice pøedstavuje hyperbolu. Narýsujeme pøímky procházející bodem *C* a středy zadaných kružnic ze zadání, tedy body *B* a *A*. Oznaèíme průsečíky přímek a kružnic ze zadání.
+2) Najdeme středy mezi průsečíky a bodem *C*, tyto body budou ležet na hledaných hyperbolách.
+3) Pomocí dvou ohnisek (střed zadané kružnice a bodu *C* ze zadání) a bodu ležícího na hledané hyperbole, tedy jeden ze středù z minulého kroku, narýsujeme hyperboly pro obě kružnice ze zadání a bod *C*.
+4) Průsečíky těchto hyperbol jsou středy hledaných kružnic, označíme je *S_1*, *S_2* a *S_3*.
+5) Narýsujeme výsledné kružnice se středem v S_1*, v *S_2* a v *S_3*, které prochází bodem *C* ze zadání.
+6) Výsledné kružnice úlohy kružnice, kružnice, bod.

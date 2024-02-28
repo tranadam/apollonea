@@ -1,0 +1,6 @@
+1) Determine the point of tangency of the circle c and the line p_2.
+2) Draw a line i that passes through the center of circle c and point E.
+3) Determine the intersection of line i and line p_1 and name it F.
+4) Construct the axis of the line segment *EF*. 
+5) Name the intersection of the axis of line EF and line i S_1.
+3) Construct a circle with center at S_1 and radius S_1E.

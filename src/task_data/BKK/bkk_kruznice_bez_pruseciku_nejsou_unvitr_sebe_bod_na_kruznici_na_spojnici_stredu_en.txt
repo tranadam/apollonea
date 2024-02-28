@@ -1,0 +1,4 @@
+1. Draw a line *g*, that goes through the centres of the two circles and through the point *E*
+2. Find the intersection of *F*
+3. Find the midpoint between *F* and *A* and *C* and *F*
+4. These midpoints *G* and *I* are the results

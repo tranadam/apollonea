@@ -1,0 +1,7 @@
+1. Draw perpendicular lines to the given lines passing through the centre of the given circle and afterwards mark the four intersections.
+2. Draw four lines parallel to the given lines passing through the intersections from the previous step. Draw four new intersections of these lines and draw the axis of the angle between the given lines.
+3. Draw four lines passing through these intersections from the end of the last step and through the intersection of the given lines. 
+4. Draw the intersections of these new lines with the given circle. 
+5. Draw lines passing through the center of the given circle and one of these new intersections. Repeat for each of the eight intersections. 
+6. Plot the intersections of these new lines with the axes of the angles of the given lines.
+7. Draw the circle given by the point and the center. The center is located at the intersections from the previous step. The intersections on the circle from step 4 serve as the point. The point and center of each of the four circles are on the same line from step 5.

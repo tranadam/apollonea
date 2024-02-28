@@ -1,0 +1,5 @@
+0. Given are the circles *a* and *b* such that *a* is internally tangent to *b*. Also given is the point *A*, which lies on *b* and is not the tangent point of the two circles.
+1. Draw any circle *c* with *A* as its origin. 
+2. Invert this circle. Point *A'* is now at infinity. The inverted forms of *a* and *b* shall be named *a'* and *b'* respectively.
+3. Now, construct the line *d* that is tangent to *b'* and parallel to *a'*. This line must touch *a'* and go through *A'* in infinity.
+4. Invert *d* around *c*. The resulting circle is the solution.

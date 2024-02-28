@@ -1,0 +1,7 @@
+0) Given is the circle *c*, inside of which lie the points *A* and *B*. *A* lies in the centre of *c*
+1) Construct the perpendicular bisector of *AB*, *f*. The resulting circles' origins will lie on it.
+2) Construct a line parallel to *f* that goes through the point *B*, *g*. The points where *g* intersects *c* shall be named *C* and *D*
+3) Construct the perpendicular bisectors of *BC* (*h*) and *BD* (*i*). The points where they intersect *f* shall be named *F* and *E*, respectively.
+4) Draw the circles *d* and *e*:
+	*d* has *E* as its origin, goes through the points *A* and *B*, the point of tangency with *c* is *D*
+	*e* has *F* as its origin, goes through the points *A* and *B*, the point of tangency with *c* is *C*

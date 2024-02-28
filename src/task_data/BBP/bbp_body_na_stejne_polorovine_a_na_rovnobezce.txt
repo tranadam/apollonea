@@ -1,0 +1,8 @@
+1) Narýsujeme úsečku *f* mezi body *A* a *B* ze zadání, protože víme, že řešení bude ležet ve stejné vzdálenosti od obou bodů, tedy na ose této úsečky.  
+2) Najdeme osu úsečky *f* a pojmenujeme ji *g*.
+3) Osa úsečky *f* protne přímku *p* ze zadání, zde bude tečný bod kružnice řešení, bod nazveme *C*. 
+4) Nyní jsme si úlohu přetvořili na úlohu BBB, snažíme se tedy najít opsanou kružnici trojúhelníku *ABC*. Opsanou kružnici sestrojíme pomocí os úseček mezi jednotlivými body. Narýsujeme úsečku *h* mezi body *C* a *B*. 
+5) Najdeme osu úsečky *h* a pojmenujeme ji *i*.
+6) Průsečík os označíme *S_1*, jedná se o střed výsledné kružnice. 
+7) Narýsujeme výslednou kružnici *k_1* se středem v *S_1*, která prochází body *A*/*B*/*C*.
+8) Zadání a řešení úlohy „Přímka a dva body, ležící na rovnoběžce“. 

@@ -1,0 +1,4 @@
+1. Draw a half-line through the centres of the given circles.
+2. Draw the intersections of the half-line with the given circles.
+3. Draw a point midway between the intersections.
+4. Draw an ellipse with focuses at the centers of the given circles, which passes through the point from the previous step.

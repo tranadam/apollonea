@@ -1,0 +1,6 @@
+0) Given are circles *c* and *d* that intersect each other, and a point *A*.
+1) Construct circle *e* with the center *A* so that both given circles lie inside the constructed circle and do not intersect it.
+2) Use circle *e* as the axis of a circle inversion. Circles *c'* and *d'* are created.
+3) Construct lines *g* and *f* that are tangents of circles *c'* and *d'*. 
+4) Use circle *e* as the axis of a circle inversion again. By that, circles *k_1* and *k_2* are created.
+5) Solutions are circles *k_1* and *k_2*.

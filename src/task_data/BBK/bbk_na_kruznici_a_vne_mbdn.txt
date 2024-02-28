@@ -1,0 +1,3 @@
+1. Body A a C provedeme přímku p_1. Na té leží středy všech kružnic, které se dotýkají zadané kružnice v zadaném bodě.
+2. Narýsujeme osu úsečky AB a narýsujeme průsečík této osy p_2 a přímky p_1.
+3. Narýsujeme kružnici k_1 se středem S_1 s poloměrem S_1A.

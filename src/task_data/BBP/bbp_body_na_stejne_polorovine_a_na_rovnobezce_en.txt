@@ -1,0 +1,7 @@
+1) Draw a line *f* between points *A* and *B*.
+2) Find the axis of the line *f* and name it *g*.
+3) Place the point *C* on the intersection between *g* and *p*.
+4) Draw the line *h* between points *B* and *C*.
+5) Find the axis of the line *h*, name it *i* and name the intersection of *g* and *i* *S_1*.
+7) Draw the final circle *k_1* with its center point in *S_1*, which goes through the points *A*/*B*/*C*.
+8) Continue by using the instructions from „Přímka a dva body, ležící na rovnoběžce“. 

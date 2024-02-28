@@ -1,0 +1,6 @@
+1) Určímě si tečný bod kružnice c a přímky p_2.Označíme ho E.
+2) Narýsujeme přímku i, která prochází středem kružnice c a bodem E.
+3) Určíme si průsečík přímky i a přímky p_1 a pojmenuje si jej F.
+4) Sestrojíme osu úsečky *EF*. 
+5) Průsečík osy úsečky EF a přímky i si pojmenujeme S_1.
+3) Sestrojíme kružnici se středem v bodě S_1 a poloměrem S_1E.

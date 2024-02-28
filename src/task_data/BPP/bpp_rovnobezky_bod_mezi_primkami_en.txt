@@ -1,0 +1,4 @@
+1. Draw a perpendicular bisector l parallel to and the same distance to both lines.
+2. Draw a circle m with the center at A, and it's radius being the distance between bisector l and either one of the lines.
+3. Mark the points of intersection of the circle m and the bisector l S_1, and S_2.
+4. Finally, draw circles k_1, and k_2, with their centers at points S_1, and S_2 and their radii being the distance between each one's respective center and point A.

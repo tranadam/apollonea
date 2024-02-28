@@ -1,0 +1,5 @@
+1. Narýsujeme kružnici pro kruhovou inverzi se středem v bodě *A*.
+2. Přímku *f* a kružnici *k* invertujeme dle kružnice kruhové inverze. Bod *A* se zobrazí do nekonečna.
+3. Najdeme společné tečny zobrazených kružnic.
+4. Tečny z kroku 3 zobrazíme přes kružnici kruhové inverze.
+5. Máme řešení.

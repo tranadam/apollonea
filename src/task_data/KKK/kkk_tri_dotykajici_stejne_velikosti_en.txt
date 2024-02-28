@@ -1,0 +1,3 @@
+1. Draw three lines i, g and h, each passing through the centre of one of the circles and the point of contact of the other two circles.
+2. Denote the intersection of these three lines as S_1, and this point is the centre of the two circles sought. 
+3. Their radii are determined by the lengths of the segments S_1G and S_1F, where G and F are the intersections of the line i and the circle b(works with any circle and its intersecting line).

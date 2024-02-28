@@ -1,0 +1,7 @@
+1. Narýsujeme kolmice na zadané přímky procházející středem zadané kružnice a vyznačíme čtyři průsečíky.
+2. Narýsujeme čtyři přímky rovnoběžné na zadané přímky procházející průsečíky z minulého kroku. Vyznačíme si čtyři nové průsečíky těchto přímek a narýsujeme osu úhlu mezi zadanými přímkami.
+3. Narýsujeme čtyři přímky procházející těmito průsečíky z konce minulého kroku a průsečíkem zadaných přímek. 
+4. Vyznačíme průsečíky těchto nových přímek se zadanou kružnicí. 
+5. Narýsujeme přímky procházející středem zadané kružnice a jedním z těchto nových průsečíků. Opakujeme pro každý z osmi průsečíků. 
+6. Vyznačíme si průsečíky těchto nových přímek s osami úhlů zadaných přímek.
+7. Narýsujeme kružnici danou bodem a středem. Střed se nachází v průsečících z minulého kroku. Jako bod slouží průsečíky na kružnici z kroku 4. Bod a střed každé z čtyř kružnic se nachází na stejné přímce z kroku 5.

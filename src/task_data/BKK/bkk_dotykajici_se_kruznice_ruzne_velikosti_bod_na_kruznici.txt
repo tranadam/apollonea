@@ -1,0 +1,6 @@
+1) bod A si zvolíme jako střed kruhové inverze, poloměr kružnice si zvolíme tak, aby procházela oběma zadanými kružnicemi, narýsujeme kružnici k
+2) kružnice k_1 a k_2 si zobrazíme v kruhové inverzi, vznikne nám kružnice k_1' a přímka k_2'
+3) V tečném bodě k_1' a k_2' se nachází bod C, spustíme kolmici o na přímku k_2' procházející bodem C
+4) V průsečíku k_1' a o se nachází bod F
+5) sestrojíme rovnoběžku k_4' k přímce k_2 procházející bodem F
+6) přímku k_4' zobrazíme v kruhové inverzi přes kružnici k, výsledná kružnice k_4 je řešením úlohy

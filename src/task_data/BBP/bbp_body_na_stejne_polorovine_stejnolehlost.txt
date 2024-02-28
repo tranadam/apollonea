@@ -1,0 +1,7 @@
+1) Narýsujeme úsečku *AB* a její osu, protože řešení bude ležet ve stejné vzdálenosti od obou bodů. Tam, kde osa protne přímku *p* ze zadání, bude ležet střed stejnolehlosti, nazveme ho *E*.
+2) Narýsujeme kružnici *c* se středem v libovolném bodě na ose úsečky *AB*, která je zároveň tečnou přímky *p* ze zadání. Tečný bod na přímce *p* leží na její kolmici, která prochází středem kružnice. Tato kružnice je zobrazením výsledné kružnice ve stejnolehlosti.
+3) Narýsujeme přímky procházející středem stejnolehlosti, tedy bodem *E*, a body *A* a *B* ze zadání. Průsečíky těchto přímek s kružnicí *c* jsou zobrazením bodů *A* a *B*. Nazveme *F*, *G*, *H* a *I*.
+4) Narýsujeme přímky procházející středem kružnice *c* a obrazem bodů *A* (tedy *F*, *G*) a *B* (*H* a *I*).
+5) Od každé z těchto přímek narýsujeme rovnoběžku, která prochází příslušným bodem v zobrazení, protože víme, že stejnolehlost zachovává rovnoběžnosti. Průsečíky těchto rovnoběžek budou středy výsledných kružnic. 
+6) Průsečíky těchto rovnoběžek jsou středy dvou výsledných kružnic.
+7) Výsledné kružnice úlohy přímka, bod, bod řešené pomocí stejnolehlosti.

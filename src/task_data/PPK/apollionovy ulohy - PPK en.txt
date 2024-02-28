@@ -1,0 +1,15 @@
+Appolionovy úlohy 
+
+
+PPK
+
+Two parallel lines and a circle which touches one of them and is intersected by the other
+
+
+1) We construct a perpendicular to the lines. This perpendicular must come through the centre of the assigned circle.
+2) Then we find the centre of a line segment bordered by the two intersections with the assigned lines. We name this point S_1, and it is the centre of one
+   of the solutions.
+3) We construct a line parallel to th assigned lines which also passes through the point S_1.
+4) Then we construct a circle with the radius of the assigned line + the distance between the point S_1 and one of the intersections. 
+5) The intersections of this circle with the parallel line are also the other two solutions to this problem - S_2 and S_3.
+6) Then we construct the final circles from the centres S_1, S_2 and S_3 with the radius being the distance between S_1 and one of the intersections. 

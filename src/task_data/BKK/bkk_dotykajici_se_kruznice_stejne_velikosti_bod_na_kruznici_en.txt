@@ -1,0 +1,6 @@
+1) point A is chosen as the centre of a circle inversion, the radius of the circle is chosen to intersect both of the given circles, we construct circle k
+2) we display circles k_1 and k_2 in a circle inversion, circle k_1' and line k_2' are created
+3) in the point of tangency of k_1' and k_2' is located point C, we run circle o to line k_2' passing through point C
+4) In the point of intersection of k_1', point C is found
+5) we create a parallel line k_4' to line k_2 passing through point C
+6) we display line k_4' in a circle inversion through circle k, the final circle is the solution of the problem

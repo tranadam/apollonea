@@ -1,0 +1,3 @@
+1. Narýsujeme přímku *c* procházející společným bodem obou zadaných kružnic a jejich středy.
+2. Dále zkonstruujeme přímku *f*, která je osou úsečky *AD*. Její průsečík s přímkou *c* si označíme *S*.
+3. Narýsujeme kružnici *k* se středem v bodě *S* a poloměrem |*SA*|.

@@ -1,0 +1,4 @@
+1. Draw a line *h* perpendicular to the assigned line *p_1* passing through point *A*. That gives you the centers of circles, that pass through point *A* and of which the line *p_1* is their tangential.
+2. Draw axes of the angles formed by the assigned lines. That gives you the centres of circles, that have the assigned lines as tangentials.
+3. The intersection of the axes and line *h* are centers of circles that are the solution.
+4. Construct the solution.

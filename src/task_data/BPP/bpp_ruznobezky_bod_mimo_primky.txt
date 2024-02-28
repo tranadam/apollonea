@@ -1,0 +1,7 @@
+1. Narýsujeme osu úhlu *i* svíraného přímkami ze zadání. Na této přímce musí ležet středy kružnic řešení.
+2. Narýsujeme kružnici *c* se středem na ose *i*, která se dotýká přímek ze zadání. Tuto kružnici použijeme jako vzor pro stejnolehlost.
+3. Narýsujeme přímku *k* procházející průsečíkem přímek ze zadání a bodem *A* ze zadání. Toto nám dá vzory tečných bodů do stejnolehlosti.
+4. Narýsujeme dvě přímky procházející středem kružnice *c* a průsečíky kružnice *c* s přímkou *k*.
+5. Nyní narýsujeme rovnoběžky k oběma přímkám z předchozího kroku které prochází bodem *A*. Tímto jsme zobrazili tyto přímky za pomocí stejnolehlosti a můžeme tak najít středy kružnic řešení.
+6. Průsečíky osy úhlu *i* a zobrazených přímek z minulého kroku jsou středy hledaných kružnic.
+7. Narýsujeme kružnice s nalezenými středy procházející bodem *A*.

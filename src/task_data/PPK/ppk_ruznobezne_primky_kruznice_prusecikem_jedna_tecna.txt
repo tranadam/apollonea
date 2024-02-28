@@ -1,0 +1,13 @@
+0. Ke konstrukci řešení využiji stejnolehlosti, ve které se se řešení zobrazuje do zadané kružnice. Středem stejnolehlosti jsou body dotyku zadané kružnice a kružnice řešení. Zadané přímky jsou tečny kružnice řešení, ve stejnolehlosti se proto zobrazí jako tečny. Průsečík přímek se zobrazí do průsečíku. Střed stejnolehlosti, tj. zároveň tečný bod kružnic, musí ležet na spojnici těchto průsečíků. Tím můžu tečný bod nalézt.
+1. Nejprve zobrazím zadané přímky, které se zobrazují jako tečny zadané kružnice. Stejnolehlost zachovává rovnoběžnost.
+2. Nejprve zobrazím zadané přímky, které se zobrazují jako tečny zadané kružnice. Stejnolehlost zachovává rovnoběžnost.    
+3. Tečný bod musí ležet na spojnici průsečíku zadaných přímek a jeho obrazu.
+4. Tečný bod je zároveň středem stejnolehlosti. Střed zadané kružnice a kružnice řešení proto s ním musí ležet na jedné přímce.
+5. Střed kružnice řešení musí zároveň ležet na ose úhlu zadaných přímek.
+6. Celý předchozí postup zopakuji ještě jednou. Jenom se tentokrát jedna z přímek bude zobrazovat na opačnou stranu zadané kružnice.
+7. Celý předchozí postup zopakuji ještě jednou. Jenom se tentokrát jedna z přímek bude zobrazovat na opačnou stranu zadané kružnice.
+8. Na spojnici průsečíku přímek a průsečíku jejich obrazů leží druhý tečný bod.
+9. Tečný bod je zároveň středem stejnolehlosti. Střed zadané kružnice a kružnice řešení proto s ním musí ležet na jedné přímce.
+10. Střed kružnice řešení musí zároveň ležet na ose úhlu zadaných přímek.
+11. Máme středy obou kružnic řešení. Poloměr kružnic je dán vzdáleností k tečným bodům.
+12. Úloha má dvě řešení.

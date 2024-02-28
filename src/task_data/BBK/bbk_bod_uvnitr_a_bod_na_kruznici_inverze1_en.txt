@@ -1,0 +1,4 @@
+1) draw a circle d with centre at C and radius CB
+2) construct the image of the circle c through the circular inversion over the circle d
+3) draw a line f which is tangent to c' and passes through B
+4) represent the line f in circular inversion through the circle d, resulting in a circle f which is the solution to the problem

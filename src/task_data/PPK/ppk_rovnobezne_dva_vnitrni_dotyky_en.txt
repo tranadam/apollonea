@@ -1,0 +1,7 @@
+1. The assignment is two parallel lines and a circle that touches both of the lines.
+2. Draw axis *i* of the two parallels.
+3. Draw circle *d* with the center point in the intersection of the assigned circle and the axis of the parallels *i*.
+4. The intersection of the circle *d* and the axis of the parallels *i* is the center point of the first resulting circle.
+5. Draw circle *k* with the center point in the intersection of the assigned circle and the axis of the parallels *i*.
+6. The intersection of circle *k* and the axis of the parallels *i* is the center point of the second resulting circle.
+7. You have 2 solutions.

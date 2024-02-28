@@ -1,0 +1,12 @@
+1) spustíme kolmice h a g na zadanou přímku procházející středy obou kružnic
+2) sestrojíme kružnice k a e se středem v průsečících kolmic a zadané přímky s poloměrem do středů zadaných kružnic
+3) spustíme kolmice na přímku h procházející body M a N a kolmice na přímku g procházející body L a K
+4) sestrojíme čtyři paraboly p, q, r a s s vrcholy v bodech N, L, I a H, na průsečíku parabol r a p je jeden ze středů kružnice, která je řešením úlohy, na druhém průsečíku se nachází bod T, který je taktéž středem kružnice, která je řešením úlohy
+5) Sestrojíme přímku b, která je kolmá na f a prochází bodem S a přímku t, která je kolmá na f a prochází bodem T
+6) Sestrojíme kružnice c a f, které jsou řešením úlohy a mají poloměr od daných středů k průsečíku kolmice s přímkou f
+7) Vyčistíme plochu od pomocných konstrukcí
+8) Sestrojíme kružnice se středy v tečných bodech. Přes kružnice budeme zobrazovat do kruhové inverze
+9) V kruhové inverzi si zobrazíme kružnici d
+10) V kruhové inverzi si zobrazíme obě kružnice, každou do kružnice se kterou se neprotínají
+11) Najdeme tečny obrazů kružnic rovnoběžné s přímkou f
+12) Výsledné kružnice přímky zobrazíme zpět v kruhové inverzi, kružnice jsou řešením úlohy

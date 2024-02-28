@@ -1,0 +1,7 @@
+Tento postup platí i pro případ, že dotyk kružnic je na opačné straně (dále od přímky g).
+
+1) Máme kružnice c a d se středy A a C respektive, kružnice d se dotýká kružnice c v bodě B zevnitř. Máme přímku g, která je kolmá na spojnici středů kružnic.
+2) Sestrojíme spojnici středů f.
+3) Průsečík f a g označíme D.
+4) Sestrojíme střed úsečky |BD| a označíme ho S.
+5) Sestrojíme kružnici e (S; |SB|), která je řešením

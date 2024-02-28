@@ -1,0 +1,5 @@
+1. Draw a line through the centres of the given circles.
+2. Draw the intersections on the side of the circles closer together. Draw the midpoint of these two points.
+3. Draw a hyperbola with foci at the centers of the given circles that passes through the center of the points from step 2.
+4. Draw the intersection of the line from step one on the far side of one circle. Use the point from step 2 on the other circle. Draw the midpoint between the two points.
+5. Draw a hyperbola with foci at the centers of the given circles that passes through the center of the points from step 4.

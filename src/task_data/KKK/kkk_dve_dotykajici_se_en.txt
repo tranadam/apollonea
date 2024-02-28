@@ -1,0 +1,7 @@
+three circles touching each other
+
+0. We have three circles, two of them are touching each other in one point. We will call the lonely circle x and the other two ones y and z.
+1. Draw an intersection line between the centres of circles x and z. Mark the four points of intersection with the circles. Draw two hyperboles for x and z - they are determined by both the circle centres, and also by the centres of distances between the further and nearer points of intersection.
+2. Repeat step 1 with the circles x and y. Mark the intersections of all four hyperboles. Circle centres will lie on these points.
+3. Find the points, where the resulting circles are touching circles x, y and z. In order to do this, find the line, which passes through the intersection of the hyperboles and the centre of the assigned circle. In an intersection of this line and the assigned circles, lies the point, where the circle touches the assigned line.
+4. Trace the final circles out.

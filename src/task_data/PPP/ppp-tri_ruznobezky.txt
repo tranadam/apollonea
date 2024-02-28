@@ -1,0 +1,4 @@
+0. Máme tři různoběžné přímky *p_1*, *p_2* a *p_3*.
+1. Narýsujeme osy úhlů svíranými přímkami ze zadání. Na průsečíku těchto přímek musí ležet středy kružnic řešení, průsečíky pojmenujeme *S_1*, *S_2*, *S_3* a *S_4*.
+2. Narýsujeme přímky *p*, *q*, *r*a *s* kolmé na přímky *p_1*, *p_2* a *p_3*, které procházejí body *S_1*, *S_2*, *S_3* a *S_4*.
+3. Narýsujeme kružnice *k_1*, *k_2*, *k_3* a *k_4*, které mají střed v bodech *S_1*, *S_2*, *S_3* a *S_4* a prochází body *H*, *I*, *J* a *N*.

@@ -1,0 +1,10 @@
+0) The problem is two circles with centres *C* and *E* with outer tangent *D* and a line that has an intersection with both circles.
+1) Start with a circle centered at *D* and with an arbitrary radius, e.g. |*DE*|. This will serve as the axis of the circular inversion.
+2) Represent the objects from the assignment using circular inversion over the circle from the previous point. The circles shown from the assignment will be parallel lines *c'* and *e'*, and the line will appear on the circle *f'* centered at *S*.
+3) Draw the tangents *m* and *l* of the circle *f'* parallel to the lines *c'* and *e'*.
+4) Draw the axis of symmetry *n* of the parallel lines *c'* and *e'* and the intersection *B* of the axis *n* and the perpendicular line drawn from point *S* to the line *c'*.
+5) Draw a circle centered at point *B* with radius that is the sum of the radius of the circle *f'* and the distance |*Bc'*|.
+6) The intersections of this circle with the line *n* are the centers of the circles *o* and *p* with radius as |*Bc'*|.
+7) Then, we back-plot the circles *o*, *p* using circular inversion over the same circle. These circles touch all inverted objects *c'*, *e'*, *f'*.
+8) Next, we will use circular inversion to map back over the same circle the lines *m*, *l*. These lines touch all inverted objects *c'*, *e'*, *f'*.
+9) We have all 4 solutions to the problem.

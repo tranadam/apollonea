@@ -1,0 +1,1 @@
+1. Zkonstruujeme hyperbolu s ohniskem v zadaném bodě A a řídící přímkou bude naše zadaná přímka. Na ní se budou nacházet všechna řešení

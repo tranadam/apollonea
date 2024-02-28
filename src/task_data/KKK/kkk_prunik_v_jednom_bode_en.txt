@@ -1,0 +1,6 @@
+three intersecting circles
+
+1. Draw three circles that intersect at one point. 
+2. Construct three hyperbolas whose foci are the individual circles and which pass through their intersection.
+3. Construct two ellipses whose foci are the centers of the given circles and which pass through their intersection (can be done with any of the given circles).
+4. The intersection of the three hyperbolas (which is not the intersection of the circles at the same time) is one solution, the other three interior ones always have their centers at the intersection of the ellipse and the hyperbola.

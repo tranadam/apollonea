@@ -1,0 +1,7 @@
+
+1. Máme dvě vnitřně se dotýkajicí kružnice a bod A ležící mezi nima.
+2. Narýsujeme libovolnou kružnici e se středem v bodě A.
+3. Kruhovou inverzí zobrazíme kružnice ze zadání uvnitř kružnice e.
+4. Narýsujeme tečny na nové kružnice z bodu 3
+5. Tyto tečny zobrazíme kruhovou inverzí mimo kružnici e.
+6. Výsledné kružnice jsou řešením úlohy

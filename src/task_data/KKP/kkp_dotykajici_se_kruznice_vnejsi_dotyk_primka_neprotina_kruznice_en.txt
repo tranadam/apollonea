@@ -1,0 +1,8 @@
+1) Draw perpendiculars to the given line passing through the centres of the given circles and name their intersections with the given line D and E and their intersections with the given circles F and G.
+2) Construct a circle centered at G with radius AG. We name its intersections with the perpendicular line H and I.
+Construct a circle centered at E with radius BF. Name its intersections with the perpendicular line J and K.
+3) At points H, I, J and K, construct parallel lines with the given line
+4) Construct a parabola with a focus at point A whose control line is the parallel passing through H. Construct a parabola with a focus at point A whose control line is the parallel passing through I. Construct a parabola with a focus at point B whose control line is the parallel passing through J. Construct a parabola with a focus at point B whose control line is the parallel passing through K. Label their intersections S_1, S_2, S_3, S_4, S_5 and S_6
+5) From these found centers of the solution circles, run a perpendicular line to the given line. The intersection of each with the given line forms the points of contact of the circle, which has a center at S, through which the perpendicular also passes.
+6) Construct circles with centres at points S that intersect the point of tangency.
+7) We have 6 solutions 

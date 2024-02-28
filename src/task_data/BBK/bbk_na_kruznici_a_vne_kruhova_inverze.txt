@@ -1,0 +1,4 @@
+1. Narýsujeme si kružnici se středem ve vnějším bodu, která prochází druhým zadaným bodem. Přes tu budeme dělat kruhovou inverzi.
+2. Provedeme kruhovou inverzi zadané kružnice. Zadané body nemusíme, ten na kružnici je samodružný a ten ve středu inverzní kružnice se promítá do nekonečna.
+3. Narýsujeme tečnu obrazu zadané kružnice procházející zadaným bodem, který na ní leží. Tato přímka splňuje všechny vlastnosti řešení v kruhové inverzi. Je tečnou kružnice, prochází bodem na ní a třetí bod je v nekonečnu, kde ho přímka také protíná.
+4. Provedeme kruhovou inverzi vzniklé přímky. Ta se promítne do kružnice, která je řešením.

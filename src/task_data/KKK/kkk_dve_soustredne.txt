@@ -1,0 +1,14 @@
+0) Máme tři kružnice *c*, *d* a *e*, kde *c* a *d* jsou soustředné.
+1) Společným středem kružnic *c* a *d* a středem kružnice *e* provedeme přímku *f*.
+2) Narýsujeme kružnici *g* uprostřed mezi kružnicemi *c* a *d*. A najdeme bod *H*, průsečík přímky *f* a kružnice *g*.
+3) Narýsujeme kružnici *h* se středem v bodě *H* procházející bodem *G*, který leží na průsečíku kružnice *d* a přímky *f*.
+4) Narýsujeme přímky *i*, *j*, *l* a *m*. Všechny prochází středem kružnice *e* a průsečíkem kružnic *d* a *e*, nebo *e* a *h*.
+5) Narýsujeme přímky *k* a *n*, které jsou osamy úhlu, které svírají přímky *i* a *j* a *l* a *m*.
+6) Narýsujeme kružnice *p* a *r*. Ty leží na průsečících kružnice *e* s přímkami *k* a *n*.
+7) Narýsujeme kružnice *k_1* a *k_2*, které mají středy na průsečících kružnice *g* s přímkami *k* a *n* a úrpchází body *O* a *K*, které leží na průsečících přímek *n* a *k* a kružnice *e*.
+8) Kružnice *k_1* a *k_2*.
+9) Narýsujeme elipsu *t*. Její ohniska leží ve středech kružnic *e* a *c* a *d*, prochází bodem *S*, který leží ve středu mezi body *Q* a *R*, ty leží na průsečících přímky *f* s kružnicemi *e* a *d*.
+10) Narýsujeme hyperbolu *c_1*. Její ohniska leží ve středech kružnic *e* a *c* a *d*, prochází bodem *W*, který leží ve středu mezi body *Q* a *T*, ty leží na průsečících přímky *f* s kružnicemi *e* a *c*.
+11) Najdeme průsečíky elipsy *t* a hyperboly *c_1* - *Z* a *A_1*, na nich leží středy výsledných kružnic. Z těchto bodů vedeme přímky do středu kružnice *e*, najdeme body *B_1* a *V* ležící na těchto přímkách a kružnici *e*.
+12) Narýsujeme kružnice *k_3* a *k_4*. Jejich středy leží v bodech *A_1* a *Z* a prochází body *V* a *B_1*.
+13) Kružnice *k_1*, *k_2*, *k_3* a *k_4*.

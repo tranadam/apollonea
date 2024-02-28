@@ -1,0 +1,2 @@
+1. Najdeme střed mezi body *A* a *B*.
+2. Narýsujeme výslednou kružnici *k1*.

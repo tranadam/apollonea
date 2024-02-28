@@ -1,0 +1,10 @@
+Two parallel lines and a circle, out of which one line touches and the other one intersects the circle.
+
+1. Construct a line perpendicular to the lines that pass through the centre of the given circle.
+2. Find the center of the line segment formed by the two intersections with the given lines. Name this point S_1, it is the center of one of the solutions.
+3. Draw a parallel line with the given lines that passes through the point S_1.
+4. Draw a circle with the radius of the given line + the distance of the point S_1 and one of the intersections. 
+5. The intersections of this circle with parallel are the next two solutions, S_2 and S_3.
+6. We only draw the final circles from the centers S_1, S_2, S_3 with radius distance S_1 and one of the intersections. 
+
+Translated with DeepL.com (free version)

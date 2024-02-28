@@ -1,0 +1,7 @@
+
+We have two internally tangent circles and a point A lying between them.
+Draw any circle e with its center at point A.
+Use a circle inversion to map the circles given in the problem inside circle e.
+Draw tangents to the new circles from the point 3.
+Use a circle inversion to map these tangents outside circle e.
+The resulting circles are the solution to the problem.

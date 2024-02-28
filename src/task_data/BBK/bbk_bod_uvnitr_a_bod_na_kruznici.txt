@@ -1,0 +1,5 @@
+1) narýsujeme přímku p_1 procházející body B a C
+2) sestrojíme osu p_2 úsečky BC
+3) narýsujeme přímku p_3 procházející body A a B
+4) na průsečíku přímek p_2 a p_3 se nachází bod S_1, který je středem kružnice k_1
+5) narýsujeme kružnici k_1 s poloměrem S_1B, která je řešením úlohy

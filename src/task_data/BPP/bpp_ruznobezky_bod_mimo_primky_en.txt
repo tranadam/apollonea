@@ -1,0 +1,7 @@
+1) Construct the bisector of the angle which is defined by the two lines from the assignment. Name this angle bisector *i*. On this bisector must lie the centers of the circles (these circles are the solution to the assignment).
+2) Construct a circle and name it *c*. Tangents of circle *c* are the lines from the assignment, with the center of circle *c* on the angle bisector *i*. We then use circle *c* as a pattern for homogenous dilation.
+3) Construct a line which passes through the intersection of the lines from the assignment and the point *A* from the assignment. Name this line *k*. This will give us the patterns of the touchpoints for the homogenous dilation.
+4) Construct two lines which pass through the center of circle *c* and the intersections of circle *c* with line *k*.
+5) Construct the parallels to both of the lines constructed in step 4 so that they pass through point *A*. Thus we have projected these two lines through homogenous dilation and therefore we can find the centers of the circles that are the solution to the assignment.
+6) Intersections of the angle bisector *i* and the projected lines from step 5 are the centers of the final circles.
+7) Construct the circles with the found centers, passing through the point *A*.

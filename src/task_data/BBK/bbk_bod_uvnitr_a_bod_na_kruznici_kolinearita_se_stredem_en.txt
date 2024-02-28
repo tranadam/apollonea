@@ -1,0 +1,2 @@
+1. Find a center between the points *A* and *B*.
+2. Draw the resulting circle *k1*.

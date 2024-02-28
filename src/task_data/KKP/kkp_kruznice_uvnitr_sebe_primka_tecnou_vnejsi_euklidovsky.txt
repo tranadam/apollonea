@@ -1,0 +1,13 @@
+2) Protože je přímka tečnou vnější kružnice k_1, musí se námi hledané kružnice dotýkat právě v jejich tečném bodě.
+	Ten najdeme utvořením kolmice na zadanou přímku p_1, která zároveň prochází středem C kružnice k_1.
+	Nazvěme tento tečný bod F. Středy námi hledaných kružnic musí ležet někde na této kolmici.
+3) Připravíme si kružnici na kruhovou inverzi. 
+	Může mít jakýkoliv poloměr, hlavní je, že má střed v bodě F. Nazvěme ji kružnice e.
+4) Uděláme kruhovou inverzi pro vnitřní zadanou kružnici k_2.
+5) Protože má kružnice, přes kterou děláme kruhovou inverzi, střed v bodě F, pošle se bod F do nekonečna. 
+	Protože ale hledáme něco, co se má dotýkat bodu F a invertované kružnice, musí tohle něco procházet přes nekonečno a zároveň být tečnou invertované kružnice.
+	Také chceme, aby se tohle něco dotýkalo zadané přímky g pouze v jednom bodě - v bodě F.
+	To ale znamená, že i v invertovaném obraze se musí toto něco dotýkat invertované přímky p_1 v jednom místě.
+	Protože toto jedno místo má být bod F, který je v nekonečnu, musí být toto něco přímka rovnoběžná s obrazem přímky p_1.
+6) Zkonstruujeme dvě rovnoběžky s přímkou p_1, které jsou zároveň tečnami invertované kružnice k_2.
+7 - 8) Rovnoběžky přes kružnici e invertujeme zpět. Dostáváme tím dvě výsledné kružnice.

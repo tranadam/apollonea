@@ -1,0 +1,2 @@
+1. Narýsujeme přímku *p* procházející zadaným bodem a středy zadaných kružnic. To je množina všech možných středů řešení.
+2. Narýsujeme kružnici se středem na *p*, která prochází bodem ze zadání. To je jedno z nekonečna řešení.

@@ -1,0 +1,5 @@
+1) draw a line p_1 passing through points B and C
+2) draw the axis p_2 of line BC
+3) draw the line p_3 passing through points A and B
+4) at the intersection of the lines p_2 and p_3 there is a point S_1, which is the centre of the circle k_1
+5) draw the circle k_1 with radius S_1B, which is the solution of the problem

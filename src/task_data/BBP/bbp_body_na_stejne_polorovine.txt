@@ -1,0 +1,8 @@
+0) máme přímku *p* a body *A*, *B*
+(v závorkách jsou názvy v situaci, kdy je *B* dále od přímky *p* než *A*)
+1) narýsujeme přímku *g* procházející body *A* a *B*, průsečík *gp* pojmenujeme *E*, k přímce *g* sestrojíme kolmici *h* procházející bodem *B* a kolmici *i* procházející bodem A
+2) na střed mezi *A* (*B*) a *E* umístíme bod *F* (*I*), který je středem kružnice *c* (*f*) o poloměru velikosti přímky *AF* (*BI*)
+3) na průsečících kružnice *c* (*f*) a *h* (*i*) se nachází body *C* *D* (*J*)
+4) narýsujeme kružnici *d* (*q*) se středem v *E* o poloměru velikosti přímky *ED* (*EJ*)
+5) na průsečících přímky *p* a kružnice *d* (*q*) se nacházejí body *G* (*K*) a *H* (*L*), které jsou tečnými body k výsledným kružnicím
+6) podle tří bodů jsme schopni narýsovat výsledné kružnice *k11* danou body *ABC* (*k21* danou body *BAL*) a *k12* danou body *ABG* (*k22* danou body *BAK*)

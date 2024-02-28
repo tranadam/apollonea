@@ -1,0 +1,2 @@
+1) sestrojíme si přímku p, která prochází středy obou kružnic a bodem A, tečný bod obou kružnic označíme C
+2) najdeme si střed S_3 úsečky CA a z něj narýsujeme kružnici k_3 o poloměru S_3C

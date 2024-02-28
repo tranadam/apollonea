@@ -1,0 +1,4 @@
+1) Sestrojime osu uhlu usecek p_1 a p_2 a nazveme je S.
+2) Sestrojime kolmici f na jakoukoli primku p_1 nebo p_2(v prikladu p_1) a najdeme si prusecik primky f a primky, na kterou je primka f kolma (v prikladu p_1) a pojmenujeme jej H.
+3) Najdeme pruseciky primky f a primek S a nazveme je S_n1 a S_n2.
+4) Sestrojime kruznice k_n1 a k_n2 se stredy v bodech S_n1 a S_n2 a polomery S_n1H a S_n2H.

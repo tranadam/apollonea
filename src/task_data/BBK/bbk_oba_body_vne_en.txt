@@ -1,0 +1,4 @@
+1. Construct a circle for circular inversion. Choose the point *A* as its centre and the distance between the assigned points (the line segment *AB*) as its radius.
+2. Invert the assigned circle into the newly constructed one with the help of circular inversion.
+3. After constructing the new circle with c. inversion, construct its tangents which pass through the point *B*.
+4. Construct two circles with the circular inversion of tangents of the circle constructed in the first step. The two circles, *k1* and *k2*, are the solution.

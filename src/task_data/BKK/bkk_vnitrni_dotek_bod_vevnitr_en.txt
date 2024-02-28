@@ -1,0 +1,4 @@
+0. Given are the circles *a* and *b*, which are touching internally. The point of tangency between them is *D*. Also given is the point *A* inside both circles.
+1. Draw the line *c* that goes through the centres of *a* and *b* and intersects them in the point *D*.
+2. Construct the perpendicular bisector of *AD*. It intersects *c* in the point *S*.
+3. Draw the circle *k* that originates in *S* and has |*SA*| as its radius. It is the only solution.

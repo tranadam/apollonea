@@ -1,0 +1,12 @@
+2) Since the line is tangent to the outer circle c, the circles we are looking for must touch at their tangent point.
+	This is found by forming a perpendicular line h to the given line g, which also passes through the centre C of the circle d.
+	Let us call this tangent point H. The centres of the circles we are looking for must lie somewhere on this perpendicular.
+3) Since we can view a point as a circle with radius zero, we must find a set of points that are equidistant from some focus and some controlling line.
+	This is satisfied by a parabola. But since we have a circle and not a point, we have to think about what happens.
+	In fact, a circle can touch another circle and a line in two ways - once on the outside, the second time on the inside.
+	This gives us two different parabolas for these two cases.
+	These parabolas have the control line shifted either towards or away from the focus by the radius of the circle, depending on whether we want an inside or outside touch.	
+4) So, we construct two parallels to the given line f, both at a distance of the radius of the circle d and each one on the other side of the line f.
+5) Construct parabolas with the focus at C and with each of the parallels respectively.
+6) The intersections of the parabolas and the perpendicular line h are the centers of the resulting circles we are looking for. Let us call them S1 and S2.
+7) We construct the resultant circles k1 and k2 with centers at S1 and S2 and both passing through the point H.

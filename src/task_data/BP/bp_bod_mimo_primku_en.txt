@@ -1,0 +1,1 @@
+1. Construct a hyperbola defined by the focus point A and the line being the directix. The parabola contains all the possible solutions. 

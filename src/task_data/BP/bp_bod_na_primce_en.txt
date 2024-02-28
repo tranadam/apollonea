@@ -1,0 +1,1 @@
+1. Draw a line going through the given point perpendicular to the given line. All points in the solution set except for point A will lie on the constructed perpendicular line. 

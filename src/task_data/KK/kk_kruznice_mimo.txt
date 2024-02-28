@@ -1,0 +1,5 @@
+1. Narýsujeme přímku procházející středy zadaných kružnic.
+2. Narýsujeme průsečíky na straně kružnic blíž k sobě. Narýsujeme střed těchto dvou bodů.
+3. Narýsujeme hyperbolu s ohnisky ve středech zadaných kružnic, která prochází středem bodů z kroku 2.
+4. Narýsujeme průsečík přímky z kroku jedna na vzdálené straně jedné kružnice. Na druhé kružnici použijeme bod z kroku 2. Narýsujeme střed mezi těmito dvěma body.
+5. Narýsujeme hyperbolu s ohnisky ve středech zadaných kružnic, která prochází středem bodů z kroku 4.

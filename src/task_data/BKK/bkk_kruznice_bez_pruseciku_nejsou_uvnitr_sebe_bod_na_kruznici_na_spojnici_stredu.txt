@@ -1,0 +1,4 @@
+1. Narýsujeme si přímku *g*, která prochází středy obou kružnic a bodem *E*
+2. Nalezneme průsečík *F*
+3. Nalezneme střed mezi *F* a *A* a *C* a *F*
+4. Tyto body *G* a *I* jsou středy výsledných kružnic.

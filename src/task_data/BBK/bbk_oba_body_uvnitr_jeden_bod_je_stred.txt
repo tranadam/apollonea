@@ -1,0 +1,8 @@
+0) Máme kružnici *c* a body *A* a *B*, které se nacházejí uvnitř *c*. Bod *A* je zároveň středem kružnice *c*.
+1) Narýsujeme osu úsečky *AB* *f*. Na této ose budou ležet středy výsledných kružnic.
+2) Narýsujeme přímku, která je rovnoběžná s osou úsečky *A* a *B* a zároveň prochází bodem *B*. Průsečíky kružnice *c* a přímky *g* pojmenujeme *C* a *D*.
+3) Najdeme osy úseček *BC* *h* a *BD* *i*. Na jejich průsečíku s přímkou *f* najdeme body *F* a *E*.
+4) Narýsujeme kružnice *d* a *e*.
+	Kružnice *d* má střed v bodě *E*, prochází body *A* a *B* a bod dotyku s kružnicí *c* je v bodě *D*.
+	Kružnice *e* má střed v bodě *F*, prochází body *A* a *B* a bod dotyku s kružnicí *c* je v bodě *C*.
+5) Máme dvě řešení

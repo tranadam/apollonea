@@ -1,0 +1,9 @@
+1. Narýsujeme osu rovnoběžek *i*
+2. Narýsujeme pomocnou kružnici o velikosti vzdálenosti obou rovnoběžek
+3. Narýsujeme rovnoběžku *j*, která protíná střed zadané kružnice
+4. Do kružítka si vezmeme kružnici z druhého kroku a narýsujeme ji jako kružnici *b* se středem v bodě *A*. (Střed počáteční kružnice)
+5. Do kružítka si vezmeme zadanou kružnici *a*. Přeneseme ji do průsečíku *B* a pojmenujeme ji kružnice *c*. (Průsečík kružnice *b* a osy *j*)
+6. Narýsujeme kružnici *d* o velikosti *r* = |AC|. (*C* je průsečík kružnice *c* s osou *j*)
+7. Průsečíky kružnice *d* a osy rovnoběžek jsou středy dvou ze tří výsledných kružnic.
+8. Narýsujeme kolmici *l* na rovnoběžky, která protíná střed zadané kružnice *a*.
+9. Průsečík kolmice *l* a osy rovnoběžek je střed třetí výsledné kružnice.

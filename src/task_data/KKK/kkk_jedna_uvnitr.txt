@@ -1,0 +1,7 @@
+0) Máme kružnice *c*, *d* a *e*, kde kružnice *c* leží uvnitř kružnice *d*.
+1) Narýsujeme hyperboly *g* a *q*, na kterých leží středy kružnic, dotýkajících se kružnic *c* a *e*.
+2) Narýsujeme elipsy *p* a *t*, na kterých leží středy kružnic, dotýkajícíh se kružnic *c* a *d*.
+3) Najdeme průsečíky hyperbol a elips.
+4) Najdeme spojnice průsečíků se středy zadaných kružnic.
+5) Narýsujeme výsledné kružnice se středy v průsečících hyperbol a elips, kružnic se dotýkají v jejich průsečících se spojnicemi z bodu 5.
+	*jednotlivé kružnice platí dle vzájemné polohy kružnic*

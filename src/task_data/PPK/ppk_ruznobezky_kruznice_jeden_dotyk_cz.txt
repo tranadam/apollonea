@@ -1,0 +1,8 @@
+We are given two intersecting lines and a circle which do not touch.
+1. Trace out perpedicular lines going through the centre of the circle given and mark four points of intersection.
+2. Draw four lines, which are parallel to the lines given and are going through the intersections marked in the previous step.
+3. Mark four new points of intersection of these lines and draw an angle bisector between the lines given.
+4. Draw two lines going trough the intersection of the lines given and intersections of L and N. Mark the points of intersection of these new lines with the circle given.
+5. Draw lines crossing the centre of the circle given and one of these new points of intersection. Repeat this step for each of the four intersections.
+6. Mark the points of intersection of these new lines with the angle bisector of the lines given.
+7. Draw a circle given one point and centre. The centre lies on the intersections of the previoous step. The intersections of the circle of step 5 serve as a point. Every point and centre of each out of four circles lie on the same line of step 6.

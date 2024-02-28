@@ -1,0 +1,9 @@
+0. Máme dvě rovnoběžné přímky *p_1* a *p_2* a přímku s nimi různoběžnou *p_3*.
+1. Najdeme středovou osu *g* mezi rovnoběžnými přímkami. Na této přímce musí ležet středy kružic z řešení.
+2. Narýsujeme přímku *f* kolmou na dvě rovnoběžné přímky ze zadání. Její průsečík s přímkou *g* pojmenujeme *H*.
+3. Narýsujeme kružnici *c*, která má střed v bodě *H* a bod dotyku s rovnoběžnými přímkami ze zadání je v průsečíku s kolmicí.
+4. Narýsujeme přímku *h* kolmou na přímku *p_1* ze zadání.
+5. Narýsujeme rovnoběžku *i* k přímce *h*, která prochází bodem *H* a označíme si její prusečíky s kružnicí *c* *M* a *N*.
+6. Narýsujeme přímky *k* a *g*, které jsou rovnoběžné s přímkami *p_1* a *p_2* ze zadání a zároveň prochází body *N* a *M*, jejich průsečíky s přímkou *p_3* pojmenujeme *O* a *P*.
+7. Narýsujeme přímky *m* a *l* kolmé na přímku *p_3*, které procházejí body *O* a *P*.
+8. Narýsujeme kružnice *k_1* a *k_2*, které mají střed v bodech *S_1* a *S_2* a procházejí body *O* a *P*.

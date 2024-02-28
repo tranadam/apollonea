@@ -1,0 +1,9 @@
+1. Draw perpendiculars to the given lines passing through the centre of the given circle and mark the four intersections.
+2. Draw four lines parallel to the given lines passing through the intersections from the previous step. 
+3. Draw four new intersections of these lines and draw the axis of the angle between the given lines.
+4. Take two opposite intersections of these lines and draw two lines that always pass through one of the intersections and through the intersection of the given lines. Plot the intersections of these new lines with the given circle. Draw two lines, each passing through one of the new intersections and through the center of the given circle. 
+5. Plot the intersections of these new lines with the axis of the angle of the given lines. These are the two centers of the circles we are looking for. The intersections from step 4 serve as points for the circle.
+6. Plot the second axis of angle of the given lines and repeat the process with the remaining two intersections from step 3. 
+7. Draw two lines that always pass through one of the intersections and the intersection of the specified lines. Plot the intersections of these new lines with the specified circle. 
+8. Draw two lines, each passing through one of the new intersections and through the center of the given circle. Plot the intersections of these new lines with the axis of the angle of the given lines. These are the two other centers of the circles we are looking for. The intersections from step 7 serve as points for the circle
+9. Construct the last two search circles given a center and a point.

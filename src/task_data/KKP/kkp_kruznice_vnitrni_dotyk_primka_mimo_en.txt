@@ -1,0 +1,10 @@
+1) Given two circles tangent at point T and a line that lies outside them.
+2) Draw a line h that passes through the centres of the two circles
+3) Create an arbitrary point P through which we draw a perpendicular line i to the given line. Find point G - the intersection of lines i & h.
+4) Draw a circle e centered at G with radius |GP|. Label the intersections of the circle and the lines i & h with different letters (H, I, J).
+5) Draw a line k passing through the points H & P.
+6) Draw a line j parallel to the line k passing through the tangent point T.
+7) Find the intersection K of line j and the given line. Draw the perpendicular line l that passes through K. The intersection of lines h & l is the center of the first solution.
+8) To find the second solution draw a line m that passes through points I & P.
+9) Draw a line p that is parallel to line m and also passes through the tangent point T.
+10) Find point L - the intersection of lines h & p. Then draw a line q through this point perpendicular to the given line. The intersection of lines h & q is the center of the second solution.

@@ -1,0 +1,16 @@
+2) Protože je přímka tečnou vnitřní kružnice d, musí se námi hledané kružnice dotýkat právě v jejich tečném bodě.
+	Ten najdeme utvořením kolmice h na zadanou přímku g, která zároveň prochází středem C kružnice d.
+	Nazvěme tento tečný bod H. Středy námi hledaných kružnic musí ležet někde na této kolmici.
+3) Protože můžeme na bod nahlížet jako na kružnici s nulovým poloměrem, musíme najít množinu bodů, které jsou stejně vzdálené od nějakého ohniska a nějaké řídící přímky.
+	Toto splňuje parabola. Protože ale máme kružnici a ne bod, musíme se zamyslet, co se stane.
+	kružnice se druhé kružnice a přímky může totiž dotýkat dvěma způsoby - jednou se kružnice dotýká zvenčí, podruhé zevnitř.
+	Toto nám vytváří dvě různé paraboly pro tyto dva případy.
+	Tyto paraboly mají řídící přímku posunutou buď k nebo od ohniska o poloměr kružnice podle toho, jestli chceme vnitřní nebo vnější dotyk.	
+4) Zkostruujeme tedy dvě rovnoběžky k zadané přímce f, obě dvě ve vzdálenosti poloměru kružnice d a každá z nich na druhou stranu od přímky f.
+5) Sestrojíme paraboly s ohniskem v bodě A a s každou z rovnoběžek respektive.
+6) Průsečíky parabol a kolmice h jsou námi hledané středy výsledných kružnic. Nazvěme je S1 a S2.
+7) Zkonstruujeme elipsu s ohnisky v bodech A a C, která prochází bodem S2.
+	Tím dostaneme množinu bodů, na které leží středy kružnic, které se dotýkají obou zadaných kružnic zároveň právě v jednom bodě.
+8) Průsečíky paraboly a elipsy jsou zbývající dva námi hledané středy výsledných kružnic. Nazvěme je S1 a S2.
+10) Tečné body výsledných kružnic se středy v S3 a S4 jsou průsečíky kružnice d a spojnice středů C a S1 a S2 respektive.
+11) Sestrojíme výsledné kružnice k1, k2, k3 a k4 se středy v S1, S2, S3 a S4 respektive, kde kružnice k1 a k2 prochází bodem H a kružnice k3 a k4 prochází jejich tečnými body respektive.

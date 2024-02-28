@@ -1,0 +1,5 @@
+Máme zadaný bod A uvnitř kružnice c.
+Narýsujeme přímku f, která prochází středem zadané kružnice c a bodem A.
+Na průsečíku kružnice c a přímky f vyznačíme bod D. Dále vyznačíme bod E na v půlce úsečky |AD|
+Zkonstruujeme elipsu e_1 s ohnisky A & středem kružnice c, která zároveň prochází bodem E.
+Výsledkem je množina bodů, na které se nachází středy kružnic z řešení.

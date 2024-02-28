@@ -1,0 +1,4 @@
+1. Narýsujeme si polopřímku procházející středy zadaných kružnic.
+2. Narýsujeme průsečíky polopřímky se zadanými kružnicemi.
+3. Narýsujeme bod uprostřed mezi průsečíky.
+4. Narýsujeme elipsu s ohnisky ve středech zadaných kružnic, která prochází bodem z minulého kroku.

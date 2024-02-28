@@ -1,0 +1,16 @@
+2) Prepare a dilation to reduce the circle k_1 centered at C to C itself.
+	That is, we will move the given line p_1 to and from point C by the radius of circle k_1, and we will also increase and decrease the radius of the given circle k_2 by the radius of circle k_1.
+3) Construct dilated circles and lines. In this way we transform the problem of two circles and a line into the problem of a circle, a line, and a point.
+4) First, we start with the case where we have subtracted the radius of the given circle k_1 for both the circle and the line.
+5) We will use the circle inversion. For convenience, we will choose the specified circle k_1 as the circle over which to do the circular inversion.
+	We do the circular inversion of the dilated line and circle.
+6) Since the circle over which we are doing the circular inversion has its center at point C, we send point C to infinity. 
+	But since we are looking for something to touch point C and the inverted circle and line, this something must pass through infinity.
+	The tangents of the circles created by inverting the dilated circle and line meet these criteria.
+7) We invert back the tangents through the circle k_1. This gives two resulting circles for the dilated problem.
+8) Since the dilation does not move the centers of the circles, the centers of these circles in the dilation are also the centers of the resultant circles in the original problem
+9) Since the given line is supposed to be the tangent of the resultant circles, the tangent point of these circles lies on the perpendicular to this line passing through their centers respectively.
+	We thus form the tangent points T1 and T2.
+10) Construct the resultant circles k1 and k2, which have centres at S1 and S2 and pass through the points T1 and T2.
+11) We now look at the case where for a circle and a line we add the radius k_1 of the given circle.
+12 - 17) Repeat steps 5 - 10.

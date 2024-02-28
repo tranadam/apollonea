@@ -1,0 +1,8 @@
+0) We have a circle *c* and points *C* and *D* which lie inside the circle at the same distance from the centre.
+1) Draw the line *f*, which is the axis of the line segment *CD*.
+2) Name the points at the intersection of the circle *c* and the line *f* *E* and *F*.
+3) Draw the lines *h* and *g*, the line *h* being the axis of the line segment *CE* and the line *g* being the axis of the line segment *CF*.
+4) At the intersection of the lines *g* and *f* lies the point *G*, and at the intersection of the lines *h* and *f* lies the point *H*.
+5) Draw the circles *k_1* and *k_2*.
+	The circle *k_1* is centered at point *H*, passes through points *C* and *D*, and the point of contact with the circle *c* is point *E*.
+	The circle *k_2* is centered at point *G*, passes through points *C* and *D*, and the point of contact with the circle *c* is point *F*.

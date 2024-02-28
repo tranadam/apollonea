@@ -1,0 +1,8 @@
+PPP
+ 
+1) We begin by constructing angle bisectors enclosed by the lines mentioned in the assignment. 
+
+2) Then we draw straight lines perpendicular to the assigned lines. The perpendiculars must meet with the intersections of the angle bisectors. 
+
+3) Afterwards, we construct circles with centres lying in the intersections of the angles’ segment bisectors. The point, where they touch the assigned
+   line, should be the intersection of the assigned line and the perpendicular  to the said line.

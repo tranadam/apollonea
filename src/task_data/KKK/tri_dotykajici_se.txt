@@ -1,0 +1,6 @@
+0. Máme kružnice *c*, *d* a *h*, které se navzájem dotýkají.
+1. Najdeme body *D*, *E* a *F*, ve kterých se dotýkají kružnice *c*, *d* a *h*.
+2. Sestrojíme tři hyperboly, které mají ohniska ve středech kružnic a procházejí jedním z bodů *D*, *E* a *F*, který se nachází na těch kružnicích, jejichž středy jsou ohniska hyperbol.
+3. Najdeme body *S*, ve kterých se protínají všechny tři hyperboly zárověň.
+4. Sestrojíme přímky *p*, které procházejí bodem *S* a jedním ze středů kružnic a najdeme body *I* a *N*, které leží na přímce *p* a té kružnici, jejíž středem prochází přímka p.
+5. Sestrojíme kružnice *k*, jejichž střed je bod *S* a na kterých leží bod *I*, nebo *N*. 

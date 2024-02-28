@@ -1,0 +1,7 @@
+1) V dotyku kružnic narýsujeme bod *B_1*.
+2) Narýsujeme úsečku *AB_1*.
+3) Narýsujeme osu úsečky *AB_1*, protože víme, že na ní bude ležet střed výseldné kružnice.
+4) Narýsujeme přímku *h* procházející středy zadaných kružnic, tedy body *B* a *C*. 
+5) Průsečík úsečky *AB_1* a přímky *h* je střed *S_1* výsledné kružnice.
+6) Narýsujeme výslednou kružnici se středem v *S_1*, která prochází bodem *A* ze zadání.
+7) Výsledná kružnice úlohy bod, kružnice, kružnice.

@@ -1,0 +1,5 @@
+1) We draw a line conntecting points *A* and *B* from the assignment. We mark the point of intersection of lines *k* and *p* from the assignment as point *D*.
+2) We draw a bisector of line segment *AB*, because we know that the centres of resulting circles will lie at the same distance from both points, so on the bisector of this line segment.
+3) We draw circle *c* with the centre in point *A* (or *B*) with a radius of the distance between points *E* and *D*. Bisectors of circle *c* and line segment *AB* are centres of the resulting circles, because they lie in the same distance from points *A* and *B* and line *p*.
+4) We draw centres of the resulting circles *S_1* and *S_2* and the circles *k_1* and *k_2* with radius of the distance between points *E* and *D*.
+5) Assignment and solution of the task "Line segment and two points that line on a perpendicular line".

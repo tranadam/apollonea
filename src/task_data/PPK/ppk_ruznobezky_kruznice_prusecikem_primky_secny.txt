@@ -1,0 +1,9 @@
+1. Narýsujeme kolmice na zadané přímky procházející středem zadané kružnice a vyznačíme čtyři průsečíky.
+2. Narýsujeme čtyři přímky rovnoběžné na zadané přímky procházející průsečíky z minulého kroku. 
+3. Vyznačíme si čtyři nové průsečíky těchto přímek a narýsujeme osu úhlu mezi zadanými přímkami.
+4. Vezmeme si dva protilehlé průsečíky z nich a narýsjeme dvě přímky, které vždy procházejí jedním z průsečíků a průsečíkem zadaných přímek. Vyznačíme se průsečíky těchto nových přímek se zadanou kružnicí. Narýsujeme dvě přímky, každá prochází jedním z nových průsečíků a středem zadané kružnice. 
+5. Vyznačíme si průsečíky těchto nových přímek s osou úhlu zadanách přímek. To jsou dva středy hledaných kružnic. Jako body pro kružnici slouží průsečíky z kroku 4.
+6. Vyznačíme si druhou osu úhlu zadaných přímek a opakujeme proces se zbylými dvěma průsečíky z kroku 3. 
+7. Narýsjeme dvě přímky, které vždy procházejí jedním z průsečíků a průsečíkem zadaných přímek. Vyznačíme se průsečíky těchto nových přímek se zadanou kružnicí. 
+8. Narýsujeme dvě přímky, každá prochází jedním z nových průsečíků a středem zadané kružnice. Vyznačíme si průsečíky těchto nových přímek s osou úhlu zadanách přímek. To jsou dva další středy hledaných kružnic. Jako body pro kružnici slouží průsečíky z kroku 7
+9. Sestrojíme dvě poslední hledané kružnice dané středem a bodem. 

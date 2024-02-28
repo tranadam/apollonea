@@ -1,0 +1,7 @@
+This process is also valid for the case that the contact of the circles is on the opposite side (further from the line g).
+
+1) We have circles c and d with centres A and C respectively, circle d touches circle c at point B from the inside. We have a line g which is perpendicular to the line joining the centres of the circles.
+2) Construct the line of centres f.
+3) Name the intersection of f and g by D.
+4) Construct the midpoint of the line |BD| and name it by S.
+5) Construct the circle e(S; |SB|), which is the solution

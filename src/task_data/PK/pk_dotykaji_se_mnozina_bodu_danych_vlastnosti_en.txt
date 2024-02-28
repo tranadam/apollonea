@@ -1,0 +1,4 @@
+1) Draw the line p_1 passing through the points B and S_1, the resulting line h is one of the solutions
+2) Construct a circle centered at B and passing through S_1
+3) Through the resulting point C, which is the intersection of the line h and the circle e, we draw a line parallel to p_1 and name it p_2
+4) Construct a parabola over the line p_2 with a focus at point S_1

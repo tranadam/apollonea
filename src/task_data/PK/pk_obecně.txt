@@ -1,0 +1,5 @@
+1) Skrze střed kružnice k (bod S) povedeme kolmici f na přímku p, která ji protíná v bodě C.
+2) Sestrojíme kružnici c se středem v bodě C o stejném poloměru jako kružnice k.
+3) Sestrojíme k přímce p rovnoběžky g a h, které procházejí body E a F, průsečíky f a c.
+4) Sestrojíme hyperbolu d s ohniskem S a řídící přímkou g a hyperbolu e s ohniskem S a řídící přímkou h. Na těchto hyperbolách leží středy všech kružnic, které se dotkají k a p.
+

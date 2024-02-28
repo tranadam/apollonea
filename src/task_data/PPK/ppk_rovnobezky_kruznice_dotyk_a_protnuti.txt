@@ -1,0 +1,9 @@
+Dvě rovnoběžné přímky a kružnice, která se jedné dotýká a jednou je protínána.
+
+
+1. Narýsujeme kolmici k přímkám, která prochází středem zadané kružnice.
+2. Najdeme střed úsečky, která vznikla dvěma průsečíky se zadanými přímkami. Tento bod pojmenujeme S_1, je středem jednoho z řešení.
+3. Narýsujeme rovnoběžku i se zadanými přímkami, která prochází bodem S_1.
+4. Narýsujeme kružnici s poloměrem zadané přímky + vzdáleností bodu S_1 a jednoho z průsečíků. 
+5. Průsečíky této kružnice s rovnoběžkou jsou dalšími dvěma řešeními - S_2 a S_3.
+6. Už pouze narýsujeme finální kružnice ze středů S_1, S_2, S_3 s poloměrem vzdálenost S_1 a jednoho z průsečíků. 

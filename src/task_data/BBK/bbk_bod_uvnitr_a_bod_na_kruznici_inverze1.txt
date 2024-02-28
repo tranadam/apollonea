@@ -1,0 +1,4 @@
+1) narýsujeme kružnici d se středem v C a poloměrem CB
+2) sestrojíme obraz kružnice c přes kruhocou inverzi přes kružnici d
+3) narýsujeme přímku f, která je tečnou c´ a prochází bodem B
+4) přímku f zobrazíme v kruhové inverzi přes kružnici d, vznikne kružnice f, která je řešením úlohy

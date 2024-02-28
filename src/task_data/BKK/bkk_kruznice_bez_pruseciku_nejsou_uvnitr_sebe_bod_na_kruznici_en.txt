@@ -1,0 +1,5 @@
+1. Construct a circle with the centre in point *A* of the same size as the initial circle *c*, which we'll be basing circular inversion on.
+2. Invert circle *c* and *d* using circular inversion. Point *A* is at infinity.
+3. Construct the tangent of the new circle *h*, which is to be parallel with line *f*.
+4. Invert the new tangents *i* and *j* using circular inversion.
+5. We have come to a solution.

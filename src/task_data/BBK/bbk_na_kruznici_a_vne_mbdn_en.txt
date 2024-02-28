@@ -1,0 +1,3 @@
+1. At points A and C, draw the line p_1. On this line lie the centres of all circles that touch the given circle at the given point.
+2. Draw the axis of line AB and draw the intersection of this axis p_2 and the line p_1.
+3. Draw the circle k_1 with centre S_1 and radius S_1A.

@@ -1,0 +1,14 @@
+0) There are 3 circles: *c*, *d* and *e*, of which *c* adn *d* are concentric.
+1) Make a line *f* trough the joined centers of circles *c* and *d* and the center of circle *e*.
+2) Draw circle *g* between the radii of circles *c* and *d*. You'll find point *H*, the intersection of line *f* and circle *g*.
+3) Draw circle *h* with the center at point *H* going through point *G*, which lies on the intersection of line *f* and cirle *g*.
+4) Draw the lines *i*, *j*, *k*, *l* and *m*. Every one is passing through the center of circle *e* and intersectiom of circles *d* and *e*, or *e* and *h*.
+5) Draw the lines *k* and *n*, which are the axes of the angles formed by the lines *i* and *j* and *l* and *m*.
+6) Draw circles *p* and *r*. These lie on the intersection of circle *e* with lines *k* and *n*.
+7) Draw circles *k_1* and *k_2* which have centres at the intersections of the circle *g* with the lines *k* and *n* and the points *O* and *K* which lie at the intersections of the lines *n* and *k* and the circle *e*.
+8) Circles *k_1* and *k_2*
+9) Draw an ellipse *t*. Its foci lie at the centers of the circles *e* and *c* and *d*, passing through the point *S*, which lies midway between points *Q* and *R*, these lying at the intersections of the line *f* with the circles *e* and *d*.
+10) Draw a hyperbola *c_1*. Its foci lie at the centres of the circles *e* and *c* and *d*, it passes through the point *W* which lies midway between the points *Q* and *T*, these lie at the intersections of the line *f* with the circles *e* and *c*.
+11) We find the intersections of the ellipse *t* and the hyperbola *c_1* - *Z* and *A_1*, on which the centers of the resulting circles lie. From these points, draw lines to the center of the circle *e*, find the points *B_1* and *V* lying on these lines and the circle *e*.
+12) Draw the circles *k_3* and *k_4*. Their centres lie at points *A_1* and *Z* and pass through points *V* and *B_1*.
+13) Circles *k_1*, *k_2*, *k_3* and *k_4*.

@@ -1,0 +1,2 @@
+1. Find the midpoint *S* between points *A* and *B*.
+2. Draw the final circle *k1* with the center *S* and radius |AS|.

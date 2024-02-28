@@ -1,0 +1,8 @@
+0) Máme kružnici *c* a body *C* a *D*, které leží uvnitř kružnice na přímce procházející středem kružnice ve stejné vzdálenosti od středu.
+1) Narýsujeme přímku *g*, která je osou úsečky *CD*.
+2) Body na průsečícívh kružnice *c* a přímky *g* pojmenujeme *E* a *F*.
+3) Narýsujeme přímky *j* a *k*, přímka *j* je osou úsečky *DE* a přímka *k* je osou úsečky *DF*.
+4) Na průsečíku přímek *g* a *j* leží bod *H*, na průsečíku přímek *g* a *k* leží bod *G*.
+5) Narýsujeme kružnice *k_1* a *k_2*.
+	Kružnice *k_1* má střed v bodě *H*, prochází body *C* a *D* a bodem dotyku s kružnicí *c* je bod *E*.
+	Kružnice *k_2* má střed v bodě *G*, prochází body *C* a *D* a bodem dotyku s kružnicí *c* je bod *F*.

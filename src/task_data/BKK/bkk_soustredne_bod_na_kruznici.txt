@@ -1,0 +1,4 @@
+1. Sestrojíme přímku procházející body A a S 
+2. Najdeme její průsečíky s kružnicí, na které se bod A nencahází a nazveme je B a C 
+3. Najdeme středy úseček AB a AC, tyto body budou středy výsledných kružnic a nazveme je S1 a S2
+4. Sestrojíme kružnici se středem v bodě S1 protínající bod A a kružnici se středem v bodě S2 protínající bod A. Máme dvě řešení. 

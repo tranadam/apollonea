@@ -1,0 +1,2 @@
+1. Najdeme střed *S* mezi body *A* a *B*.
+2. Narýsujeme výslednou kružnici *k1* se středem v bodě *S* a poloměrem |SA|.

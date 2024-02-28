@@ -1,0 +1,7 @@
+1) Draw a line perpendicular to parallel lines. Name the intersection points A and B. 
+2) Create an axis to line segment AB. Name the intersection point C. The centers of the resulting circles will lie on the axis because it is equidistant from both parallels.
+3) From the center the given circle construct another circle (d). This circle will have the radius of the given circle, to which we'll add the distance between A and C (or B and C, the distance is the same).
+Because we know, that the resulting circle will have the radius AC, we draw this circle to obtain points with a given distance from the given circle.
+4) The intersections of the axis of the line segment AC and the circle d are the centres of the two resulting circles. From these, draw the circles k1 and k2. These will have radius AC.
+5) Just as we created the circle d by adding the radius of the given circle and the distance AC, we should find the other two intersections by subtracting AC from the radius of the given circle. But the result is negative, so we multiply it by -1 to get the radius of circle e. This, like circle d, will start from point D. Name the intersections s3 and s4.
+6) The intersections of the axis of line AB and circle e are the remaining two centres of the resulting circles. Draw circles k3 and k4 with radius AC starting from points s3 and s4. This gives the remaining two results.

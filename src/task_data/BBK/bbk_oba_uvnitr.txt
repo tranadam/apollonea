@@ -1,0 +1,5 @@
+1) Sestrojíme kružnici, podle které budeme prováďět kruhovou inverzi, se středem v jednom z bodů ze zadání a poloměrem tak, aby druhý bod ležel na kružnici. 
+2) Přes tuto kružnici si promítneme kružnici ze zadání.
+3) Sestrojíme tečny z bodu ležícího na kružnici (z kroku 1) na promítnutou kružnici (protože střed kružnice z kroku 1 je promítnutý do nekonečna, tak jím tečny, a tedy i výsledné kružnice prochází).
+4) Tečny si promítneme přes kružnici z kroku 1 pomocí kruhové inverze. 
+5) Promítnuté kružnice jsou dvěma řešeními úlohy.

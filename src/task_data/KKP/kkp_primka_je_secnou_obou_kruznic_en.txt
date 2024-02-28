@@ -1,0 +1,8 @@
+1) Using dilatation, we shrink one circle into a point, the second one by the radius of the smaller circle. We move the assigned line by distance equal to the radius of the smaller circle.
+2) We draw a circle p passing through the circle c with a center in the point C (center of one of the assigned circles). We wil use this circle for circular inversion.
+3) We display the line moved with dilatation and the circle shrinked with dilatation using circular inversion
+4) We find the common tangent of the both newly formed circles.
+5) We display the tangents on the circles.
+6) We find the centers of the newly formed circles, the solutions will be concentric with them.
+7) We enlarge the circles by the radius of the smaller assigned circle.
+8) Those circles are the solutions to this problem.

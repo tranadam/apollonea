@@ -1,0 +1,3 @@
+1) Vytvoříme si osu úsečky *AB*. Na ní budou ležet středy výsledných kružnic. Průsečíky osy a kružnice pojmenujeme *C* a *D*.
+2) Vytvoříme osy úseček *AC* a *AD*. Středy kružnic budou ležet v průsečících těchto os s osou úsečky *AB*.
+4) Narýsujeme kružnice s poloměrem ze středu do bodu *A*.

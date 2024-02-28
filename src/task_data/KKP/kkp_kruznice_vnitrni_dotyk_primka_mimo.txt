@@ -1,0 +1,10 @@
+1) Máme zadané dvě kružnice dotýkající se v bodě T a přímku, která běží mimo ně.
+2) Narýsujeme si přímku h, která prochází středy obou kružnic
+3) Vytvoříme si libovolný bod P, skrz který narýsujeme kolmici i na zadanou přímku. Průsečík přímek i & h nazveme G.
+4) Narýsujeme kružnici e se středem v bodě G a poloměrem |GP|. Označíme si prusečíky kružnice a přímek i & h různými písmeny (H, I, J).
+5) Narýsujeme přímku k procházející body H & P.
+6) Narýsujeme přímku j rovnoběžnou s přímkou k, která prochází tečným bodem T.
+7) Průsečík přímky j a zadané přímky si označíme jako K. Následně narýsujeme kolmici l, která bodem K prochází. Průsečík přímek h & l je střed našeho prvního řešení.
+8) Nyní hledáme druhé řešení. Narýsujeme přímku m, která prochází body I & P.
+9) Následně narýsujeme přímku p, která je rovnoběžná s přímkou m a zároveň prochází tečným bodem T.
+10) Průsečík přímek h & p si označíme L. Následně skrz tento bod narýsujeme kolmici q na zadnou přímku. Průsečík přímek h & q je střed našeho druhého řešení.

@@ -1,0 +1,4 @@
+1. Draw a perpendicular to the line from the problem and point *A*. The centres of all solutions have to lie on this line.
+2. Dilate point *A* by the radius of the given circle. Label the intersections with the line from step 1 with *A'* and *A''*. 
+3. Draw a line segment between point *A'* and the center of the given circle and another line segment between point *A''* and the center of the given circle. The center of the solution always lies at the intersection of one of these axes and the line from step 1.
+4. Draw the solution.

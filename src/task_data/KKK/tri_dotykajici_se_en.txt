@@ -1,0 +1,6 @@
+0. We have circles *c*, *d* and *h*, which are all touching externally.
+1. Find points *D*, *E* and *F*, in which the circles intersect each other.
+2. Construct 3 hyperbolas, which have their foci in the circles' centers and cross through one of the points *D*, *E* and *F*, which are located on the circles, whose centers are foci of hyperbolas ?
+3. Find points *S*, where all three hyperbolas intersect.
+4. Construct lines *p*, which intersect with an *S* point and one of the circles' centers and find points *I* and *N*, which are an intersection of a *p* line and a circle through whose center *p* crosses.
+5. Construct circles *k*, which have their center in point *S* and also intersect either point *I* or *N*.

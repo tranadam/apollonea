@@ -1,0 +1,16 @@
+1) construct lines h and g perpendicular to the given line passing through the centers of both circles
+2) construct circles k and e with centers at the intersections of the perpendiculars and the given line and radii to the centers of the given circles
+3) construct lines perpendicular to line h passing through points M and N, and construct lines perpendicular to line g passing through points L and K
+4) construct four parabolas p, q, r, and s with vertices at points N, L, I, and H, the intersection of parabolas r and p is one of the centers of the circle is the solution of the problem, and the other intersection point is the point T, which is also the center of a circle that is the solution of the problem
+5) construct line b that is perpendicular to line f passing through S and line t perpendicular to line f passing through point T
+6) construct circles c and f with radii from the given centers to the intersection of the perpendicular with line f, which are the solution to the problem
+7) clean the space of auxiliary constructions
+8) construct circles with centers at the tangent points, we will display them in a circular inversion.
+9) display circle d in a circular inversion
+10) display both circles in a circular inversion, each to the circle which they do not intersect
+11) find tangents of the images of the circles parallel to line f
+12) display the resulting circles and lines back in a circular inversion, the circles are the solution to the problem
+
+
+
+

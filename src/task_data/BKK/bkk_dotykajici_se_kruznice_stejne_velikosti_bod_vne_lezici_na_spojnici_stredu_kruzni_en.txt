@@ -1,0 +1,2 @@
+1) Construct a line "p", which passes through the centers of both circles and the point "A", name the tangent point of the circles "C"
+2) Find the center "S3" of the line segment "CA", construct a circle "K3" with the radius of "S3C"

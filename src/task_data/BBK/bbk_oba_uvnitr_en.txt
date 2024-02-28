@@ -1,0 +1,5 @@
+1) Construct a circle for the inversion: select the centre of it at one of the points from the assignment, then select the radius, so that the second point lies on the circle.
+2) Project the circle from the assignment through the circle from step 1 using a circular inversion.
+3) Construct tangents from the point that lies on the circle (from step 1) and the projected circle (these two lines automatically passes through the last projected point, because the point is at infinity).
+4) Project these tangents over the circle from step 1 using a circular inversion. 
+5) The projected tangents appear to be circles - the two solutions of the assignment.

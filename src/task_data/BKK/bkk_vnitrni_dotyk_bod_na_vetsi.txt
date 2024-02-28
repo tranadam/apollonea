@@ -1,0 +1,4 @@
+1. Narýsujeme si libovolnou kružnici se středem v zadaném bodě.
+2. Provedeme kruhovou inverzi obou kružnic, zadaný bod se promítá do nekonečna.
+3. Nyní hledáme přímku, která je tečnou invertované kružnice. Ta se totiž dotýká kružnice a bod a druhou kružnici protíná v nekonečnu. Můžeme tak udělat přes kolmici na invertovanou přímku procházející středem invertované kružnice.
+4. Na nalezenou přímku provedeme kruhovou inverzi. To je řešení.

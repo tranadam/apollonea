@@ -1,0 +1,6 @@
+1. Narýsujeme kolmici na rovnoběžky procházející středem zadané kružnice (přímka *r*).
+2. Narýsujeme průsečíky kolmice z předchozího kroku (bod *A* a bod *B*) a osu takto vzniklé úsečky *AB*. Na té musí ležet středy všech možných řešení.
+3. Narýsujeme průsečík zadané kružnice s přímkou *r* (bod *C*) a přímky *r* s osou *AB* (bod *D*). Narýsujeme kružnici se středem v bodu *C* a poloměrem rovným vzdálenosti *AD*. Narýsujeme průsečík této kružnice s přímkou *r*, který neleží uvnitř zadané kružnice (bod *E*). 
+4. Narýsujeme kružnici se středem v bodě *S*, procházející bodem *E*. Na této kružnici musí ležet středy všech možných řešení. Narýsujeme průsečíky této kružnice a osy *AB*. To jsou středy kružnic v řešení.
+5. Narýsujeme kolmice na rovnoběžky procházející průsečíky z předchozího kroku. Narýsujeme průsečíky těchto přímek s alespoň jednou rovnoběžkou.
+6. Narýsujeme kružnice se středy v bodech z kroku 4 procházející odpovídajícími body z kroku 5. To jsou obě řešení.
