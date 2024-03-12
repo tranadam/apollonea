@@ -1,2 +1,6 @@
-1) sestrojíme si přímku p, která prochází středy obou kružnic a bodem A, tečný bod obou kružnic označíme C
-2) najdeme si střed S_3 úsečky CA a z něj narýsujeme kružnici k_3 o poloměru S_3C
+0) Zadáním jsou kružnice "a" a "b" a bod "C", který leží na spojnici jejich středů.
+1) Sestrojíme náhodnou kružnici se středem v bodě "C".
+2) Provedeme kruhovou inverzi kružnic "a" a "b" podle této kružnice.
+3) Sestrojíme tečny vzniklých kružnic.
+4) Tečny zobrazíme pomocí kruhové inverze podle první kružnice.
+5) Řešením jsou kružnice "k_1", "k_2" a "k_3".

@@ -5,4 +5,4 @@
 3) at the intersections of circles *c* (*f*) and *h* (*i*) are points *C* *D* (*J*)
 4) draw a circle *d* (*q*) centered at *E* with radius of line size *ED* (*EJ*)
 5) at the intersections of the line *p* and the circle *d* (*q*) there are points *G* (*K*) and *H* (*L*), which are tangent points to the resulting circles
-6) according to the three points we are able to draw the resulting circles *k11* given by the points *ABC* (*k21* given by the points *BAL*) a *k12* given by the points *ABG* (*k22* given by the points *BAK*)
+6) according to the three points we are able to draw the resulting circles *k1* given by the points *BAL* a *k2* given by the points *BAK*

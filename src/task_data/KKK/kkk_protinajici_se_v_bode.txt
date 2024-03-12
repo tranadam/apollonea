@@ -1,0 +1,7 @@
+0. Jsou dány tři kružnice protínající se v jednom bodě.
+1. Narýsujeme kružnici *ω* se středem v průsečíku kružnic *P*, která bude řídící kružnicí kruhové inverze, pomocí které budeme úlohu řešit.
+2. V této kruhové inverzi se bod *P* zobrazuje do nekonečna, obrazy kružnic *k_1*, *k_2* a *k_3* jsou přímky *p_1*, *p_2* a *p_3*. Obrazy hledaných řešení budou kružnice dotýkající se těchto přímek.
+3. Středy obrazů kružnic řešení jsou průsečíky os úhlů přímek *p_1*, *p_2*, *p_3*.
+4. Obrazy kružnic řešení jsou kružnice *k_4'*, *k_5'*, *k_6'* a *k_7'*, které se dotýkají přímek *p_1*, *p_2* a *p_3*.
+5. Kružnice *k_4'*, *k_5'*, *k_6'* a *k_7'* zobrazíme v kruhové inverzi. Tím získáme kružnice řešení.
+6. Úloha má celkem čtyři řešení.

@@ -1,0 +1,6 @@
+0) The circles "a" and "b" and the point "C" which lies on the line of their centres are given.
+1) Construct a random circle with centre at point "C".
+2) Perform the circular inversion of circles "a" and "b" according to this circle.
+3) Construct the tangents of the resulting circles.
+4) Perform the circular inversion of the tangents according to the first circle.
+5) The solutions are the circles "k_1", "k_2" and "k_3".

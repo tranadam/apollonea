@@ -1,5 +1,5 @@
-We are given two touching circles and point A. Let's denote their point of tangency as T₁.
-Draw a line f passing through the centers of the given circles.
-Draw a line g passing through point A and the point of tangency of the circles.
-Draw the bisector of segment |AT₁|.
-The intersection of this bisector and line f is the center of our solution.
+0. We are given two touching circles and point *A*. Let's denote their point of tangency as *T₁*.
+1. Draw a line *f* passing through the centers of the given circles.
+2. Draw the bisector of segment |AT₁|.
+3. The intersection of this bisector and line f is the center of our solution.
+4. There is one solution.

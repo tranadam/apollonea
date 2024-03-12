@@ -1,5 +1,0 @@
-1. Draw a circle to make a circular inversion. Its center will be the point from the problem. This will take this point to infinity and we will only have to find the common tangents of the two circles.
-2. We will represent the circle from the assignment using the circular inversion from step 1.
-3. Draw the common tangents of the circles shown.
-4. Show the tangents from step 3 over the circle from step 1 using circular inversion.
-5. We have obtained all 4 solutions.

@@ -1,0 +1,1 @@
+1. Three circles with a common point of contact *T* are given.2. All the centres of the circles lie on the line on which the centres of the given circles lie.3. The problem has infinitely many solutions.

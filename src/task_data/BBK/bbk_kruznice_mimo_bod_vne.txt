@@ -1,5 +1,0 @@
-1. Narýsujeme kružnici podle které budeme dělat kruhovou inverzi. Její střed bude bod ze zadání. Tímto se tento bod dostane do nekonečna a budeme muset hledat pouze společné tečny dvou kružnic.
-2. Kružnice ze zadání zobrazíme pomocí kruhové inverze dle kroku 1.
-3. Narýsujeme společné tečny zobrazených kružnic.
-4. Tečny z kroku 3 zobrazíme přes kružnici z kroku 1 pomocí kruhové inverze.
-5. Získali jsme všechny 4 řešení.

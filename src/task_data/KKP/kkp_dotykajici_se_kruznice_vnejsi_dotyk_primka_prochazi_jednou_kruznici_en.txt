@@ -1,0 +1,11 @@
+1) We draw perpendiculars to the line passing through the centers of the circles, and we call their intersections with the specified line I and J, and we call their intersections with the specified circles G and H.
+2) Construct a circle centered at point I with radius CG. We will call its intersections with the perpendicular K and L. We will construct a circle centered at point J and radius EH. Let's call its intersections with the perpendicular M and N.
+
+3) At points K, L, M and N we construct parallels with the specified straight line
+4) We construct a parabola with focus at point C, whose guiding line is a parallel passing through point K.
+We construct a parabola with the focus at point C, whose guiding line is the parallel passing through point L.
+Let's construct a parabola with focus at point E, whose guiding line is a parallel passing through point M.
+We will construct a parabola with the focus at point B, whose guiding line is the parallel passing through point N. We will mark their intersections as S_1, S_2, S_3 and S_4
+5) From these found centers of the circles of the solution, we start a perpendicular to the specified straight line. The intersection of each with the given straight line forms the points of contact of the circle, which has its center at the point S, through which the perpendicular also passes.
+6) We construct circles with centers at points S that intersect the point of contact.
+7) We have 4 solutions

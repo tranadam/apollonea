@@ -1,0 +1,6 @@
+0. Jsou dány dvě kružnice a bod, který leží na přímce kolmé ke spojnici středů a procházející bodem dotyku kružnic.
+1. Úlohu budeme řešit kruhovou inverzí. Střed řídící kružnice kruhové inverze je zadaný bod.
+2. Zadané kružnice zobrazíme v kruhové inverzi.
+3. Zadaný bod se zobrazil do nekonečna. Obrazy hledaných kružnic řešení jsou proto společné tečny zobrazených kružnic.
+4. Nalezené tečny zobrazíme v kruhové inverzi. Jejich obrazy jsou hledaná řešení.
+5. Úloha má celkem dvě řešení.

@@ -1,0 +1,11 @@
+1) Narýsujeme kolmice na zadanou přímku procházející středy zadaných kružnic a jejch průsečíky se zadanou přímkou nazveme I a J a jejich průsečíky se zadanými kružnicemi nazveme G a H.
+2) Sestrojíme kružnici se středem v bodě I s poloměrem CG. Její průsečíky s kolmicí nazveme K a L. Sestrojíme kružnici se středem v bodě J s poloměrem EH. Její průsečíky s kolmicí nazveme M a N.
+
+3) V bodech K, L, M a N sestrojíme rovnoběžky se zadanou přímkou
+4) Sestrojíme parabolu s ohniskem v bodě C, jejíž řídící přímkou je rovnoběžka procházející bodem K. 
+Sestrojíme parabolu s ohniskem v bodě C, jejíž řídící přímkou je rovnoběžka procházející bodem L. 
+Sestrojíme parabolu s ohniskem v bodě E, jejíž řídící přímkou je rovnoběžka procházející bodem M. 
+Sestrojíme parabolu s ohniskem v bodě B, jejíž řídící přímkou je rovnoběžka procházející bodem N. Jejich průsečíky si označíme S_1, S_2, S_3 a S_4
+5) Z těchto nalezených středů kružnic řešení spustíme kolmici na zadanou přímku. Průsečík každé se zadanou přímkou tvoří body dotyku kružnice, která má střed v bodě S, kterým kolmice také prochází.
+6) Sestrojíme kružnice se středy v bodech S, které protínají bod dotyku.
+7) Máme 4 řešení 

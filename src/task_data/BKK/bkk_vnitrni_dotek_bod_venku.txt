@@ -1,5 +1,5 @@
-1. Máme zadané dvě dotýkající se kružnice a bod A. Jejich bod dotyku označme T_1.
-2. Narýsujeme přímku f procházející středy zadaných kružnic.
-3. Narýsujeme přímku g procházející bodem A a bodem dotyku kružnic
-4. Narýsujeme osu úsečky |AT_1|
-5. Průsečík teto osy a přímky f je střed našeho řešení.
+0. Máme zadané dvě dotýkající se kružnice a bod A. Jejich bod dotyku označme *T_1*.
+1. Narýsujeme přímku *f* procházející středy zadaných kružnic.
+2. Narýsujeme osu úsečky |*AT_1*|
+3. Průsečík teto osy a přímky *f* je střed našeho řešení.
+4. Úloha má jedno řešení.

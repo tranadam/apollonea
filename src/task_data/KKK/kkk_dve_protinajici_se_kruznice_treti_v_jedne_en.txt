@@ -1,0 +1,13 @@
+0. Three circles *k_1*, *k_2* and *k_3* are given. Two of them intersect, the third lies inside both of them.
+1. First, we will look for solutions that have internal contact with the circle *k_3*. We will solve the problem using dilation. We will imagine that the solution circles we are looking for are reduced so that they pass through the center of *S_3*. In order to preserve the contact between these circles and the circles *k_1* and *k_2*, the circles *k_1* and *k_2* must shrink by the radius of the circle *k_3*.
+2. By dilation, we have changed the kkk problem to a Bkk problem, where the point is the point *S_3* and the circles are the images of the circles *k_1* and *k_2*. We will solve this problem using circular inversion. We will use *k_3* with center *S_3* as the base circle (we can use any circle with center *S_3*, so why not use *k_3*).
+3. The image of the dilated solutions are the common tangents of the circles "k_1 ''" and "k_2 ''".
+4. We display the found tangents back in the circular inversion. The obtained circles are the dilated images of the searched solutions. The centers *S_4* and *S_7* are already the centers of the searched solutions.
+5. We enlarge the images of circles *k_4* and *k_7* in the dilation by the radius of circle *k_3*. This gives the first two solutions to the problem.
+6. We have found two solutions to the problem that have inner contact with the circle *k_3*. Now we repeat the procedure to find the solution with an outer tangent.
+7. While in the previous case the circles *k_1* and *k_2* were getting smaller in dilation, this time they will be getting larger.
+8. The dilated images of circles *k_1* and *k_2* are shown in circular inversion with the main circle *k_3*.
+9. Find the common tangents of the circles shown.
+10. Display the found tangents back in the circular inversion. Their images are also the dilated images of the solutions we are looking for.
+11. Reduce the circles *k_5 '* and *k_6 '* by dilating them by the radius of the circle *k_3*. Thus we have obtained both solutions with external contact to the circle *k_3*.
+12. In total, we found four solutions to the problem.
