@@ -47,7 +47,7 @@ class Task():
             self.correct_data = False
         else: self.solution_methods_en = solution_methods_en
         # Number of solution is not an integer
-        if not (num_of_solutions.isdigit() or num_of_solutions == "Nekonečno"):
+        if not (num_of_solutions.isdigit() or num_of_solutions == "∞"):
             print(f"Incorrect num_of_solutions: {num_of_solutions}. On line {linecount} in CSV file")
             self.correct_data = False
         else: self.num_of_solutions = num_of_solutions
@@ -183,7 +183,6 @@ with open("src/task_data.csv", mode="r", encoding="utf-8") as data_file:
     for row in csv_reader:
 
         task_type = "".join(sorted(row[0].lower())) # Sort letters alphabetically to unify it
-        print(task_type)
         variant_cs = row[1].capitalize() # Capital first letter
         if len(row[2]) != 0:
             variant_en = row[2].title() # Capital first letter of each word (as in titles in English)
