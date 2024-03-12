@@ -169,10 +169,10 @@ def merge_tasks(task1, task2):
 
 
 
-# Opening tasks_data.csv file with task data - from the excel sheets
+# Opening task_data.csv file with task data - from the excel sheets
 
 tasks = {}
-with open("src/tasks_data.csv", mode="r", encoding="utf-8") as data_file:
+with open("src/task_data.csv", mode="r", encoding="utf-8") as data_file:
     csv_reader = csv.reader(data_file, delimiter=";")
 
     header = next(csv_reader) # first row = header
