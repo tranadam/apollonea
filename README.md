@@ -4,7 +4,7 @@ Web vysvětlující všechny případy apolloniových úloh.
 
 # Build
 
-DISCLAIMER: You might have to manually create some folders along the way (or chage the code to do it automatically).
+You might have to manually create some folders along the way (or chage the code to do it automatically).
 
 First, run the Python build script to build the website:
 
@@ -24,14 +24,8 @@ npx tailwindcss -i src/scss/input.scss -o dist/css/output.css --watch
 
 # Deployment
 
-After building the website, copy the `dist` folder to server:
+After building the website, copy the `dist` folder to server (remove the `-n` flag):
 
 ```
-rsync -av --progress ./dist/ adam@178.18.251.189:/var/www/apollonea.com/www
-```
-
-or possibly with:
-
-```
-scp -r ./dist adam@178.18.251.189:/var/www/apollonea.com/www
+rsync -anv --progress ./dist/ adam@ctb6.metactrl.com:/var/www/apollonea.com
 ```
