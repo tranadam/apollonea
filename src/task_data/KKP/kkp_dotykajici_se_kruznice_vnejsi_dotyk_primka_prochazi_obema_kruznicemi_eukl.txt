@@ -1,20 +1,10 @@
-O) Zadáním jsou kružnice *a* a *b* s vnějším dotykem a přímka *p*, která obě kružnice protíná.
-1) Sestrojíme náhodnou kružnici *c* se středem v bodě dotyku zadaných kružnic *C*.
-2) Provedeme kruhovou inverzi zadaných kružnic a přímky podle kružnice *c*.
-3) Sestrojíme kolmici *q* na přímky *a'* a *b'* ze středu kružnice *p'*.
-4) Zkonstruujeme rovnoběžky *k_1'* a *k_2'* na přímky *a'* a *b'*, které procházejí průsečíky kružnice *p'* a kolmice *q*.
-5) Provedeme kruhovou inverzi přímek *k_1'* a *k_2'* podle kružnice *c*. Výsledné kružnice jsou dvěmi řešeními.
-6) Sestrojíme osu pásu *r* rovnoběžek *a'* a *b'*.
-7) Průsečík přímky *r* a kružnice *p'* nazveme *G*.
-8) Sestrojíme přímku *u* procházející body *D* a *G*.
-9) Sestrojíme kolmici *v* na přímku *r*, která prochází bodem *G*. Průsečík *v* a *a'* nazveme *H*.
-10) Sestrojíme kružnici *d* se středem v bodě *G*, která prochází bodem *H*. Průsečík kružnice *d* a přímky *u* nazveme *I*.
-11) Sestrojíme kružnici *e* se středem v bodě *D*, která prochází bodem *I*.
-12) Sestrojíme kolmice *w* a *z* na přímku *r*, které prochází průsečíky *J* a *K* přímky *r* a kružnice *e*.
-13) Sestrojíme kružnice *k_3'* a *k_4'* se středem v bodech *J* a *K*, které procházejí průsečíky *L* a *M* přímek *w* a *z* s přímkou *a'*.
-14) Sestrojíme kružnici *f* se středem v bodě *D*, která má vnější dotyk s kružnicí *d* v bodě *N*.
-15) Průsečíky kružnice *f* a přímky *r* nazveme *O* a *P*.
-16) Sestrojíme kolmice na přímku *r* z bodů *O* a *P*. Jejich průsečíky s přímkou *b'* nazveme *Q* a *R*.
-17) Sestrojíme kružnice *k_5'* a *k_6'* se středy v bodech *O* a *P*, které prochází body *Q* a *R*.
-18) Provedem kruhovou inverzi kružnic *k_3'*, *k_4'*, *k_5'* a *k_6'* podle kružnice *c*.
-19) Řešením jsou kružnice *k_1*, *k_2*, *k_3*, *k_4*, *k_5* a *k_6*.
+0. Zadáním jsou kružnice *a* a *b* s vnějším dotykem *C* a přímka *p*, která obě kružnice protíná.
+1. Sestrojíme náhodnou kružnici *c* se středem v bodě dotyku zadaných kružnic *C*.
+2. Provedeme kruhovou inverzi zadaných kružnic a přímky podle kružnice *c*.
+3. Sestrojíme kolmici *q* na přímky *a'* a *b'* ze středu kružnice *p'* a zkonstruujeme tečny *k_1'* a *k_2'* kružnice *p'* rovnoběžné s přímkou *a'*.
+4. Sestrojíme přímku *n*, která vede středem pásu přímek *a'* a *b'*, a nazveme *|na'|* vzdálenost mezi přímkami *n* a *a'*.
+5. Narýsujeme dvojici soustředných kružnic *g* a *h*, které jsou soustředné s třetí kružnicí *p'* a jejich poloměr je po řadě součet a rozdíl poloměru *p'* a vzdálenosti *|na'|*.
+6. Narýsujeme kružnice *k_3'*, *k_4'*, *k_5'* a *k_6'* se středy jako průsečíky přímky *n* s kružnicemi *g* a *h*, a se shodnými poloměry *|na'|*
+7. Provedeme kruhovou inverzi přímek *k_1'* a *k_2'* podle kružnice *c*. Výsledné kružnice jsou dvěmi řešeními.
+8. Provedeme kruhovou inverzi kružnic *k_3'*, *k_4'*, *k_5'* a *k_6'* podle kružnice *c*.
+9. Řešením jsou kružnice *k_1*, *k_2*, *k_3*, *k_4*, *k_5* a *k_6*.

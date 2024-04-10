@@ -1,0 +1,5 @@
+0. Three straight lines are given, two of which are parallel.
+1. The centers of the circles have the same distance to all of straight lines. Such points lie on the axes of the angles given by the specified lines.
+2. The centers of the circles lie at the intersections of these axes. At the same time, they must lie on the axis of the belt between the specified parallels.
+3. The radius of the solution circles is given by the perpendicular distance of the centers from the specified straight lines.
+4. The problem has two solutions.

@@ -4,7 +4,8 @@
     <div class="mx-auto max-w-screen-2xl px-4 py-8 md:px-12">
       <div class="grid grid-cols-categories gap-6">
         {% for task in task_types %}
-          <a
+          {% if not task.anchor_tag|length == 2 %}
+            <a
             href="{{ task.anchor_tag }}"
             class="group flex flex-col items-center justify-end gap-6 rounded-xl bg-white/50 px-4 py-8 shadow-[inset_0_2px_10px_rgba(0,0,0,0.05)] ring-1 ring-inset ring-gray-400/30 transition-all duration-200 ease-in hover:bg-white/90 hover:shadow-[inset_0_2px_10px_rgba(0,0,0,0.02)] focus-visible:bg-white/90 focus-visible:shadow-[inset_0_2px_10px_rgba(0,0,0,0.02)] active:bg-white/30 active:shadow-transparent"
           >
@@ -17,6 +18,35 @@
               </p>
             </div>
           </a>
+          {% endif %}
+          
+        {% endfor %}
+      </div>
+      <h1 class="relative mb-2 font-playfair text-3xl font-bold">
+          {% if lang == "cs" %}
+            Neeuklidovská řešení
+          {% else %}
+            Non-Euclidian Solutions
+          {% endif %} 
+        </h1>
+      <div class="grid grid-cols-categories gap-6">
+        {% for task in task_types %}
+          {% if task.anchor_tag|length == 2 %}
+            <a
+            href="{{ task.anchor_tag }}"
+            class="group flex flex-col items-center justify-end gap-6 rounded-xl bg-white/50 px-4 py-8 shadow-[inset_0_2px_10px_rgba(0,0,0,0.05)] ring-1 ring-inset ring-gray-400/30 transition-all duration-200 ease-in hover:bg-white/90 hover:shadow-[inset_0_2px_10px_rgba(0,0,0,0.02)] focus-visible:bg-white/90 focus-visible:shadow-[inset_0_2px_10px_rgba(0,0,0,0.02)] active:bg-white/30 active:shadow-transparent"
+          >
+            <div class="svg-illu-wrapper">
+              {{ task.task_svg }}
+            </div>
+            <div class="flex flex-col items-center justify-center gap-3">
+              <p class="font-playfair font-medium">
+                {{ task.heading }}
+              </p>
+            </div>
+          </a>
+          {% endif %}
+          
         {% endfor %}
       </div>
     </div>

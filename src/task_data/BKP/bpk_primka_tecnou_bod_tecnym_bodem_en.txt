@@ -1,3 +1,3 @@
-1. Outline the assignment
-2. Draw a perpendicular *g* to the specified straight line *f* at point *A*
-3. The resulting circle has its center on the perpendicular *g*
+0. The assignment is a tangent and the given point is a tangent point
+1. Construct the perpendicular line *g* to the given line *f* at point *A*
+2. The circle has a center on the perpendicular line *g*

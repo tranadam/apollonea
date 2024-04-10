@@ -1,0 +1,12 @@
+0. Jsou dány tři přímky, z nichž jsou dvě rovnoběžné.
+1. Při řešení využijeme stejnolehlosti. Nejprve narýsujeme kružnici, která se dotýká dvou zadaných přímek. Její poloměr si zvolíme. Zároveň narýsujeme tečnu této kružnice, která je rovnoběžná s přímkou *p_2*.
+2. Narýsovaná kružnice a rovnoběžka jsou obrazem kružnice řešení a přímky *p_1* ve stejnolehlosti se středem v průsečíku přímek *C*.
+3. V tomto zobrazení se tečný bod *T_1* zobrazuje do bodu *T'*. Oba body proto musí ležet na jedné přímce s bodem *C*.
+4. Ze stejného důvodu střed hledané kružnice *S_1* leží na přímce *CS'*. Zároveň leží na kolmici k přímce *p_1* vedené tečným bodem *T_1*.
+5. První hledaná kružnice má střed v bodě *S_1* a prochází bodem *T_1*.
+6. Narýsujeme rovnoběžku k přímce *p_3*, která je zároveň tečnou kružnice *k'*. Nyní se budeme na kružnici *k'* a obě rovnoběžné tečny dívat jako na obraz druhého hledaného řešení.
+7. Ve druhé stejnolehlosti se průsečík přímek *p_1* a *p_3* zobrazuje do průsečíku tečen *f* a *g*. Střed stejnolelhlosti leží na spojnici těchto průsečíků a na samodružné přímce *p_2*.
+8. Bod *T'* je v této stejnolehlosti obrazem tečného bodu *T_2*.
+9. Střed *S'* je obrazem středu kružnice řešení *S_2*. Střed *S_2* zároveň leží na kolmici k přímce *p_1* procházející bodem *T_2*.
+10. Druhá hledaná kružnice má střed v bodě *S_2* a prochází bodem *T_2*.
+11. Úloha má celkem dvě řešení.

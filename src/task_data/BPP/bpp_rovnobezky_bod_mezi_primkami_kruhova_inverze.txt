@@ -1,0 +1,6 @@
+0. Jsou dány dvě rovnoběžné přímky a bod ležící mezi nimi.
+1. Úlohu budeme řešit pomocí kruhové inverze. Nejdříve si zvolíme řídící kružnici, jejím středem je zadaný bod, který se bude v kruhové inverzi zobrazovat do nekonečna. Díky tomu se kružnice řešení budou zobrazovat jako přímky.
+2. V kruhové inverzi zobrazíme zadané přímky.Ty se zobrazí jako kružnice procházející zadaným bodem.
+3. Sestrojíme společné tečny obou kružnic. Ty jsou obrazy hledaných řešení. Existuje ještě třetí společná tečna procházející zadaným bodem, ta nás však nezajímá.
+4. Společné tečny zobrazíme v kruhové inverzi, tím získáme obě řešení úlohy.
+5. Úloha má dvě řešení.

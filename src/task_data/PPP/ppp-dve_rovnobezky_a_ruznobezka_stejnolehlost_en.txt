@@ -1,0 +1,12 @@
+0. Three straight lines are given, two of which are parallel.
+1. We will use homothety in the solution. First, we draw a circle that touches the two given straight lines. We choose its radius. At the same time, we draw a tangent to this circle, which is parallel to the line *p_2*.
+2. The drawn circle and the line are the images of the circle of the solution and the line *p_1* in homotethy with centre point *C*.
+3. The tangent point *T_1* is displayed to the point *T'*. Therefore, both points must lie on the same line with point *C*.
+4. For the same reason, the center of the solution *S_1* lies on the line *CS'*. At the same time, it lies on the perpendicular line to the line *p_1* led by the tangent point *T_1*.
+5. The first solution has its center at point *S_1* and passes through point *T_1*.
+6. We draw a parallel to the line *p_3*, which is also a tangent to the circle *k'*. Now we will look at the circle *k'* and the two parallel tangents as the image of the second solution we are looking for.
+7. In the second homothety, the intersection of the lines *p_1* and *p_3* is mapped to the intersection of the tangents *f* and *g*. The homothety center lies on the connecting line of these intersections and on the self-joining line *p_2*.
+8. The point *T'* is the image of the tangent point *T_2*.
+9. The center *S'* is the image of the point *S_2* which is the centre of the solution. At the same time, the center *S_2* lies on the perpendicular to the line *p_1* passing through the point *T_2*.
+10. The second solution has its center at point *S_2* and passes through point *T_2*.
+11. The task has two solutions.

@@ -1,0 +1,5 @@
+0. Jsou dány tři přímky, z nichž jsou dvě rovnoběžné.
+1. Středy hledaných kružnic řešení musí mít stejnou vzdálenost ke všem zadaným přímkám. Takové body leží na osách úhlů daných zadanými přímkami.
+2. Hledané středy leží na průsečících těchto os. Zároveň musí ležet na ose pásu mezi zadanými rovnoběžkami.
+3. Poloměr kružnic řešení je dán kolmou vzdáleností středů od zadaných přímek.
+4. Úloha má dvě řešení.

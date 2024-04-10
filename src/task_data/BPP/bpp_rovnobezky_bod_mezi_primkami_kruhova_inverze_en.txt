@@ -1,0 +1,6 @@
+0. Given two parallel lines and a point lying between them.
+1. We will solve the problem using circle inversion. First, we choose a reference circle, its center is the entered point, which will be displayed to infinity. This will make the solution circles appear as straight lines.
+2. In the circle inversion, we display the specified straight lines. They are displayed as a circle passing through the specified point.
+3. We construct the common tangents of both circles. These are images of solutions. There is a third common tangent passing through the specified point, but we are not interested in it.
+4. We display the common tangents in a circle inversion, thereby obtaining both solutions.
+5. The problem has two solutions.
