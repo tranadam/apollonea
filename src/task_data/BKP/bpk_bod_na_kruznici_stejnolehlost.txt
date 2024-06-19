@@ -1,5 +1,5 @@
 1. Narýsujeme přímku procházející zadaným bodem a středem zadané kružnice.
-2. Na přímce si narýsujeme náhodný bod, kolmici na zadanou přímku procházející tímto bodem a pomocí ní narýsujeme kružnici se středem v bodě, která se dotýká přímky.
+2. Na přímce si narýsujeme náhodný bod, kolmici na zadanou přímku procházející tímto bodem a pomocí ní narýsujeme kružnici se středem v bodě, která se dotýká přímky. Jedná se o obraz kružnic řešení ve stejnolehlosti se středem v průsečíku zadané přímky a spojnice středů kružnic.
 3. Narýsujeme si průsečíky této kružnice s přímkou z kroku 1, které spojíme úsečkami s tečným bodem.
 4. Narýsujeme rovnoběžky těchto úseček procházející zadaným bodem.
 5. V průsečících těchto rovnoběžek s zadanou přímkou narýsujeme kolmice na zadanou přímku. Označíme si průsečíky těchto kolmic s přímkou z kroku 1. To jsou středy řešení.

@@ -1,26 +1,15 @@
-2) Protože je přímka tečnou vnitřní kružnice k_1, musí se námi hledané kružnice dotýkat právě v jejich tečném bodě.
-	Ten najdeme utvořením kolmice na zadanou přímku p_1, která zároveň prochází středem C kružnice k_1.
-	Nazvěme tento tečný bod F. Středy námi hledaných kružnic musí ležet někde na této kolmici.
-3) Připravíme si kružnici na kruhovou inverzi. 
-	Může mít jakýkoliv poloměr, hlavní je, že má střed v bodě F. Nazvěme ji kružnice e.
+1) Protože je přímka tečnou vnitřní kružnice k_1, musí se námi hledané kružnice dotýkat právě v jejich tečném bodě.
+2) Ten najdeme utvořením kolmice na zadanou přímku p_1, která zároveň prochází středem C kružnice k_1. Nazvěme tento tečný bod F. Středy námi hledaných kružnic musí ležet někde na této kolmici.
+3) Připravíme si kružnici na kruhovou inverzi. Může mít jakýkoliv poloměr, hlavní je, že má střed v bodě F. Nazvěme ji kružnice e.
 4) Uděláme kruhovou inverzi pro vnější zadanou kružnici k_2.
-5) Protože má kružnice, přes kterou děláme kruhovou inverzi, střed v bodě F, pošle se bod F do nekonečna. 
-	Protože ale hledáme něco, co se má dotýkat bodu F a invertované kružnice, musí tohle něco procházet přes nekonečno a zároveň být tečnou invertované kružnice.
-	Také chceme, aby se tohle něco dotýkalo zadané přímky p_1 pouze v jednom bodě - v bodě F.
-	To ale znamená, že i v invertovaném obraze se musí toto něco dotýkat invertované přímky p_1 v jednom bodě.
-	Protože toto jedno místo má být bod F, který je v nekonečnu, musí být toto něco přímka rovnoběžná s obrazem přímky p_1.
+5) Protože má kružnice, přes kterou děláme kruhovou inverzi, střed v bodě F, pošle se bod F do nekonečna. Protože ale hledáme něco, co se má dotýkat bodu F a invertované kružnice, musí tohle něco procházet přes nekonečno a zároveň být tečnou invertované kružnice. Také chceme, aby se tohle něco dotýkalo zadané přímky p_1 pouze v jednom bodě - v bodě F. To ale znamená, že i v invertovaném obraze se musí toto něco dotýkat invertované přímky p_1 v jednom bodě. Protože toto jedno místo má být bod F, který je v nekonečnu, musí být toto něco přímka rovnoběžná s obrazem přímky p_1.
 6) Zkonstruujeme dvě rovnoběžky s přímkou p_1, které jsou zároveň tečnami invertované kružnice k_2.
-7 - 8) Rovnoběžky přes kružnici e invertujeme zpět. Dostáváme tím dvě ze čtyř výsledných kružnic.
-9) Připravíme si dilataci tak, abychom zmenšili kružnici k_1 se středem v bodu C na samotný bod C.
-	To znamená, že budeme zadanou přímku p_1 posouvat od bodu C o poloměr kružnice k_1 a poloměr zadané kružnice k_2 také zvětšíme o poloměr kružnice k_1.
-10 - 11) zkonstruujeme dilatované kružnice a přímky. Takto si úlohu dvě kružnice a přímka přeměníme na úlohu kružnice, přímka a bod.
-12) Použijeme kruhovou inverzi. Zvolíme si z důvodu pohodlí zadanou kružnici k_1 jako kružnici, přes kterou budeme dělat kruhovou inverzi.
-	Uděláme kruhovou inverzi dilatované přímky a kružnice.
-13) Protože má kružnice, přes kterou děláme kruhovou inverzi, střed v bodě C, pošle se bod C do nekonečna. 
-	Protože ale hledáme něco, co se má dotýkat bodu C a invertované kružnice a přímky, musí tohle něco procházet přes nekonečno.
-	Tato kritéria splňují tečny kružnic vzniklé invertováním dilatované kružnice a přímky.
-14) Tečny přes kružnici k_1 invertujeme zpět. Dostáváme tím dvě výsledné kružnice pro dilatovanou úlohu.
-15) Protože dilatace se středy kružnic nehýbe, tak jsou středy těchto kružnic v dilataci zároveň středy výsledných kružnic v původním zadání.
-16) Protože zadaná přímka má být tečnou výsledných kružnic, tečný bod těchto kružnic leží na kolmici na tuto přímku procházející jejich středy respektive.
-	Utvoříme takto body tečné body T1 a T2.
-17) Sestrojíme výsledné kružnice k1 a k2, které mají středy v bodech S1 a S2 a procházejí body T1 a T2.
+7) Rovnoběžky přes kružnici invertujeme zpět. Dostáváme tím dvě ze čtyř výsledných kružnic.
+8) Připravíme si dilataci tak, abychom zmenšili kružnici k_1 se středem v bodu C na samotný bod C. To znamená, že budeme zadanou přímku p_1 posouvat od bodu C o poloměr kružnice k_1 a poloměr zadané kružnice k_2 také zvětšíme o poloměr kružnice k_1.
+9) zkonstruujeme dilatované kružnice a přímky. Takto si úlohu dvě kružnice a přímka přeměníme na úlohu kružnice, přímka a bod.
+10) Použijeme kruhovou inverzi. Zvolíme si z důvodu pohodlí zadanou kružnici k_1 jako kružnici, přes kterou budeme dělat kruhovou inverzi. Uděláme kruhovou inverzi dilatované přímky a kružnice.
+11) Protože má kružnice, přes kterou děláme kruhovou inverzi, střed v bodě C, pošle se bod C do nekonečna. Protože ale hledáme něco, co se má dotýkat bodu C a invertované kružnice a přímky, musí tohle něco procházet přes nekonečno. Tato kritéria splňují tečny kružnic vzniklé invertováním dilatované kružnice a přímky.
+12) Tečny přes kružnici k_1 invertujeme zpět. Dostáváme tím dvě výsledné kružnice pro dilatovanou úlohu.
+13) Protože dilatace se středy kružnic nehýbe, tak jsou středy těchto kružnic v dilataci zároveň středy výsledných kružnic v původním zadání.
+14) Protože zadaná přímka má být tečnou výsledných kružnic, tečný bod těchto kružnic leží na kolmici na tuto přímku procházející jejich středy respektive. Utvoříme takto body tečné body T1 a T2.
+15) Sestrojíme výsledné kružnice k1 a k2, které mají středy v bodech S1 a S2 a procházejí body T1 a T2.

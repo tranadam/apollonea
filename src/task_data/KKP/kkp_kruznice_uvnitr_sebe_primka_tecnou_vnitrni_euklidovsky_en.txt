@@ -1,26 +1,15 @@
-2) Since the line is tangent to the inner circle k_1, the circles we are looking for must touch at their tangent point.
-We find this point by forming a perpendicular to the given line p_1, which also passes through the centre C of the circle k_1.
-	We can call this tangent point F. The centres of the circles we are looking for must lie somewhere on this perpendicular line.
-3) Prepare a circle for circle inversion. 
-It can have any radius. The important thing is that it is centered at point F. Let's call it circle e.
+1) Since the line is tangent to the inner circle k_1, the circles we are looking for must touch at their tangent point.
+2) We find this point by forming a perpendicular to the given line p_1, which also passes through the centre C of the circle k_1. We can call this tangent point F. The centres of the circles we are looking for must lie somewhere on this perpendicular line.
+3) Prepare a circle for circle inversion. It can have any radius. The important thing is that it is centered at point F. Let's call it circle e.
 4) Make a circle inversion for the outer given circle k_2.
-5) Since the circle over which we do the circular inversion has its center at point F, we send point F to infinity. 
-	But since we are looking for something to touch point F and the inverted circle, this something must pass through infinity and also be tangent to the inverted circle.
-	We also want this something to touch the given line p_1 at only one point, point F.
-	But this means that even in the inverted image, this something must touch the inverted line p_1 at one point.
-	Since this one point is supposed to be point F, which is at infinity, this something must be a line parallel to the image of the line p_1.
+5) Since the circle over which we do the circular inversion has its center at point F, we send point F to infinity. But since we are looking for something to touch point F and the inverted circle, this something must pass through infinity and also be tangent to the inverted circle. We also want this something to touch the given line p_1 at only one point, point F. But this means that even in the inverted image, this something must touch the inverted line p_1 at one point. Since this one point is supposed to be point F, which is at infinity, this something must be a line parallel to the image of the line p_1.
 6) Construct two parallel lines to the line p_1 that are also tangents to the inverted circle k_2.
-7 - 8) We invert the parallel lines through the circle e back. This gives two of the four resulting circles.
-9) We prepare a dilation to reduce the circle k_1 centered at point C to the point C itself.
-	That is, we move the given line p_1 from point C by the radius of circle k_1, and we also increase the radius of the given circle k_2 by the radius of circle k_1.
-10 - 11) We construct dilated circles and lines. In this way we transform the problem of two circles and a line into the problem of a circle, a line and a point.
-12) We will use the circle inversion. For convenience, we will choose the given circle k_1 as the circle over which to do the circular inversion.
-	We will do the circular inversion of the dilated line and circle.
-13) Since the circle over which we are doing the circular inversion has its center at point C, we send point C to infinity. 
-	But since we are looking for something to touch point C and the inverted circle and line, this something must pass through infinity.
-	The tangents of the circles created by inverting the dilated circle and line satisfy this criteria.
-14) We invert back the tangents through the circle k_1. This gives us the two resulting circles for the dilated problem.
-15) Since the dilation does not move the centers of the circles, the centers of these circles in the dilation are also the centers of the resultant circles in the original problem.
-16) Since the given line is supposed to be tangent to the resultant circles, the tangent point of these circles lies on the perpendicular to this line passing through their centers respectively.
-	We thus form the tangent points T1 and T2.
-17) Construct the resultant circles k1 and k2, which have their centres at points S1 and S2 and pass through points T1 and T2.
+7) We invert the parallel lines through the circle e back. This gives two of the four resulting circles.
+8) We prepare a dilation to reduce the circle k_1 centered at point C to the point C itself. That is, we move the given line p_1 from point C by the radius of circle k_1, and we also increase the radius of the given circle k_2 by the radius of circle k_1.
+9) We construct dilated circles and lines. In this way we transform the problem of two circles and a line into the problem of a circle, a line and a point.
+10) We will use the circle inversion. For convenience, we will choose the given circle k_1 as the circle over which to do the circular inversion. We will do the circular inversion of the dilated line and circle.
+11) Since the circle over which we are doing the circular inversion has its center at point C, we send point C to infinity.  But since we are looking for something to touch point C and the inverted circle and line, this something must pass through infinity. The tangents of the circles created by inverting the dilated circle and line satisfy this criteria.
+12) We invert back the tangents through the circle k_1. This gives us the two resulting circles for the dilated problem.
+13) Since the dilation does not move the centers of the circles, the centers of these circles in the dilation are also the centers of the resultant circles in the original problem.
+14) Since the given line is supposed to be tangent to the resultant circles, the tangent point of these circles lies on the perpendicular to this line passing through their centers respectively. We thus form the tangent points T1 and T2.
+15) Construct the resultant circles k1 and k2, which have their centres at points S1 and S2 and pass through points T1 and T2.

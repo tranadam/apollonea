@@ -1,2 +1,2 @@
-1) Sestrojte osu úseèky AB a tuto pøímku pojmenujte S. Je to mnoina bodù všech øešení.
-2) Na pøímce S si urèete náhodnı bod S_n a sestrojte krunici k_n se støedem v bodì S_n a polomìrem S_nA.
+1) Sestrojte osu ÃºseÄky AB a tuto pÅ™Ã­mku pojmenujte S. Je to mnoÅ¾ina bodÅ¯ vÅ¡ech Å™eÅ¡enÃ­.
+2) Na pÅ™Ã­mce S si urÄete nÃ¡hodnÃ½ bod S_n a sestrojte kruÅ¾nici k_n se stÅ™edem v bode S_n a polomÄ›rem S_nA.

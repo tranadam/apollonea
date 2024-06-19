@@ -1,4 +1,4 @@
 1) Sestrojime kolmici h na primku p_1.
 2) Vyznacime si pruseciky primky h s primkou p_1 a p_2 a tyto body pojmenujeme je E a F.
-3) Sestrojíme osu úseèky EF a nazveme ji S.
+3) SestrojÃ­me osu ÃºseÄky EF a nazveme ji S.
 4) Urcime si nahodne bod S_n, ktery lezi na primce S. Sestrojime kruznici k_n se stredem v bode S_n a polomerem S_n;p_1.

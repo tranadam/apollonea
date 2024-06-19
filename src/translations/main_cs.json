@@ -6,8 +6,11 @@
   "logo_path": "/assets/logo_cs.svg",
   "homepage_path": "/cs/",
   "footer": {
-    "contact": "Najdete-li chybu, kontaktujte nás na mailu",
+    "contact": "Nalezli jste na webu chybu?",
     "origin": "Projekt zpracovali žáci gymnázia PORG pod vedením Mgr. Tomáše Fabiána",
-    "created": "Web nadesignoval a vytvořil"
+    "created": "Web nadesignoval a vytvořil",
+    "more": "a Dominik Šíma.",
+    "about_link": "/cs/about.html",
+    "about_text": "Více o projektu..."
   }
 }

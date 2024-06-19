@@ -1,0 +1,10 @@
+0) The problem is two circles and a line that do not touch each other. Use circular inversion four times to find two of the resulting circles. With each inversion we will have a differently dilated assignment. We'll call the smaller circle *c* and the larger circle *d* (with the same radius, we can interchange)
+1) The first dilated assignment is the circle *d* with radius *c* smaller and 
+2) the specified line of radius *c* is "closer" (it is parallel to the specified line and the distance between them is *c*).
+3) Perform a circular inversion of the dilated line and the dilated circle *d* over the circle *c*. This creates two circles.
+4) Construct 4 tangent images of the circular inversion.
+5) Plot the tangents back over the circular inversion - again over the circle *c*.
+6) Dilate the tangent (circle) images back (try increasing or decreasing back by the radius *c*, in steps 13-22 by the radius *d*). Just two of these solutions touch all the given objects.
+7) For steps 8-12, the dilated input is a circle *d* smaller by radius *c* and the input line "further" by radius *c* (cf. step 2). Again, solve by circular inversion over the circle *c*.
+8) For steps 13-18, the dilated input is a circle *c* larger by radius *d* and the input line "closer" by radius *d* (cf. step 2). We solve by circular inversion, but over the circle *d*.
+9) For steps 19-22, the dilated input is a circle *c* larger by radius *d* and the input line "farther" by radius *d* (cf. step 2). We solve by circular inversion, but over the circle *d*.

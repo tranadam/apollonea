@@ -1,0 +1,8 @@
+0) The problem is two tangent circles and a line that passes through both circles.
+1) Construct perpendiculars from the given line to the centres of the given circles.
+2) Construct circles identical to the ones in the problem with the center as the foot of these perpendiculars (points *I* and *J*).
+3) Draw all 4 tangents of these new circles that are parallel to the given line.
+4) For each of the tangents just drawn, construct a parabola defined always by the center of the circle that the tangent touches (points *I* and *J*).
+5) This will produce 6 intersections of hyperbolas that were not defined by the same point.
+6) Finally, construct 6 circles centered at these points and with radii such that they touch the given line.
+7) These are our resulting circles.

@@ -6,8 +6,11 @@
   "logo_path": "/assets/logo_en.svg",
   "homepage_path": "/en/",
   "footer": {
-    "contact": "In case you find any mistake, contact us at",
+    "contact": "Have you found a bug on the website?",
     "origin": "This project was created by the students of PORG under the guidance of Mgr. Tomáš Fabián",
-    "created": "Web designed and developed by"
+    "created": "Web designed and developed by",
+    "more": "and Dominik Sima.",
+    "about_link": "/en/about.html",
+    "about_text": "More about the project..."
   }
 }

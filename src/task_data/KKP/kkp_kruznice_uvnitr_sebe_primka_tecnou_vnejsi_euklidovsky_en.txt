@@ -10,5 +10,5 @@
 	But this means that even in the inverted image, this something must touch the inverted line p_1 at one point.
 	Since this one location is supposed to be point F, which is at infinity, this something must be a line parallel to the image of the line p_1.
 6) Construct two parallel lines to the line p_1 that are also tangents to the inverted circle k_2.
-7 - 8) We invert the parallel lines through the circle e back. This gives the two resulting circles.
+7) We invert the parallel lines through the circle e back. This gives the two resulting circles.
 

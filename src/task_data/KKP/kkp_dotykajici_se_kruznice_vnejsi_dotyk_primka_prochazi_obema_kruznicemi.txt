@@ -1,0 +1,8 @@
+0) Zadáním jsou dvě dotýkající se kružnice a přímka, která oběma kružnicemi prochází.
+1) Sestrojíme kolmice od zadané přímky na středy zadaných kružnic.
+2) Sestrojíme kružnice shodné těm v zadání se středem jako patami těchto kolmic (body *I* a *J*).
+3) Narýsujeme všechny 4 tečny těchto nových kružnic, které jsou rovnoběžné se zadanou přímkou.
+4) Ke každé z právě narýsovaných tečen sestrojíme parabolu definovanou vždy středem té kružnice, které se tečna dotýká (body *I* a *J*).
+5) Vznikne 6 průsečíků hyperbol, které nebyly nazvýjem definované stejným bodem.
+6) Nakonec sestrojíme 6 kružnic se středem v těchto bodech a poloměrem takovým, aby se dotýkali zadané přímky.
+7) To jsou naše výsledné kružnice.

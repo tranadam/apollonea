@@ -1,4 +1,4 @@
 1) Narýsujeme kolmici na zadanou přímku procházející středem S zadané kružnice
 2) Sestrojíme kružnici se středem v průsečíku zadané přímky a její kolmice
-3) sestrojíme rovnoběžky se zadanou přímkou procházející průsečíky námi sestrojené kružnice a kolmice na zadanou přímku
+3) Sestrojíme rovnoběžky se zadanou přímkou procházející průsečíky námi sestrojené kružnice a kolmice na zadanou přímku
 4) Sestrojíme dvě paraboly s ohniskem v bodě S, řídicími přímkami budou námi sestrojené rovnoběžky na zadanou přímku

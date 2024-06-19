@@ -2,10 +2,9 @@
   class="mx-auto flex max-w-screen-2xl flex-col gap-y-1 p-4 py-8 text-center text-xs opacity-60 md:px-12"
 >
   <p>
-    {{ footer.contact }}
-    <a class="underline hover:no-underline" href="mailto:fabian@porg.cz"
-      >fabian@porg.cz</a
-    >
+    
+    <a class="underline hover:no-underline" href="https://bit.ly/apolloneaBugReport" target="_blank">
+            {{ footer.contact }}</a>
   </p>
   <p>{{ footer.origin }}</p>
   <p class="mt-4">
@@ -16,7 +15,16 @@
       target="_blank"
       href="https://www.adamtran.cz"
       >Adam Tran</a
-    >
+    > {{ footer.more }}
+  </p>
+  <p class = "mt-4">
+    <a
+      class="underline hover:no-underline"
+      rel="noopener noreferrer nofollow"
+      target="_blank"
+      href="{{ footer.about_link }}"
+      > {{ footer.about_text }}</a
+    > 
   </p>
 </footer>
   

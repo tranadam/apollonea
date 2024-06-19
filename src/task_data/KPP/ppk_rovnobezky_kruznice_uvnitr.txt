@@ -1,5 +1,5 @@
 1) Narýsujeme kolmici na rovnoběžky. Průsečíky pojmenujeme *A* a *B*.
-2) Vytvoříme osu úsečky *AB*. Průsečák osy s úsečkou nazveme *C*. Na ose budou ležet středy výsledných kružnic, protože je stejně daleko od obou rovnoběžek.
+2) Vytvoříme osu úsečky *AB*. Průsečík osy s úsečkou nazveme *C*. Na ose budou ležet středy výsledných kružnic, protože je stejně daleko od obou rovnoběžek.
 3) Ze středu zadané kružnice narýsujeme další kružnici (*d*). Tato kružnice bude mít poloměr zadané kružnice, k němuž přičteme vzdálenost *AC* (nebo *BC*, protože jsou stejné). Tím, že víme, že výsledná kružnice bude mít poloměr |*AC*|, narýsováním této kružnice získáme body s danou vzdáleností od zadané kružnice.
 4) Průsečíky osy úsečky *AC* a kružnice *d* jsou středy dvou výsledných kružnic. Z nich narýsujeme kružnice *k_1* a *k_2*. Ty budou mít poloměr |*AC*|.
 5) Tak, jako jsme vytvořili kružnici *d* tím, že jsme sečetli poloměr zadané kružnice a vzdálenost *AC*, měli bychom najít další dva průsečíky odečtením *AC* od poloměru zadané kružnice. Výsledek je ale záporný, proto jej pronásobíme -1 a získáme poloměr kružnice *e*. Ta bude stejně jako kružnice *d* vycházet z bodu *D*. Průsečíky pojmenujeme *S_3* a *S_4*.

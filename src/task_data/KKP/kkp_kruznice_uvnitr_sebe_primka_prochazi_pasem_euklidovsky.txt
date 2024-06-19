@@ -1,6 +1,6 @@
 1) Připravíme si dilataci tak, abychom zmenšili kružnici k_1 se středem v bodu C na samotný bod C.
 	To znamená, že budeme zadanou přímku p_1 posouvat k a také od bodu C o poloměr kružnice k_1 a poloměr zadané kružnice k_2 také zvětšíme a zmenšíme o poloměr kružnice k_1.
-2) zkonstruujeme dilatované kružnice a přímky. Takto si úlohu dvě kružnice a přímka přeměníme na úlohu kružnice, přímka a bod.
+2) Zkonstruujeme dilatované kružnice a přímky. Takto si úlohu dvě kružnice a přímka přeměníme na úlohu kružnice, přímka a bod.
 3) Nejdříve začneme s případem, kdy jsme u kružnice i u přímky odečetli poloměr zadané kružnice k_1.
 4) Použijeme kruhovou inverzi. Zvolíme si z důvodu pohodlí zadanou kružnici k_1 jako kružnici, přes kterou budeme dělat kruhovou inverzi.
 	Uděláme kruhovou inverzi dilatované přímky a kružnice.
@@ -12,5 +12,5 @@
 8) Protože zadaná přímka má být tečnou výsledných kružnic, tečný bod těchto kružnic leží na kolmici na tuto přímku procházející jejich středy respektive.
 	Utvoříme takto body tečné body T1 a T2.
 9) Sestrojíme výsledné kružnice k1 a k2, které mají středy v bodech S1 a S2 a procházejí body T1 a T2.
-10) nyní zkonstruujeme řešení pro případ, kdy u kružnice a přímky přičteme poloměr zadané kružnice k_1.
-11 - 16) opakujeme kroky 5 - 10 p.
+10) Nyní zkonstruujeme řešení pro případ, kdy u kružnice a přímky přičteme poloměr zadané kružnice k_1.
+11) Opakujeme kroky 5 až 10.

@@ -1,0 +1,10 @@
+0) Zadáním jsou dvě kružnice a přímka, které se navzájem nedotýkají. Čtyřikrát pomocí kruhové inverze zjistíme dvě z výsledných kružnic. Při každé inverzi budeme mít jiným způsobem dilatované zadání. Nazveme si menší kružnici *c* a větší kružnici *d* (se stejným poloměrem můžeme zaměňovat)
+1) Prvním dilatovaným zadáním je kružnice *d* o poloměr *c* menší a 
+2) zadaná přímka o poloměr *c* "blíže" (je rovnoběžná se zadanou přímkou a vzdálenost mezi nimi je *c*).
+3) Provedeme kruhovou inverzi dilatované přímky a dilatované kružnice *d* přes kružnici *c*. Vzniknou tím dvě kružnice.
+4) Sestrojíme 4 tečny obrazů kruhové inverze.
+5) Tečny zobrazíme zpátky přes kruhovou inverzi - opět přes kružnici *c*.
+6) Obrazy tečen (kružnice) dilatujeme zpátky (zkoušíme zvětšit nebo zmenšit zpátky o poloměr *c*, v krocích 13-22 o poloměr *d*). Právě dvě z těchto řešení se dotýkají všech zadaných objektů.
+7) Pro kroky 8-12 je dilatovaným zadáním kružnice *d* o poloměr *c* menší a zadaná přímka o poloměr *c* "dále" (srovnej s krokem 2). Opět vyřešíme kruhovou inverzí přes kružnici *c*.
+8) Pro kroky 13-18 je dilatovaným zadáním kružnice *c* o poloměr *d* větší a zadaná přímka o poloměr *d* "blíže" (srovnej s krokem 2). Vyřešíme kruhovou inverzí, ale přes kružnici *d*.
+9) Pro kroky 19-22 je dilatovaným zadáním kružnice *c* o poloměr *d* větší a zadaná přímka o poloměr *d* "dále" (srovnej s krokem 2). Vyřešíme kruhovou inverzí, ale přes kružnici *d*.

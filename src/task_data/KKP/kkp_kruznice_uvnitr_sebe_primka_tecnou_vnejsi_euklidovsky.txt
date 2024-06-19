@@ -10,4 +10,4 @@
 	To ale znamená, že i v invertovaném obraze se musí toto něco dotýkat invertované přímky p_1 v jednom místě.
 	Protože toto jedno místo má být bod F, který je v nekonečnu, musí být toto něco přímka rovnoběžná s obrazem přímky p_1.
 6) Zkonstruujeme dvě rovnoběžky s přímkou p_1, které jsou zároveň tečnami invertované kružnice k_2.
-7 - 8) Rovnoběžky přes kružnici e invertujeme zpět. Dostáváme tím dvě výsledné kružnice.
+7) Rovnoběžky přes kružnici e invertujeme zpět. Dostáváme tím dvě výsledné kružnice.

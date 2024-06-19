@@ -1,0 +1,7 @@
+1) Najdeme střed D spojnic obou středů zadaných kružnic a sestrojíme kružnici q_1 se středem v bodě D, která prochází oběma středy zadaných kružnic
+2) Invertujeme zadané kružnice i přímku pomocí kružnice q_1. Střed invertované přímky nazveme S.
+3) Sestrojíme kolmici na invertované kružnice (v obrázku oranžové přímky) procházející bodem S a najdeme její průsečíky s invertovanými objekty. Nazveme je T,U,Z a A_1. Narýsujeme kolmici na nově narýsovanou přímku procházející průsečíkem přímky a invertované přímky.
+4) Sestrojíme osu úsečky nejvzdálenějších bodů přímky.
+5) Sestrojíme kružnici se středem v bodě S s poloměrem invertované přímky+vzdálenost bodů A_1 a B_1. Její průsečíky s osou úsečky nazveme C_1 a D_1.
+6) Sestrojíme kružnice se středy v bodech C_1 a D_1 s poloměrem délky úsečky A_1, B_1.
+7)

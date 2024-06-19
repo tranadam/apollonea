@@ -1,4 +1,3 @@
-0) Máme tři kružnice *c*, *d* a *e*, kde *c* a *d* jsou soustředné.
 1) Společným středem kružnic *c* a *d* a středem kružnice *e* provedeme přímku *f*.
 2) Narýsujeme kružnici *g* uprostřed mezi kružnicemi *c* a *d*. A najdeme bod *H*, průsečík přímky *f* a kružnice *g*.
 3) Narýsujeme kružnici *h* se středem v bodě *H* procházející bodem *G*, který leží na průsečíku kružnice *d* a přímky *f*.

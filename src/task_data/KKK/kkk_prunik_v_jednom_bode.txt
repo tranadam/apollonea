@@ -1,6 +1,6 @@
 tři protínající se kružnice
 
-1. Narýsujeme tři kružnice, které se protínají v jednom bodě. 
-2. Sestojíme tři hyberboly, jejichž ohniska jsou jednotlivých kružnic a které prochází jejich průnikem.
-3. Sestrojíme dvě elipsy, které mají ohniskem středy zadaných kružnic a prochází jejich průnikem (můžeme udělat s kterýmikoliv kružnicemi ze zadaní).
-4. Průnik tří hyperbol (který není zároveň průnikem kružnic) je jedno řešení, další tři vnitřní mají středy vždy v průniku elipsy a hyperboly.
+0. Narýsujeme tři kružnice, které se protínají v jednom bodě. 
+1. Sestojíme tři hyberboly, jejichž ohniska jsou jednotlivých kružnic a které prochází jejich průnikem.
+2. Sestrojíme dvě elipsy, které mají ohniskem středy zadaných kružnic a prochází jejich průnikem (můžeme udělat s kterýmikoliv kružnicemi ze zadaní).
+3. Průnik tří hyperbol (který není zároveň průnikem kružnic) je jedno řešení, další tři vnitřní mají středy vždy v průniku elipsy a hyperboly.

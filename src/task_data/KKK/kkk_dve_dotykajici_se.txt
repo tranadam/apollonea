@@ -1,8 +1,5 @@
-tři dotýkající se kružnice
-
 0. Máme tři kružnice, dvě z nich se navzájem dotýkají v jednom bodě. Osamocenou kružnici si nazveme x a dvě zbylé y a z.
 1. Narýsujeme si průsečku mezi středy kružnice x a z a vyznačíme si čtyři průsečíky s kružnicemi. Narýsujeme dvě hyperboly pro x a z, vždy dané oběma středy kružnic a poté středem vzdáleností mezi vzdálenějšími a bližšími průsečíky.
 2. Krok opakujeme tentokrát pro kružnice x a y. Vyznačíme si průsečíky všech čtyř hyperbol. Na těchto bodech budou ležet středy kružnic.
 3. Najdeme body dotyku výsledných kružnic s kružnicemi x, y a z. To uděláme tak, že najdeme přímku, která prochází průsečíkem hyperbol a středem zadané kružnice. V průsečíku této přímky a zadaných kružnic leží bod dotyku kružnice se zadanou přímkou.
 4. Narýsujeme výsledné kružnice. 
-

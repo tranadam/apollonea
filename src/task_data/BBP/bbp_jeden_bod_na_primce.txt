@@ -1,4 +1,4 @@
-1) narýsujeme si kolmici p_2  k přímce p_1 procházející bodem A
-2) narýsujeme úsečku AB, na jejím středu narýsujeme bod C
+1) Narýsujeme si kolmici p_2  k přímce p_1 procházející bodem A
+2) Narýsujeme úsečku AB, na jejím středu narýsujeme bod C
 3) Spustíme kolmici p_3 i k úsečce AB procházející bodem C
 4) Na průsečíku přímek p_3 a p_2 se nachází bod S_1, který je středem kružnice k_1, narýsujeme kružnici k s poloměrem AS_1

@@ -85,6 +85,24 @@ def render_tasks():
                 with open(f"{lang_path}/{task.get_type(lang)}/{task.get_path_name(lang)}/index.html", mode="w", encoding="utf-8") as file_output:
                     file_output.write(output)
 
+# Render HTML file for english and czech translation of the about page
+def render_about_page():
+    env = makeEnv()
+    about_template = env.get_template("about.jinja2")
+
+    langs = {"cs": "dist/cs", "en":"dist/en"}
+
+    for lang, lang_path in langs.items():
+        if not os.path.exists(lang_path):
+            os.makedirs(lang_path)
+        translation = get_translation(["main", "about"], lang)
+        translation.update(langs)
+        
+        output = about_template.render(**translation)
+        with open(f"{lang_path}/about.html", mode="w", encoding="utf-8") as file_output:
+            file_output.write(output)
+
+
 if not (os.path.exists("dist")):
     os.mkdir("dist")
 
@@ -92,6 +110,7 @@ render_redirect()
 render_categories()
 render_subcategories()
 render_tasks()
+render_about_page()
 
 assets_dist = "dist/assets"
 if os.path.exists(assets_dist) and os.path.isdir(assets_dist):

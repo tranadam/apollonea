@@ -1,7 +1,7 @@
-0. Three circles k1, k2 and k3 are given. Two of them intersect.
+0. Three circles *k_1*, *k_2* and *k_3* are given. Two of them intersect.
 1. We will solve the problem using dilation. Consider a solution that is tangent fron the outside with circles k1 and k2 and tangent from inside to circle k3. If this solution in the dilation is reduced to pass through the center of *S_3*, both circles *k_1* and *k_2* will increase in radius by the radius of circle *k_3*. The same is true for a solution that has inner contact with circles *k_1* and *k_2* and outer contact with circle *k_3*.
 2. By dilation, we changed the kkk problem to the Bkk problem, where the point is the point *S_3* and the circles are the images of the circles *k_1* and *k_2*. We will solve this problem using circular inversion. We will use *k_3* with center *S_3* as the base circle (we can use any circle with center *S_3*, so why not use *k_3*).
-3. The image of the dilated solutions are the common tangents of the circles "k_1 ''" and "k_2 ''".
+3. The image of the dilated solutions are the common tangents of the circles *k_1''* and "k_2''*.
 4. We display the found tangents back in the circular inversion. The obtained circles are the dilated images of the searched solutions. The centers *S_4* and *S_7* are already the centers of the searched solutions.
 5. We enlarge and reduce the images of circles *k_4* and *k_7*, respectively, in the dilation by the radius of circle *k_3*. This gives the first two solutions to the problem.
 6. We have found two solutions to the problem. Now we repeat the procedure to find the remaining two solutions, one of which has an outer tangent to all the given circles and the other has an inner tangent to all of them.
@@ -10,27 +10,4 @@
 9. Find the common tangents of the circles shown.
 10. Display the found tangents back in the circular inversion. Their images are also the dilated images of the solutions we are looking for.
 11. Reduce the circle *k_5 '* by dilating it by the radius of the circle *k_3*, and enlarge the circle *k_6 '*. This gives us the remaining two solutions.
-12. In total, we found four solutions to the problem.
-
-
-
-NEDODĚLÁNO
-
-
-
-
-0. Jsou dány tři kružnice *k_1*, *k_2* a *k_3*. Dvě z nich se protínají.
-1. Úlohu budeme řešit pomocí dilatace. Představíme si řešení, které má s kružnicemi *k_1* a *k_2* vnější dotyk a s kružnicí *k_3* vnitřní dotyk. Pokud se toto řešení v dilataci zmenší tak, aby procházelo středem *S_3*, budou se obě kružnice *k_1* i *k_2* zvětšovat o poloměr kružnice *k_3*. To samé platí i pro řešení, které má s kružnicemi *k_1* a *k_2* vnitřní dotyk a s kružnicí *k_3* dotyk vnější.
-2. Dilatací jsme úlohu kkk změnili na úlohu Bkk, kde bodem je bod *S_3* a kružnicemi jsou obrazy kružnic *k_1* a *k_2*. Tuto úlohu budeme řešit pomocí kruhové inverze. Jako základní kružnici použijeme *k_3* se středem *S_3* (použít můžeme jakoukoliv kružnici se středem *S_3*, tak proč ne třeba *k_3*).
-3. Obrazem dilatovaných řešení jsou společné tečny kružnic "k_1 ''" a "k_2 ''".
-4. Nalezené tečny zobrazíme zpět v kruhové inverzi. Získané kružnice jsou dilatovanými obrazy hledaných řešení. Středy *S_4* a *S_7* jsou již středy hledaných řešení.
-5. Obrazy kružnic *k_4* a *k_7* zvětšíme, respektive zmenšíme, v dilataci o poloměr kružnice *k_3*. Tím získámě první dvě řešení úlohy.
-6. Nalezli jsme dvě řešní úlohy. Nyní postup zopakujeme pro nalezení zbývajících dvou řešení, z nichž jedno má se všemi zadanými kružnicemi vnější dotyk a druhé se všemi vnitřní dotyk.
-7. Zatímco v předchozím případě se kružnice *k_1* a *k_2* obě zvětšovaly, nyní se naopak budou zmenšovat.
-8. Dilatované obrazy kružnic *k_1* a *k_2* zobrazíme v kruhové inverzi s hlavní kružnicí *k_3*.
-9. Nalezneme společné tečny zobrazených kružnic.
-10. Nalezené tečny zobrazíme zpět v kruhové inverzi. Jejich obrazy jsou zároveň dilatovanými obrazy hledaných řešení.
-11. Kružnici *k_5 '* zmenšíme dilatací o poloměr kružnice *k_3*, kružnici *k_6 '* zvětšíme. Tím jsme získali zbývající dvě řešení.
-12. Celkově jsme nalezli čtyři řešení úlohy.
-
-
+12. In total, we have found four solutions to the problem.

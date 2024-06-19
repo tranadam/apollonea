@@ -1,0 +1,71 @@
+{% extends "base.jinja2" %}
+{% block main %}
+  <main class="min-h-screen">
+    <div
+      style="padding-left: 10%; padding-right: 10%; padding-top: 8%; text-align: center; font-size: 1.3em"
+    >
+    <p style="padding-bottom: 2%; font-size: 2.5em"><b>{{ title }}</b></p>
+    
+    <p>
+        {{ origin }}
+        <a class="underline hover:no-underline" href="{{ origin_link }}">
+            PORG</a>
+        {{ origin2 }}.
+    </p>
+    <p class="mt-4">
+        {{ created }} 
+        <a
+        class="underline hover:no-underline"
+        rel="noopener noreferrer nofollow"
+        target="_blank"
+        href="https://www.adamtran.cz">
+            Adam Tran</a>
+         {{ and }} Dominik Šíma.
+    </p>
+    <br>
+    <p><b> {{ data_gatherers }} </b></p>
+    <ul>
+    <li>
+        {{ class_2023 }} Lída Procházková, Klára Jánošíková, Robert Latýn, Adam Kafka,
+    <br> Michal Janočko, Vincent Šmíd, Janek Šebor, David Bajer, Prokop Nikola Dvořák {{ and }} Adam Tran.
+    </li>
+    <li>
+        {{ class_2024 }} Markéta Šídlová, Ondřej Zeman, Filip Krtek, Matěj Sedláček,
+    <br> Adam Kobulej, David Dvořák, Jákob Ruben Weil  {{ and }} Dominik Šíma.
+    </li>
+    </ul>
+    </p>
+    <br>
+    <p>
+        <b>{{ translators }} </b>
+    </p><p>
+        Jakub S., Patrik J., Šimon B., Adam S., Eliška B.,
+    <br>
+        Anna Š., Jan V., František P., Tobiáš R., Petr S.,
+    <br>
+        Filip H., Josef B., Magdalena D., Anna R., Mikuláš R.,
+    <br>
+        Tatiana V., Markéta Z., Vladimír B., Milena S., Vincent S.,
+    <br>
+        Julie K., Ben F., Jakub O., Sofie V., Rebeka Z. {{ and }} Anna D.
+    </p>
+    <p class="mt-4">
+        
+        <a class="underline hover:no-underline" href="https://bit.ly/apolloneaBugReport" target="_blank">
+            {{ contact }}
+        </a>
+    </p>
+    </div>
+  </main>
+
+  
+{% endblock %}
+{% block tippy_script %}
+  <script>
+    tippy("[data-tippy-content]", {
+      interactive: true,
+      delay: [0, 50],
+      animation: "scale-subtle",
+    });
+  </script>
+{% endblock %}

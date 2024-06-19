@@ -101,8 +101,33 @@ class Task():
         ggb_file_name = file_name.replace(".txt",".ggb").replace("_en.ggb",".ggb")
         return Task.path_folder + self.task_type.upper() + "/" + ggb_file_name
 
+    def get_construction_first_step(self, file_name):
+        text_file_path = Task.path_base + self.task_type.upper() + "/" + file_name
 
+        value = "1"
+        try:
+        
+            with open(text_file_path, mode="r", encoding="utf-8") as file_steps:
+                print(text_file_path)
+                pre_steps = file_steps.read()
+                pre_steps = pre_steps.split("\n")
+                
+                pre_steps.append("1) hello")
+                i = 0
+                while(len(pre_steps[i]) == 0):
+                    i += 1
+                n = 0
+                while(len(pre_steps[i]) == 0 or not(pre_steps[i][0].isdigit())):
+                    n += 1
+                    i += 1
+                value = str(int(pre_steps[i][0])-n)
+                pre_steps.pop(len(pre_steps)-1)
+        except:
+            print(f"No numbers working - {self.get_variant('cs')}")
+            value = "1"
 
+        return value
+    
     def get_construction_steps(self, file_name, tasks, lang):
         text_file_path = Task.path_base + self.task_type.upper() + "/" + file_name
         # text_file_path = "src/task_data/BPP/bpp_ruznobezky_bod_mimo_primky.txt" # Correctly formated file as a placeholder
