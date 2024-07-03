@@ -116,7 +116,7 @@ class Task():
                 i = 0
                 n = 0
                 while(len(pre_steps[i]) == 0 or not(pre_steps[i][0].isdigit())):
-                    if(len(pre_steps[i] != 0)):
+                    if(len(pre_steps[i]) != 0):
                         n += 1
                     i += 1
                 value = str(int(pre_steps[i][0])-n)
