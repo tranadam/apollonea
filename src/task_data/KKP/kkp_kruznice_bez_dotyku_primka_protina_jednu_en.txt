@@ -1,0 +1,15 @@
+0) The input is the circles *a* and *b* and the line *c* that intersects the circle *a*.
+1) Construct a random circle *d* centered at point *A*, which is one of the intersections of circle *a* and line *c*.
+2) Make a circular inversion of the circle *a* and *b* according to the circle *d*.
+3) Construct a circle *e* with radius the size of the radius of circle *b'* centered at point *B*, which is the intersection of lines *c* and *a'*.
+4) Construct the perpendiculars *f* and *g* to the lines *c* and *a'* that pass through the point *B*.
+5) Construct the parallel lines *h*, *i*, *j*, and *k* of the lines *c* and *a'* that pass through the intersections *C*, *D*, *E*, and *F* of the lines *f* and *g* and the circle *e*.
+6) Construct the axis of the angle of the lines *h* and *i*.
+7) Construct a random perpendicular line *m* to the line *h*.
+8) Construct the circles *n* and *o* centered at the intersection *G* of the lines *l* and *m* that touch the lines *k* and *h*.
+9) Construct the lines *p* and *q* that pass through the center *H* of the circle *b'* and through the intersections *I* and *J* of the lines *h* and *i* and *j* and *k*.
+10) From the intersections *K*, *L*, *M*, and *N* of the lines *p* and *q* and the circles *n* and *o*, construct the lines *r*, *s*, *t*, and *u* that pass through the point *G*.
+11) Construct the parallel lines *v*, *w*, *x* and *y* of the lines *r*, *s*, *t* and *u* that pass through the point *H*.
+12) Construct the circles *k_1'* and k_2'* which have their centers at the intersections *O* and *R* of the lines *v* and *y* with the line *l* and have an exterior contact with the circle *b'*, and the circles *k_3'* and *k_4'* with their centers at the intersections *P* and *Q* of the lines *w* and *x* with the line *l* and have an interior contact with the circle *b'*.
+13) Perform a circular inversion of the circles *k_1'*, *k_2'*, *k_3'* and *k_4'* according to the circle *d*.
+14) The resulting circles *k_1*, *k_2*, *k_3* and *k_4* are the solutions. 

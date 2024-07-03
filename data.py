@@ -114,11 +114,10 @@ class Task():
                 
                 pre_steps.append("1) hello")
                 i = 0
-                while(len(pre_steps[i]) == 0):
-                    i += 1
                 n = 0
                 while(len(pre_steps[i]) == 0 or not(pre_steps[i][0].isdigit())):
-                    n += 1
+                    if(len(pre_steps[i] != 0)):
+                        n += 1
                     i += 1
                 value = str(int(pre_steps[i][0])-n)
                 pre_steps.pop(len(pre_steps)-1)
